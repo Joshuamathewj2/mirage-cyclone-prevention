@@ -1,0 +1,626 @@
+rec_id,run_id,tick,agent,category,confidence,priority,latency_ms,accepted,rationale
+9cfbb400-8ad0-4f11-a9eb-0de25621229e,scenario_A_S101_MIRAGE,1,RiskAssessmentAgent,RISK,1.0,0.9,0.18,False,Cyclone intensity 2 exceeds safety thresholds.
+64ea906e-d75b-41f1-8fbb-a44f81e14119,scenario_A_S101_MIRAGE,1,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.78,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+c1719c87-2984-4fe2-8de6-732ba8a9ce7e,scenario_A_S101_MIRAGE,1,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.78,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+f5e02694-3d4e-4abb-9fef-f273f9425ada,scenario_A_S101_MIRAGE,1,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.78,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+88e6ded5-4cb7-48d5-b753-7ef67c3f893c,scenario_A_S101_MIRAGE,1,ShelterAgent,SHELTER,0.9,0.78,131.54,False,High assessment score (0.78) for sh-01. Gap: FOOD
+3c738566-dd5b-400e-a2e2-0730fc35a3c2,scenario_A_S101_MIRAGE,1,ShelterAgent,SHELTER,0.9,0.78,131.54,False,High assessment score (0.78) for sh-01. Gap: WATER
+612fef16-e97d-41af-9239-0818efbaf563,scenario_A_S101_MIRAGE,1,ShelterAgent,SHELTER,0.9,0.7772142857142856,131.54,False,High assessment score (0.78) for sh-02. Gap: FOOD
+3a890dcd-0ef6-4aa2-9f21-6e3e31405db3,scenario_A_S101_MIRAGE,1,ShelterAgent,SHELTER,0.9,0.7772142857142856,131.54,False,High assessment score (0.78) for sh-02. Gap: WATER
+0c63c40a-9c6f-4946-a566-0d88e652d104,scenario_A_S101_MIRAGE,2,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 2 exceeds safety thresholds.
+53d8c766-6aac-4fdb-8048-4bcf6b1985fc,scenario_A_S101_MIRAGE,2,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,11.04,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+cbbf54e4-f0e6-4ddf-96b1-d3bec31513cb,scenario_A_S101_MIRAGE,2,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,11.04,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+bf851602-0442-4120-9591-a188e66d1768,scenario_A_S101_MIRAGE,2,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,11.04,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+4eb5d0c2-6544-492c-b668-a2246e6edb46,scenario_A_S101_MIRAGE,2,ShelterAgent,SHELTER,0.9,0.78,85.08,False,High assessment score (0.78) for sh-01. Gap: FOOD
+5e9b630a-c98d-4465-b027-904133bf7bd0,scenario_A_S101_MIRAGE,2,ShelterAgent,SHELTER,0.9,0.78,85.08,False,High assessment score (0.78) for sh-01. Gap: WATER
+9250c160-9979-4e85-a27b-4bbbb511b48f,scenario_A_S101_MIRAGE,2,ShelterAgent,SHELTER,0.9,0.7782857142857142,85.08,False,High assessment score (0.78) for sh-02. Gap: FOOD
+fbf83d9c-44b8-4e21-9adc-d22fecc8b9b2,scenario_A_S101_MIRAGE,2,ShelterAgent,SHELTER,0.9,0.7782857142857142,85.08,False,High assessment score (0.78) for sh-02. Gap: WATER
+ac63c262-5d6c-4d25-91e0-438502ecfbb5,scenario_A_S101_MIRAGE,2,LogisticsAgent,LOGISTICS,1.0,0.7,0.6,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+89eff861-4424-4696-806b-da1dcd440802,scenario_A_S101_MIRAGE,2,LogisticsAgent,LOGISTICS,1.0,0.7,0.6,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+13b95a22-df32-4d54-8260-7bf337ba8f94,scenario_A_S101_MIRAGE,2,LogisticsAgent,LOGISTICS,1.0,0.7,0.6,False,Fulfilling allocation for ResourceType.WATER to sh-01
+0646cd3f-4cac-4194-a6f9-d395a078ea38,scenario_A_S101_MIRAGE,2,LogisticsAgent,LOGISTICS,1.0,0.7,0.6,False,Fulfilling allocation for ResourceType.WATER to sh-02
+35083b27-d016-4546-8242-ab979b43f3b4,scenario_A_S101_MIRAGE,3,RiskAssessmentAgent,RISK,1.0,0.9,0.18,False,Cyclone intensity 3 exceeds safety thresholds.
+1092e4bf-73eb-4f3c-8eac-0cbcd4e37e14,scenario_A_S101_MIRAGE,3,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.6,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+6c36c052-bf67-471b-8a80-c30bbcc1aa80,scenario_A_S101_MIRAGE,3,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.6,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+418e08ad-8a5c-4eae-83fa-6989c0a6a746,scenario_A_S101_MIRAGE,3,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.6,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+56d309c7-8b02-4e07-8cdc-1b4fa03aac6a,scenario_A_S101_MIRAGE,3,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.91,False,High assessment score (0.93) for sh-01. Gap: FOOD
+4a685715-7de0-4d1b-8cd2-ef41fdc8f54e,scenario_A_S101_MIRAGE,3,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.91,False,High assessment score (0.93) for sh-01. Gap: WATER
+2fb61e3f-c0a1-4269-9715-f7277b8f3ce8,scenario_A_S101_MIRAGE,3,ShelterAgent,SHELTER,0.9,0.9291428571428572,21.91,False,High assessment score (0.93) for sh-02. Gap: FOOD
+02f8c58d-497f-4229-8022-027e5caa1fbb,scenario_A_S101_MIRAGE,3,ShelterAgent,SHELTER,0.9,0.9291428571428572,21.91,False,High assessment score (0.93) for sh-02. Gap: WATER
+d38ad68a-da84-45a0-9af1-28be33421e67,scenario_A_S101_MIRAGE,3,LogisticsAgent,LOGISTICS,1.0,0.7,2.61,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+445bc1c9-3dd1-48aa-a1a5-cd6ea6420b75,scenario_A_S101_MIRAGE,3,LogisticsAgent,LOGISTICS,1.0,0.7,2.61,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+0a5ca49f-d321-4042-92cc-d55f360fbfe2,scenario_A_S101_MIRAGE,3,LogisticsAgent,LOGISTICS,1.0,0.7,2.61,False,Fulfilling allocation for ResourceType.WATER to sh-01
+33238ab7-9643-4675-bded-b437b7235a19,scenario_A_S101_MIRAGE,3,LogisticsAgent,LOGISTICS,1.0,0.7,2.61,False,Fulfilling allocation for ResourceType.WATER to sh-02
+b6ad38f5-075f-466c-b0c4-ddb991481c41,scenario_A_S101_MIRAGE,4,RiskAssessmentAgent,RISK,1.0,0.9,1.17,False,Cyclone intensity 3 exceeds safety thresholds.
+51a97c89-2bde-4557-acbf-e01b4ff1ecc9,scenario_A_S101_MIRAGE,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.08,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+05838793-a1c3-4e2a-a60c-837109d8ac90,scenario_A_S101_MIRAGE,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.08,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+cde86172-b995-43b0-9f7b-3d4e0a486f25,scenario_A_S101_MIRAGE,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.08,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+5b0e1a75-3656-4666-8e6b-017ae13cac81,scenario_A_S101_MIRAGE,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.08,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+2c21f934-28b9-479e-8643-cfcb61aac775,scenario_A_S101_MIRAGE,4,ShelterAgent,SHELTER,0.9,0.9299999999999999,120.38,False,High assessment score (0.93) for sh-01. Gap: FOOD
+14032d01-9571-4176-ac42-ab1da8609583,scenario_A_S101_MIRAGE,4,ShelterAgent,SHELTER,0.9,0.9299999999999999,120.38,False,High assessment score (0.93) for sh-01. Gap: WATER
+14710cd5-934c-4845-a29c-41128454d684,scenario_A_S101_MIRAGE,4,ShelterAgent,SHELTER,0.9,0.9299999999999999,120.38,False,High assessment score (0.93) for sh-02. Gap: FOOD
+ac1339b7-254c-435a-a343-ba5188695d40,scenario_A_S101_MIRAGE,4,ShelterAgent,SHELTER,0.9,0.9299999999999999,120.38,False,High assessment score (0.93) for sh-02. Gap: WATER
+04be9d1a-ee7a-427f-a7ca-d30f71415928,scenario_A_S101_MIRAGE,4,LogisticsAgent,LOGISTICS,1.0,0.7,0.48,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+4bc65d79-d738-429d-bf30-d172fa7fc7a8,scenario_A_S101_MIRAGE,4,LogisticsAgent,LOGISTICS,1.0,0.7,0.48,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+5226c8ad-88ef-4546-bd59-a4be05426eac,scenario_A_S101_MIRAGE,4,LogisticsAgent,LOGISTICS,1.0,0.7,0.48,False,Fulfilling allocation for ResourceType.WATER to sh-01
+cd8dd292-18f8-41b0-83dd-fa05bd329e1e,scenario_A_S101_MIRAGE,4,LogisticsAgent,LOGISTICS,1.0,0.7,0.48,False,Fulfilling allocation for ResourceType.WATER to sh-02
+83ab18a6-2fba-4295-8101-7bc2b68df587,scenario_A_S101_MIRAGE,5,RiskAssessmentAgent,RISK,1.0,0.9,0.29,False,Cyclone intensity 3 exceeds safety thresholds.
+c7e7f706-6c6e-4834-ace7-8736ac4a3c89,scenario_A_S101_MIRAGE,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.65,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+121f1d76-6b63-428e-ada7-f3d52cca4d08,scenario_A_S101_MIRAGE,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.65,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+df13acff-6497-4c39-b97b-18032b7461e8,scenario_A_S101_MIRAGE,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.65,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+d954e6e9-d139-4c1a-b3ac-f1dc82d379e1,scenario_A_S101_MIRAGE,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.65,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+d8627a47-a945-4c28-8154-8c0de385cab0,scenario_A_S101_MIRAGE,5,ShelterAgent,SHELTER,0.9,0.9299999999999999,329.68,False,High assessment score (0.93) for sh-01. Gap: FOOD
+a47a189c-0066-4b26-95fa-56aecad6de95,scenario_A_S101_MIRAGE,5,ShelterAgent,SHELTER,0.9,0.9299999999999999,329.68,False,High assessment score (0.93) for sh-01. Gap: WATER
+f630707a-d8f3-4268-86c8-139086eea6d0,scenario_A_S101_MIRAGE,5,ShelterAgent,SHELTER,0.9,0.9299999999999999,329.68,False,High assessment score (0.93) for sh-02. Gap: FOOD
+615395a3-f190-47e6-895d-0aca6e8dcd1c,scenario_A_S101_MIRAGE,5,ShelterAgent,SHELTER,0.9,0.9299999999999999,329.68,False,High assessment score (0.93) for sh-02. Gap: WATER
+361365f3-27a8-4dde-8d3b-4424d797f9f6,scenario_A_S101_MIRAGE,5,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+bc9d487f-0c65-48dc-8258-b2cfe279cc7f,scenario_A_S101_MIRAGE,5,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+9ce43eca-3c13-45fd-a7cf-feadb237e1bc,scenario_A_S101_MIRAGE,5,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.WATER to sh-01
+a3d58b87-8dd6-4919-a8b2-d916f6fdb2e1,scenario_A_S101_MIRAGE,5,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.WATER to sh-02
+2b09b8cf-0800-4cb3-88a5-50418b1456c5,scenario_A_S101_MIRAGE,6,RiskAssessmentAgent,RISK,1.0,0.9,0.23,False,Cyclone intensity 4 exceeds safety thresholds.
+2cc45f4a-2b66-4ff8-98da-d04946106569,scenario_A_S101_MIRAGE,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.35,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+dd98b0a5-6907-4c20-8e1b-2efe2ae7945e,scenario_A_S101_MIRAGE,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.35,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+c5a48017-28c8-4794-8f66-4d130790743e,scenario_A_S101_MIRAGE,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.35,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+18b672b3-6999-4f35-b56f-acdc582e433d,scenario_A_S101_MIRAGE,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.35,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+e013e3a1-f717-4961-8457-8a57011ff411,scenario_A_S101_MIRAGE,6,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.18,False,Scheduled state summary bulletin.
+1a35ab9a-afc5-4bb2-8a9c-8ba07215f62c,scenario_A_S101_MIRAGE,6,ShelterAgent,SHELTER,0.9,0.9299999999999999,866.77,False,High assessment score (0.93) for sh-01. Gap: FOOD
+63d8bb17-6950-49c2-abb9-a427d6595cec,scenario_A_S101_MIRAGE,6,ShelterAgent,SHELTER,0.9,0.9299999999999999,866.77,False,High assessment score (0.93) for sh-01. Gap: WATER
+f8835940-28b1-4a6d-af48-4f49dd6f7b82,scenario_A_S101_MIRAGE,6,ShelterAgent,SHELTER,0.9,0.9299999999999999,866.77,False,High assessment score (0.93) for sh-02. Gap: FOOD
+b583a1da-bad1-40e5-92e4-9aadebe6bca5,scenario_A_S101_MIRAGE,6,ShelterAgent,SHELTER,0.9,0.9299999999999999,866.77,False,High assessment score (0.93) for sh-02. Gap: WATER
+e3369f66-0dba-485d-bd7e-fd8961953728,scenario_A_S101_MIRAGE,6,LogisticsAgent,LOGISTICS,1.0,0.7,0.34,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+532e5707-3e56-4ddd-8153-01c96b8000ee,scenario_A_S101_MIRAGE,6,LogisticsAgent,LOGISTICS,1.0,0.7,0.34,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+d161746d-7586-430d-af22-e22ecf701408,scenario_A_S101_MIRAGE,6,LogisticsAgent,LOGISTICS,1.0,0.7,0.34,False,Fulfilling allocation for ResourceType.WATER to sh-01
+af06995b-4dae-4dc4-8667-d6dab85d206a,scenario_A_S101_MIRAGE,6,LogisticsAgent,LOGISTICS,1.0,0.7,0.34,False,Fulfilling allocation for ResourceType.WATER to sh-02
+0a82e0f3-2b5d-4f68-85d1-1643b46bf10a,scenario_A_S101_MIRAGE,7,RiskAssessmentAgent,RISK,1.0,0.9,0.14,False,Cyclone intensity 4 exceeds safety thresholds.
+e2ebe805-d680-406c-8ab8-58a8a39aee44,scenario_A_S101_MIRAGE,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.16,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+6f2244ce-9697-48ac-9e87-f1bece5ad097,scenario_A_S101_MIRAGE,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.16,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+0f0bc409-1954-4243-a6a8-fb09978c90ac,scenario_A_S101_MIRAGE,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.16,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+34bf5f5c-8f60-4f03-bebc-8c8ac0bbbee5,scenario_A_S101_MIRAGE,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.16,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+8697aba0-7619-4243-9117-8b3e3c0d4790,scenario_A_S101_MIRAGE,7,ShelterAgent,SHELTER,0.9,0.9299999999999999,128.74,False,High assessment score (0.93) for sh-01. Gap: FOOD
+1687ddd6-31ec-4bc8-a6c8-ba1ee2d2449f,scenario_A_S101_MIRAGE,7,ShelterAgent,SHELTER,0.9,0.9299999999999999,128.74,False,High assessment score (0.93) for sh-01. Gap: WATER
+afcdbff2-57ce-4fa0-952c-9b6c1874a82c,scenario_A_S101_MIRAGE,7,ShelterAgent,SHELTER,0.9,0.9299999999999999,128.74,False,High assessment score (0.93) for sh-02. Gap: FOOD
+e6a3af91-7f72-442a-b400-17db6d3bdfdd,scenario_A_S101_MIRAGE,7,ShelterAgent,SHELTER,0.9,0.9299999999999999,128.74,False,High assessment score (0.93) for sh-02. Gap: WATER
+b9a2aa91-d7c0-464d-b241-49609198ed2a,scenario_A_S101_MIRAGE,7,LogisticsAgent,LOGISTICS,1.0,0.7,0.59,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+e777340a-9597-4cc9-b132-72ab0ed6bb19,scenario_A_S101_MIRAGE,7,LogisticsAgent,LOGISTICS,1.0,0.7,0.59,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+87f84356-67bf-42b6-95c9-dbf3c921e8cd,scenario_A_S101_MIRAGE,7,LogisticsAgent,LOGISTICS,1.0,0.7,0.59,False,Fulfilling allocation for ResourceType.WATER to sh-01
+cb0c95f8-47fa-4145-8544-4310c82ee5bb,scenario_A_S101_MIRAGE,7,LogisticsAgent,LOGISTICS,1.0,0.7,0.59,False,Fulfilling allocation for ResourceType.WATER to sh-02
+674e99a8-2adc-4675-8213-f72d7fe957df,scenario_A_S101_MIRAGE,8,RiskAssessmentAgent,RISK,1.0,0.9,0.15,False,Cyclone intensity 4 exceeds safety thresholds.
+0047d662-298f-4a30-a279-57c41e5053b2,scenario_A_S101_MIRAGE,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+67a97653-7dca-4429-9290-bd986319b9a6,scenario_A_S101_MIRAGE,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+8f5b8b7c-e6b3-4ce7-83f3-81950fd66e78,scenario_A_S101_MIRAGE,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+2aeae927-08e7-40d2-8965-03c6e11daf9c,scenario_A_S101_MIRAGE,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+b5e1b1d6-43cf-455a-8be0-7f531d22c241,scenario_A_S101_MIRAGE,8,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.79,False,High assessment score (0.93) for sh-01. Gap: FOOD
+b4084644-3174-4868-af27-b2564ad3260d,scenario_A_S101_MIRAGE,8,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.79,False,High assessment score (0.93) for sh-01. Gap: WATER
+26ac0a1b-4e3a-4ffd-84a8-e555b06e4420,scenario_A_S101_MIRAGE,8,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.79,False,High assessment score (0.93) for sh-02. Gap: FOOD
+937285d3-8a66-41db-9b9b-958a5a156a97,scenario_A_S101_MIRAGE,8,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.79,False,High assessment score (0.93) for sh-02. Gap: WATER
+84a2d658-ddd7-459e-88cb-fc7c6f82934d,scenario_A_S101_MIRAGE,8,LogisticsAgent,LOGISTICS,1.0,0.7,1.99,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+671c595d-fc00-4a78-9a25-3c8c243b1fb0,scenario_A_S101_MIRAGE,8,LogisticsAgent,LOGISTICS,1.0,0.7,1.99,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+47a5d31e-b425-4b2b-ac1d-16937fa6a4d6,scenario_A_S101_MIRAGE,8,LogisticsAgent,LOGISTICS,1.0,0.7,1.99,False,Fulfilling allocation for ResourceType.WATER to sh-01
+ff2b9943-9dfd-4079-8504-059e16a0d904,scenario_A_S101_MIRAGE,8,LogisticsAgent,LOGISTICS,1.0,0.7,1.99,False,Fulfilling allocation for ResourceType.WATER to sh-02
+bcb88c7d-f8a9-4392-881a-a622fa96c708,scenario_A_S101_MIRAGE,9,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 4 exceeds safety thresholds.
+ea3577f2-7753-4b6f-acb9-1d30ac86e5aa,scenario_A_S101_MIRAGE,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.14,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+14b658c7-4b94-4b97-bf44-93f177cd2730,scenario_A_S101_MIRAGE,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.14,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+60218a16-2d8e-4a62-a474-82bf7be30f1e,scenario_A_S101_MIRAGE,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.14,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+1ee0d777-52b2-4d75-9d13-0a1a7abf697f,scenario_A_S101_MIRAGE,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.14,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+22005b7d-62d4-4e97-a571-f781afe39054,scenario_A_S101_MIRAGE,9,ShelterAgent,SHELTER,0.9,0.9299999999999999,46.67,False,High assessment score (0.93) for sh-01. Gap: FOOD
+a331458c-75a8-462f-bc6b-6575f08d435d,scenario_A_S101_MIRAGE,9,ShelterAgent,SHELTER,0.9,0.9299999999999999,46.67,False,High assessment score (0.93) for sh-01. Gap: WATER
+f1c13bde-318d-4cdb-b5cf-82b3f336b0a2,scenario_A_S101_MIRAGE,9,ShelterAgent,SHELTER,0.9,0.9299999999999999,46.67,False,High assessment score (0.93) for sh-02. Gap: FOOD
+e8f437c8-81cf-4e57-86c5-7ed8f768055a,scenario_A_S101_MIRAGE,9,ShelterAgent,SHELTER,0.9,0.9299999999999999,46.67,False,High assessment score (0.93) for sh-02. Gap: WATER
+913ea360-9aab-470f-91a8-25b5df152d3d,scenario_A_S101_MIRAGE,9,LogisticsAgent,LOGISTICS,1.0,0.7,0.45,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+ec489601-8bac-4b1e-8160-30d3fb34bf87,scenario_A_S101_MIRAGE,9,LogisticsAgent,LOGISTICS,1.0,0.7,0.45,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+285cc8de-a4ce-4ab6-8f3e-954948b91fdf,scenario_A_S101_MIRAGE,9,LogisticsAgent,LOGISTICS,1.0,0.7,0.45,False,Fulfilling allocation for ResourceType.WATER to sh-01
+d9d84db6-4c8a-4230-afcc-bb3bfc842417,scenario_A_S101_MIRAGE,9,LogisticsAgent,LOGISTICS,1.0,0.7,0.45,False,Fulfilling allocation for ResourceType.WATER to sh-02
+56b98ee5-4587-441a-b080-a298925a376c,scenario_A_S101_MIRAGE,10,RiskAssessmentAgent,RISK,1.0,0.9,0.38,False,Cyclone intensity 4 exceeds safety thresholds.
+37b95285-3870-4d9c-b557-7e93f75604d3,scenario_A_S101_MIRAGE,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.07,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+bc1b1011-da5e-4e33-90e2-df7ee1790545,scenario_A_S101_MIRAGE,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.07,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+372116f5-8744-479f-bf62-a361cee690a8,scenario_A_S101_MIRAGE,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.07,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+68d494a6-33e5-41c2-b817-bbefb82f50e3,scenario_A_S101_MIRAGE,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.07,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+872ccc0a-cdff-43c3-a195-9616694ce33d,scenario_A_S101_MIRAGE,10,ShelterAgent,SHELTER,0.9,0.9299999999999999,37.68,False,High assessment score (0.93) for sh-01. Gap: FOOD
+4f22c5b9-b15f-445f-9f86-c4bf61257046,scenario_A_S101_MIRAGE,10,ShelterAgent,SHELTER,0.9,0.9299999999999999,37.68,False,High assessment score (0.93) for sh-01. Gap: WATER
+73911591-4e08-4d74-8ebd-a74ccef013de,scenario_A_S101_MIRAGE,10,ShelterAgent,SHELTER,0.9,0.9299999999999999,37.68,False,High assessment score (0.93) for sh-02. Gap: FOOD
+3936ca21-f5bb-41f1-8682-e1fa652a5c9a,scenario_A_S101_MIRAGE,10,ShelterAgent,SHELTER,0.9,0.9299999999999999,37.68,False,High assessment score (0.93) for sh-02. Gap: WATER
+d93bdf2b-5902-4be2-9d13-9505485b2000,scenario_A_S101_MIRAGE,10,LogisticsAgent,LOGISTICS,1.0,0.7,0.53,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+de7883da-d36d-4b05-860a-913114478c2d,scenario_A_S101_MIRAGE,10,LogisticsAgent,LOGISTICS,1.0,0.7,0.53,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+55138e1d-3cd3-469a-83b5-2c7e4235229b,scenario_A_S101_MIRAGE,10,LogisticsAgent,LOGISTICS,1.0,0.7,0.53,False,Fulfilling allocation for ResourceType.WATER to sh-01
+e41d7a69-618c-4500-9204-d39d213393dd,scenario_A_S101_MIRAGE,10,LogisticsAgent,LOGISTICS,1.0,0.7,0.53,False,Fulfilling allocation for ResourceType.WATER to sh-02
+8acd5b20-289a-4d9d-8339-b073965c9373,scenario_A_S101_MIRAGE,11,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 5 exceeds safety thresholds.
+fe533a56-ab80-4d35-b13d-e1686bb287b5,scenario_A_S101_MIRAGE,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.58,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+d17aeb86-01e6-4497-ac0b-47ab50769909,scenario_A_S101_MIRAGE,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.58,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+e03fbd7e-c172-4b71-b859-6d6c8a82e029,scenario_A_S101_MIRAGE,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.58,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+688d7fe0-dfc8-4c8e-b4a0-e473ecddd441,scenario_A_S101_MIRAGE,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.58,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+aba34144-ab18-4481-9759-ca268ef0e92c,scenario_A_S101_MIRAGE,11,ShelterAgent,SHELTER,0.9,0.9299999999999999,101.51,False,High assessment score (0.93) for sh-01. Gap: FOOD
+d646183f-b5e9-475b-8136-af534d8380ca,scenario_A_S101_MIRAGE,11,ShelterAgent,SHELTER,0.9,0.9299999999999999,101.51,False,High assessment score (0.93) for sh-01. Gap: WATER
+19568344-a583-48a3-93b1-25cf6f98fa96,scenario_A_S101_MIRAGE,11,ShelterAgent,SHELTER,0.9,0.9299999999999999,101.51,False,High assessment score (0.93) for sh-02. Gap: FOOD
+19b27d27-fd93-4947-9e3d-efc9f6262866,scenario_A_S101_MIRAGE,11,ShelterAgent,SHELTER,0.9,0.9299999999999999,101.51,False,High assessment score (0.93) for sh-02. Gap: WATER
+2a9611f1-0afd-4d93-b9fa-2a1462f57ba6,scenario_A_S101_MIRAGE,11,LogisticsAgent,LOGISTICS,1.0,0.7,0.44,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+6c6cfc54-c2b2-4ce6-9896-d51d94eee75d,scenario_A_S101_MIRAGE,11,LogisticsAgent,LOGISTICS,1.0,0.7,0.44,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+caf2fa13-9e47-4186-9b4a-d5b443b973f4,scenario_A_S101_MIRAGE,11,LogisticsAgent,LOGISTICS,1.0,0.7,0.44,False,Fulfilling allocation for ResourceType.WATER to sh-01
+f8ea28d6-62ec-4ff1-8c31-4297291bc3f1,scenario_A_S101_MIRAGE,11,LogisticsAgent,LOGISTICS,1.0,0.7,0.44,False,Fulfilling allocation for ResourceType.WATER to sh-02
+8c141f01-33d8-425b-acaf-b3e80ddc436b,scenario_A_S101_MIRAGE,12,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 5 exceeds safety thresholds.
+36251c3b-8365-473b-ad78-e21210a5d7e7,scenario_A_S101_MIRAGE,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.11,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+44d78dac-42f8-4f64-b4d2-48f936a69cff,scenario_A_S101_MIRAGE,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.11,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+33de7940-7147-481c-b636-0ee8c9211ec6,scenario_A_S101_MIRAGE,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.11,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+1409a74e-09cb-4abe-96de-96561c3ca007,scenario_A_S101_MIRAGE,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.11,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+97f87bbb-afb6-4d49-a74f-860a7c3ae822,scenario_A_S101_MIRAGE,12,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.25,False,Scheduled state summary bulletin.
+5ab07328-3ae9-4b00-8d02-5fb3bdb6c56c,scenario_A_S101_MIRAGE,12,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.94,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e7f0e6c8-53a9-4555-9af8-186525e75b39,scenario_A_S101_MIRAGE,12,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.94,False,High assessment score (0.93) for sh-01. Gap: WATER
+83b1d5bf-0c35-4679-a23e-287a92748bae,scenario_A_S101_MIRAGE,12,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.94,False,High assessment score (0.93) for sh-02. Gap: FOOD
+2853fdfa-5468-4173-b92b-e9dccf0d5072,scenario_A_S101_MIRAGE,12,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.94,False,High assessment score (0.93) for sh-02. Gap: WATER
+dde3e97f-b00f-4fcc-aef6-ef546453ba5c,scenario_A_S101_MIRAGE,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+8ea88f3d-835a-44cf-8a10-413d351758af,scenario_A_S101_MIRAGE,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+653718ed-5b7f-40ca-9e96-46451f898806,scenario_A_S101_MIRAGE,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.WATER to sh-01
+4752506b-2bb8-4488-92ab-fd1b185a0c6a,scenario_A_S101_MIRAGE,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.WATER to sh-02
+41dde7f0-c8e1-4292-82e4-1c5b57494d2c,scenario_A_S101_MIRAGE,13,RiskAssessmentAgent,RISK,1.0,0.9,0.35,False,Cyclone intensity 5 exceeds safety thresholds.
+d8286139-cf35-4fae-aef8-29a69e68c0d6,scenario_A_S101_MIRAGE,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.95,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+b68eea02-72b9-4a68-9790-9191735227b5,scenario_A_S101_MIRAGE,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.95,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+41848cfb-2915-44d8-946b-c5a17e6b97ba,scenario_A_S101_MIRAGE,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.95,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+cef47b6b-00e8-4a1c-9c89-72f410268aac,scenario_A_S101_MIRAGE,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.95,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+a359e586-af41-417f-af72-b173911fb5f5,scenario_A_S101_MIRAGE,13,ShelterAgent,SHELTER,0.9,0.9299999999999999,312.56,False,High assessment score (0.93) for sh-01. Gap: FOOD
+ad84073f-ccf6-4313-93b7-664790c8380f,scenario_A_S101_MIRAGE,13,ShelterAgent,SHELTER,0.9,0.9299999999999999,312.56,False,High assessment score (0.93) for sh-01. Gap: WATER
+690f67b7-c8e9-4c07-9aa4-00f5af44e209,scenario_A_S101_MIRAGE,13,ShelterAgent,SHELTER,0.9,0.9299999999999999,312.56,False,High assessment score (0.93) for sh-02. Gap: FOOD
+ff55782c-151f-4f9f-9311-1ab11624c8a3,scenario_A_S101_MIRAGE,13,ShelterAgent,SHELTER,0.9,0.9299999999999999,312.56,False,High assessment score (0.93) for sh-02. Gap: WATER
+eea5bd85-b1df-48bb-aba4-a95f74dd5c50,scenario_A_S101_MIRAGE,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.9,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+f3daa619-1fb4-4fd3-8b46-c3ee6ca37581,scenario_A_S101_MIRAGE,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.9,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+3951d89c-4d7d-453a-93a1-9da21a1d899c,scenario_A_S101_MIRAGE,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.9,False,Fulfilling allocation for ResourceType.WATER to sh-01
+458ed785-18bd-4e1e-a5db-cab35593382d,scenario_A_S101_MIRAGE,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.9,False,Fulfilling allocation for ResourceType.WATER to sh-02
+b1172119-09fb-47d5-a8c9-215d3d0e7f88,scenario_A_S101_MIRAGE,14,RiskAssessmentAgent,RISK,1.0,0.9,0.2,False,Cyclone intensity 5 exceeds safety thresholds.
+e8dcdc8a-b199-4ab8-8727-d0d1aebbdf7a,scenario_A_S101_MIRAGE,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.8,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+ad0e04e1-7c64-43a9-b318-ca21b371a009,scenario_A_S101_MIRAGE,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.8,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+e795f934-662c-46d7-a7c5-abcf902c3a8e,scenario_A_S101_MIRAGE,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.8,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+e0f34403-579b-427c-9996-43710314177b,scenario_A_S101_MIRAGE,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.8,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+c7f62b44-b489-4be7-bf71-a39ce193f92b,scenario_A_S101_MIRAGE,14,ShelterAgent,SHELTER,0.9,0.9299999999999999,112.87,False,High assessment score (0.93) for sh-01. Gap: FOOD
+680f9bfe-3195-401a-b7d4-1a5c8db4d1fb,scenario_A_S101_MIRAGE,14,ShelterAgent,SHELTER,0.9,0.9299999999999999,112.87,False,High assessment score (0.93) for sh-01. Gap: WATER
+190ac623-4762-4886-8017-75e0e89dd96f,scenario_A_S101_MIRAGE,14,ShelterAgent,SHELTER,0.9,0.9299999999999999,112.87,False,High assessment score (0.93) for sh-02. Gap: FOOD
+e9ffa246-e5b8-4c60-b291-ba113961e9e6,scenario_A_S101_MIRAGE,14,ShelterAgent,SHELTER,0.9,0.9299999999999999,112.87,False,High assessment score (0.93) for sh-02. Gap: WATER
+7b38152e-c5cb-432c-acad-d47c2553fffa,scenario_A_S101_MIRAGE,14,LogisticsAgent,LOGISTICS,1.0,0.7,6.48,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+2985cc37-9074-49f3-9ef4-d134ca0ee229,scenario_A_S101_MIRAGE,14,LogisticsAgent,LOGISTICS,1.0,0.7,6.48,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+a6d131ac-8a95-458e-9c55-4357cad25621,scenario_A_S101_MIRAGE,14,LogisticsAgent,LOGISTICS,1.0,0.7,6.48,False,Fulfilling allocation for ResourceType.WATER to sh-01
+289d1909-23df-47d2-939a-50c9e1da2845,scenario_A_S101_MIRAGE,14,LogisticsAgent,LOGISTICS,1.0,0.7,6.48,False,Fulfilling allocation for ResourceType.WATER to sh-02
+7ed11309-b5dc-4cef-8715-c50fa18205c4,scenario_A_S101_MIRAGE,15,RiskAssessmentAgent,RISK,1.0,0.9,0.26,False,Cyclone intensity 5 exceeds safety thresholds.
+0e079b98-8914-418f-8ce2-6714b13c314e,scenario_A_S101_MIRAGE,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.02,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+5bc5e161-b72b-43a2-a140-cab87a515e90,scenario_A_S101_MIRAGE,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.02,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+6f930462-272a-43d8-b077-259dd1f3ce82,scenario_A_S101_MIRAGE,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.02,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+a7bbb948-7db2-4a74-9866-42c525f90218,scenario_A_S101_MIRAGE,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.02,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+fc1ddf0c-581b-4c90-9a8d-d894ac458554,scenario_A_S101_MIRAGE,15,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.51,False,High assessment score (0.93) for sh-01. Gap: FOOD
+b0a0b681-d3d8-4931-8c3e-ebdc35f3270b,scenario_A_S101_MIRAGE,15,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.51,False,High assessment score (0.93) for sh-01. Gap: WATER
+ae6c01b9-4880-4209-86dc-871e76b05fba,scenario_A_S101_MIRAGE,15,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.51,False,High assessment score (0.93) for sh-02. Gap: FOOD
+e09f253a-625b-4281-b6b6-09e7cac0d08e,scenario_A_S101_MIRAGE,15,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.51,False,High assessment score (0.93) for sh-02. Gap: WATER
+6e480130-e973-4abc-acc2-f05809d83e47,scenario_A_S101_MIRAGE,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.68,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+0d3d1eff-5289-4004-8082-35c3c566ff27,scenario_A_S101_MIRAGE,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.68,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+429ef5c4-860c-4822-8b0b-bec489cd540e,scenario_A_S101_MIRAGE,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.68,False,Fulfilling allocation for ResourceType.WATER to sh-01
+a3eb5898-174f-411a-ad7e-08f5068eb0a6,scenario_A_S101_MIRAGE,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.68,False,Fulfilling allocation for ResourceType.WATER to sh-02
+1a638ebd-8bc9-4636-9f60-e20026c34eef,scenario_A_S101_MIRAGE,16,RiskAssessmentAgent,RISK,1.0,0.9,0.15,False,Cyclone intensity 5 exceeds safety thresholds.
+7d65b476-e668-45c1-bee5-d8b7dc7d25a4,scenario_A_S101_MIRAGE,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+6471cbf7-9290-4e49-a5b2-c2a6b6e3e449,scenario_A_S101_MIRAGE,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+84364744-0b03-44ed-90e9-89fbb4e5a3c8,scenario_A_S101_MIRAGE,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+77d60015-04f8-405e-8543-89bbc063dc49,scenario_A_S101_MIRAGE,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+fac392ae-4231-489f-aa9a-630b564e79bb,scenario_A_S101_MIRAGE,16,ShelterAgent,SHELTER,0.9,0.9299999999999999,175.74,False,High assessment score (0.93) for sh-01. Gap: FOOD
+96730cbe-2e53-4d7d-9aee-daf6bba6de46,scenario_A_S101_MIRAGE,16,ShelterAgent,SHELTER,0.9,0.9299999999999999,175.74,False,High assessment score (0.93) for sh-01. Gap: WATER
+7dd82976-d606-4508-a781-ab9e87f22c31,scenario_A_S101_MIRAGE,16,ShelterAgent,SHELTER,0.9,0.9299999999999999,175.74,False,High assessment score (0.93) for sh-02. Gap: FOOD
+c1bf5e24-cb3b-464c-92b9-e41f6988796f,scenario_A_S101_MIRAGE,16,ShelterAgent,SHELTER,0.9,0.9299999999999999,175.74,False,High assessment score (0.93) for sh-02. Gap: WATER
+20accd74-279e-4c80-95db-50f08e40229a,scenario_A_S101_MIRAGE,16,LogisticsAgent,LOGISTICS,1.0,0.7,1.12,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+2b0c2c74-845d-4371-be25-91bb61922bac,scenario_A_S101_MIRAGE,16,LogisticsAgent,LOGISTICS,1.0,0.7,1.12,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+08aebbd1-1bb2-42d4-9376-e9b534679dee,scenario_A_S101_MIRAGE,16,LogisticsAgent,LOGISTICS,1.0,0.7,1.12,False,Fulfilling allocation for ResourceType.WATER to sh-01
+7d260633-3aa4-45fd-b07b-a110b50249c1,scenario_A_S101_MIRAGE,16,LogisticsAgent,LOGISTICS,1.0,0.7,1.12,False,Fulfilling allocation for ResourceType.WATER to sh-02
+0d10278d-4b15-4315-a495-61a048ab9c11,scenario_A_S101_MIRAGE,17,RiskAssessmentAgent,RISK,1.0,0.9,5.99,False,Cyclone intensity 5 exceeds safety thresholds.
+73b0bade-172f-4aa7-bd89-deceb4ab170e,scenario_A_S101_MIRAGE,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.5,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+efdda84b-ceae-44b9-ae4d-e51eba31ec03,scenario_A_S101_MIRAGE,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.5,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+b2148f16-24e4-490b-a283-6f2e2e98edab,scenario_A_S101_MIRAGE,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.5,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+c48ecefd-6c1f-4fbf-9d57-1ca7cc5d1d86,scenario_A_S101_MIRAGE,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.5,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+bb607d29-82ec-4c98-8e62-ef060906b39f,scenario_A_S101_MIRAGE,17,ShelterAgent,SHELTER,0.9,0.9299999999999999,25.97,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e6c0480f-ce15-405f-bdd5-56d2302247ce,scenario_A_S101_MIRAGE,17,ShelterAgent,SHELTER,0.9,0.9299999999999999,25.97,False,High assessment score (0.93) for sh-01. Gap: WATER
+33284f2d-8037-4e59-b26a-57499af24590,scenario_A_S101_MIRAGE,17,ShelterAgent,SHELTER,0.9,0.9299999999999999,25.97,False,High assessment score (0.93) for sh-02. Gap: FOOD
+612a7963-3169-44b1-8173-ae31fcd6f71a,scenario_A_S101_MIRAGE,17,ShelterAgent,SHELTER,0.9,0.9299999999999999,25.97,False,High assessment score (0.93) for sh-02. Gap: WATER
+d56be191-bfe7-420c-bc99-a768ac7ddef6,scenario_A_S101_MIRAGE,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+48a8edce-092b-4772-a839-d71b1671b818,scenario_A_S101_MIRAGE,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+c5ca4f40-339d-4e4b-b9e8-9db00f8cf194,scenario_A_S101_MIRAGE,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.WATER to sh-01
+dddcfaad-3397-4d6a-9ea1-2b4eb5c91a27,scenario_A_S101_MIRAGE,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.WATER to sh-02
+7f1030b4-1f3d-463c-afaf-fa62c89997e0,scenario_A_S101_MIRAGE,18,RiskAssessmentAgent,RISK,1.0,0.9,0.13,False,Cyclone intensity 5 exceeds safety thresholds.
+f42b2bb7-f2a8-4745-873a-2b115c818584,scenario_A_S101_MIRAGE,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.66,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+8a1cfad9-ddf0-4ec3-87b0-58e31eb5489c,scenario_A_S101_MIRAGE,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.66,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+9324bcde-9b96-4df0-8e55-a401f356b693,scenario_A_S101_MIRAGE,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.66,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+40a8a1da-342e-4b6f-b546-7202dc6bee83,scenario_A_S101_MIRAGE,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.66,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+838b5678-4947-40d9-9fdd-4a1fdfcb8828,scenario_A_S101_MIRAGE,18,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.24,False,Scheduled state summary bulletin.
+79cf4c55-ca8f-4bff-b0a7-6f63b8e24cf1,scenario_A_S101_MIRAGE,18,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.12,False,High assessment score (0.93) for sh-01. Gap: FOOD
+f1646401-71ed-4b48-9b0c-22d24356c710,scenario_A_S101_MIRAGE,18,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.12,False,High assessment score (0.93) for sh-01. Gap: WATER
+3b65169e-24b2-41ad-a419-2eb9267c4940,scenario_A_S101_MIRAGE,18,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.12,False,High assessment score (0.93) for sh-02. Gap: FOOD
+94c8540d-478d-4fa5-b5d2-836395eac286,scenario_A_S101_MIRAGE,18,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.12,False,High assessment score (0.93) for sh-02. Gap: WATER
+3a9ce161-a795-452b-88ee-f2b375c34e35,scenario_A_S101_MIRAGE,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.58,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+65ce39b1-f7e9-471b-9ee5-c4d81b593fb6,scenario_A_S101_MIRAGE,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.58,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+9756c09d-ccde-4e45-956b-e070b0f567be,scenario_A_S101_MIRAGE,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.58,False,Fulfilling allocation for ResourceType.WATER to sh-01
+9dc699e6-dfda-4afd-99c0-ffec07600dff,scenario_A_S101_MIRAGE,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.58,False,Fulfilling allocation for ResourceType.WATER to sh-02
+5050069d-1e6d-403a-984f-f9bd6d8eb1e8,scenario_A_S101_MIRAGE,19,RiskAssessmentAgent,RISK,1.0,0.9,0.27,False,Cyclone intensity 5 exceeds safety thresholds.
+64ee8143-6c67-419b-9f00-cae50819d121,scenario_A_S101_MIRAGE,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.58,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+e78cb89f-3d17-469f-b810-3cf670ed463d,scenario_A_S101_MIRAGE,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.58,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+b7107d52-3120-4e74-bd13-deb8ba53dad1,scenario_A_S101_MIRAGE,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.58,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+c87376ba-a665-4285-a598-6d43984dd43f,scenario_A_S101_MIRAGE,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.58,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+90909c0c-4d36-4880-9ce9-6960873ad18c,scenario_A_S101_MIRAGE,19,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.37,False,High assessment score (0.93) for sh-01. Gap: FOOD
+12f90c39-1755-4501-baa6-9beca8e11de2,scenario_A_S101_MIRAGE,19,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.37,False,High assessment score (0.93) for sh-01. Gap: WATER
+b8cbf43a-5262-427f-be27-48bda5055a18,scenario_A_S101_MIRAGE,19,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.37,False,High assessment score (0.93) for sh-02. Gap: FOOD
+fc49f055-7d57-43c8-b12e-42a62749956a,scenario_A_S101_MIRAGE,19,ShelterAgent,SHELTER,0.9,0.9299999999999999,21.37,False,High assessment score (0.93) for sh-02. Gap: WATER
+7b8db76c-f6e2-4f03-9013-89271ecc2e27,scenario_A_S101_MIRAGE,19,LogisticsAgent,LOGISTICS,1.0,0.7,19.27,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+c379cc37-5ab4-4d0f-869a-34faa67b2907,scenario_A_S101_MIRAGE,19,LogisticsAgent,LOGISTICS,1.0,0.7,19.27,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+a7c6a949-a6a6-47ca-a706-18de51fc06ee,scenario_A_S101_MIRAGE,19,LogisticsAgent,LOGISTICS,1.0,0.7,19.27,False,Fulfilling allocation for ResourceType.WATER to sh-01
+ae3c22b8-2f44-4e16-868b-2a56429ceb61,scenario_A_S101_MIRAGE,19,LogisticsAgent,LOGISTICS,1.0,0.7,19.27,False,Fulfilling allocation for ResourceType.WATER to sh-02
+b880b9d1-c2c3-46af-98f0-a7845d417ca3,scenario_A_S101_MIRAGE,20,RiskAssessmentAgent,RISK,1.0,0.9,0.4,False,Cyclone intensity 4 exceeds safety thresholds.
+33912adf-f227-44c5-850f-cc834daf3c2c,scenario_A_S101_MIRAGE,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.25,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+5f406e6f-9310-488e-9db0-154a6b3954c4,scenario_A_S101_MIRAGE,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.25,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+28f0c3da-061d-4ab4-a806-0b84e7de5175,scenario_A_S101_MIRAGE,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.25,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+08303a89-1a4c-4d02-9d19-7a094519bebf,scenario_A_S101_MIRAGE,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.25,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+fe489216-b0c4-4c49-bae2-258466116c01,scenario_A_S101_MIRAGE,20,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.85,False,High assessment score (0.93) for sh-01. Gap: FOOD
+7c425444-7157-4531-9cd4-912e4268c2a7,scenario_A_S101_MIRAGE,20,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.85,False,High assessment score (0.93) for sh-01. Gap: WATER
+c6223cb4-e980-4fd1-9811-f55782bb9d64,scenario_A_S101_MIRAGE,20,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.85,False,High assessment score (0.93) for sh-02. Gap: FOOD
+6892dd41-364b-42e1-be42-93ce395afe20,scenario_A_S101_MIRAGE,20,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.85,False,High assessment score (0.93) for sh-02. Gap: WATER
+5c5a5364-12fd-4a33-84e4-c994b587eeac,scenario_A_S101_MIRAGE,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+58bc1ecf-0f67-4c99-a8e6-ed19b976b066,scenario_A_S101_MIRAGE,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+b893331f-e105-49b5-b482-4ac7d319cc2f,scenario_A_S101_MIRAGE,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-01
+93cd0520-2248-49d0-a5c7-ef6ed01430fe,scenario_A_S101_MIRAGE,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-02
+736d9d87-4304-4bb1-815e-e895d042b881,scenario_A_S101_MIRAGE,21,RiskAssessmentAgent,RISK,1.0,0.9,0.26,False,Cyclone intensity 4 exceeds safety thresholds.
+e2335a60-b29f-4fc1-88c8-1ea65bfa4487,scenario_A_S101_MIRAGE,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,5.73,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+1e4536f4-ff68-4592-a2f5-58fec7bcb9de,scenario_A_S101_MIRAGE,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,5.73,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+7e734f4e-7dc3-446b-a3eb-41143e988f4b,scenario_A_S101_MIRAGE,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,5.73,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+131e286f-820a-4c40-a4b3-6f50c4c365eb,scenario_A_S101_MIRAGE,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,5.73,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+d2fb81b7-bd57-4fb5-9fd6-3aa18a7017cb,scenario_A_S101_MIRAGE,21,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.55,False,High assessment score (0.93) for sh-01. Gap: FOOD
+b70ff1c5-19b0-47f7-8a51-d047707b40cf,scenario_A_S101_MIRAGE,21,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.55,False,High assessment score (0.93) for sh-01. Gap: WATER
+719810a3-45fe-479f-a3a5-a573dbba5bd9,scenario_A_S101_MIRAGE,21,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.55,False,High assessment score (0.93) for sh-02. Gap: FOOD
+f8187388-fe78-4bae-98ff-0f4deb940eb6,scenario_A_S101_MIRAGE,21,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.55,False,High assessment score (0.93) for sh-02. Gap: WATER
+2360cb0b-781a-4e55-8d34-90303aef6101,scenario_A_S101_MIRAGE,21,LogisticsAgent,LOGISTICS,1.0,0.7,1.08,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+f344b277-50a0-4539-a085-2be602dada16,scenario_A_S101_MIRAGE,21,LogisticsAgent,LOGISTICS,1.0,0.7,1.08,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+5ab7d604-6d39-4114-a48f-2e6992fb0090,scenario_A_S101_MIRAGE,21,LogisticsAgent,LOGISTICS,1.0,0.7,1.08,False,Fulfilling allocation for ResourceType.WATER to sh-01
+198c3980-4d0b-4801-804c-9f4fcf05f8d5,scenario_A_S101_MIRAGE,21,LogisticsAgent,LOGISTICS,1.0,0.7,1.08,False,Fulfilling allocation for ResourceType.WATER to sh-02
+c2510870-0945-4526-afeb-b1bc4f49813c,scenario_A_S101_MIRAGE,22,RiskAssessmentAgent,RISK,1.0,0.9,0.32,False,Cyclone intensity 4 exceeds safety thresholds.
+4b07bb8a-3708-437c-b502-01c2ea814c20,scenario_A_S101_MIRAGE,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.61,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+1c5244d6-e651-453a-9b9a-70fb90c397a8,scenario_A_S101_MIRAGE,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.61,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+e66c59d7-5002-4cd2-9f85-5c16036cda8b,scenario_A_S101_MIRAGE,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.61,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+6cccee76-c330-49bd-a06f-86cc4c81a67f,scenario_A_S101_MIRAGE,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.61,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+1845fcd1-5775-40b5-84e8-896b8ce8318d,scenario_A_S101_MIRAGE,22,ShelterAgent,SHELTER,0.9,0.9299999999999999,13.46,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e2f694ea-b7e6-4d9a-8bd2-9b1098332c84,scenario_A_S101_MIRAGE,22,ShelterAgent,SHELTER,0.9,0.9299999999999999,13.46,False,High assessment score (0.93) for sh-01. Gap: WATER
+3d59feef-21ce-49f6-a26d-8abb75628357,scenario_A_S101_MIRAGE,22,ShelterAgent,SHELTER,0.9,0.9299999999999999,13.46,False,High assessment score (0.93) for sh-02. Gap: FOOD
+ccc59248-7205-4719-9772-4fa958b5edfd,scenario_A_S101_MIRAGE,22,ShelterAgent,SHELTER,0.9,0.9299999999999999,13.46,False,High assessment score (0.93) for sh-02. Gap: WATER
+f480ac70-af82-48d7-bdfa-438c6ab88747,scenario_A_S101_MIRAGE,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.69,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+74a218c5-b714-4bd5-95bf-6afb15bd7ad6,scenario_A_S101_MIRAGE,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.69,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+8e4fa38e-1722-40c0-ab37-f169f3d68964,scenario_A_S101_MIRAGE,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.69,False,Fulfilling allocation for ResourceType.WATER to sh-01
+9e5edc08-ba6d-4e8e-b02e-8dfc699b899b,scenario_A_S101_MIRAGE,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.69,False,Fulfilling allocation for ResourceType.WATER to sh-02
+2c9f7a6c-772c-4a4a-82b7-846841707177,scenario_A_S101_MIRAGE,23,RiskAssessmentAgent,RISK,1.0,0.9,0.18,False,Cyclone intensity 4 exceeds safety thresholds.
+c8fee95c-f1eb-4f5a-a87f-1f9593266dc0,scenario_A_S101_MIRAGE,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.33,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+086a4f23-ef93-47ba-a248-b849fef1f755,scenario_A_S101_MIRAGE,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.33,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+6d40bdac-2fb7-4af6-b458-964079e90760,scenario_A_S101_MIRAGE,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.33,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+caef5e93-774e-4a03-985b-9e25021e0086,scenario_A_S101_MIRAGE,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.33,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+8a17c49d-6ef3-4fa7-a994-80d75373050b,scenario_A_S101_MIRAGE,23,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.05,False,High assessment score (0.93) for sh-01. Gap: FOOD
+8ec57e99-ee3e-469a-8bef-a6b2749482df,scenario_A_S101_MIRAGE,23,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.05,False,High assessment score (0.93) for sh-01. Gap: WATER
+34eba7a4-89b0-45b8-b6fa-2c2a5f8223f0,scenario_A_S101_MIRAGE,23,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.05,False,High assessment score (0.93) for sh-02. Gap: FOOD
+1eafc848-afad-41f3-9458-00f52ff789a0,scenario_A_S101_MIRAGE,23,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.05,False,High assessment score (0.93) for sh-02. Gap: WATER
+c9477c7a-b8fc-4d12-b7c5-00715fbe988d,scenario_A_S101_MIRAGE,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.82,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+4dac62a1-dbbf-4b59-a2cb-0b2ab9d5d128,scenario_A_S101_MIRAGE,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.82,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+b7d8c025-5d30-4e4b-83fe-5c2b6360008d,scenario_A_S101_MIRAGE,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.82,False,Fulfilling allocation for ResourceType.WATER to sh-01
+da43c4ab-9759-49f9-964f-70c2b538fa63,scenario_A_S101_MIRAGE,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.82,False,Fulfilling allocation for ResourceType.WATER to sh-02
+e5660f9a-de53-48e5-a86d-13605e362317,scenario_A_S101_MIRAGE,24,RiskAssessmentAgent,RISK,1.0,0.9,0.25,False,Cyclone intensity 4 exceeds safety thresholds.
+2f4443b8-8ab4-433a-85fa-58808a102f11,scenario_A_S101_MIRAGE,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.92,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+397bdc76-6b4e-41f8-9d93-0778c5edc575,scenario_A_S101_MIRAGE,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.92,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+15f8f86c-3125-4406-b619-ddcfa3783f91,scenario_A_S101_MIRAGE,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.92,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+c6ab74b0-434f-4b44-8f86-6d0334ee45a6,scenario_A_S101_MIRAGE,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.92,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+91c52d57-6cf7-43bd-82d9-e9f8321a6dd6,scenario_A_S101_MIRAGE,24,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.22,False,Scheduled state summary bulletin.
+ac49c51a-20a4-4a7e-bbd4-800bdba1460b,scenario_A_S101_MIRAGE,24,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.22,False,High assessment score (0.93) for sh-01. Gap: FOOD
+5f5ab34d-9c79-45fa-9a22-78920de4e39c,scenario_A_S101_MIRAGE,24,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.22,False,High assessment score (0.93) for sh-01. Gap: WATER
+c87ed416-517d-4a9c-9076-135ac14ab126,scenario_A_S101_MIRAGE,24,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.22,False,High assessment score (0.93) for sh-02. Gap: FOOD
+7951ecb8-83ed-471f-aaa7-61918f033d61,scenario_A_S101_MIRAGE,24,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.22,False,High assessment score (0.93) for sh-02. Gap: WATER
+2b1a422e-65c6-4c2e-baf6-918c9b378bf0,scenario_A_S101_MIRAGE,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.98,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+86976c34-2a7d-4a36-8314-0811b275267b,scenario_A_S101_MIRAGE,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.98,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+ec04e2ba-6a90-4b61-a131-51bcf81f0d0c,scenario_A_S101_MIRAGE,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.98,False,Fulfilling allocation for ResourceType.WATER to sh-01
+78a664af-bffa-4774-9ebd-283c8167ba85,scenario_A_S101_MIRAGE,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.98,False,Fulfilling allocation for ResourceType.WATER to sh-02
+4565dad7-1662-4ea3-a810-fe301478bb6f,scenario_A_S101_MIRAGE,25,RiskAssessmentAgent,RISK,1.0,0.9,1.4,False,Cyclone intensity 4 exceeds safety thresholds.
+abcca07c-b3d4-4f51-83aa-25cf070dfdb2,scenario_A_S101_MIRAGE,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.64,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+114c6fb3-a6af-4e20-b8a1-959da863c082,scenario_A_S101_MIRAGE,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.64,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+e8ef03bd-6f8a-42d4-aec1-4aee1aecc248,scenario_A_S101_MIRAGE,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.64,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+60b1aa66-004c-4538-adca-205a6b577836,scenario_A_S101_MIRAGE,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.64,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+6ffc8b16-015c-45a3-81f8-6afbd8e33770,scenario_A_S101_MIRAGE,25,ShelterAgent,SHELTER,0.9,0.9299999999999999,36.14,False,High assessment score (0.93) for sh-01. Gap: FOOD
+028c58a8-b5a3-4ece-8b02-9fdc315efc2a,scenario_A_S101_MIRAGE,25,ShelterAgent,SHELTER,0.9,0.9299999999999999,36.14,False,High assessment score (0.93) for sh-01. Gap: WATER
+5e7da2aa-fec6-4fff-b57f-cf55675c66cc,scenario_A_S101_MIRAGE,25,ShelterAgent,SHELTER,0.9,0.9299999999999999,36.14,False,High assessment score (0.93) for sh-02. Gap: FOOD
+b0131c96-c7c6-465a-ab83-23f9bf091641,scenario_A_S101_MIRAGE,25,ShelterAgent,SHELTER,0.9,0.9299999999999999,36.14,False,High assessment score (0.93) for sh-02. Gap: WATER
+05a21c81-f6ba-4807-ac94-bbc3255e42ca,scenario_A_S101_MIRAGE,25,LogisticsAgent,LOGISTICS,1.0,0.7,2.94,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+4647dfbe-e229-4946-a312-32ca6cc06aff,scenario_A_S101_MIRAGE,25,LogisticsAgent,LOGISTICS,1.0,0.7,2.94,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+f9f0784b-703c-4f3f-8214-6b724f171a0a,scenario_A_S101_MIRAGE,25,LogisticsAgent,LOGISTICS,1.0,0.7,2.94,False,Fulfilling allocation for ResourceType.WATER to sh-01
+d8b891ad-71a6-4cc0-9918-08f253c866dc,scenario_A_S101_MIRAGE,25,LogisticsAgent,LOGISTICS,1.0,0.7,2.94,False,Fulfilling allocation for ResourceType.WATER to sh-02
+e3ecdb88-beb9-4ef0-b56a-2bd4d205620c,scenario_A_S101_MIRAGE,26,RiskAssessmentAgent,RISK,1.0,0.9,0.31,False,Cyclone intensity 4 exceeds safety thresholds.
+876c0a97-3e6e-4004-8081-b71e88d7640c,scenario_A_S101_MIRAGE,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.07,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+63120457-3628-4d69-a64c-78ace61f00e9,scenario_A_S101_MIRAGE,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.07,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+279de803-ef3c-44ed-ada2-360bbeb53185,scenario_A_S101_MIRAGE,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.07,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+45c4ccd8-57c4-4b94-8d69-68ecc89ea4b2,scenario_A_S101_MIRAGE,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.07,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+56f8e21c-cd6a-4b0e-b20b-5dd2c9d703c0,scenario_A_S101_MIRAGE,26,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.5,False,High assessment score (0.93) for sh-01. Gap: FOOD
+4e9029d7-4416-4106-a5bb-241ded76bf7c,scenario_A_S101_MIRAGE,26,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.5,False,High assessment score (0.93) for sh-01. Gap: WATER
+f16e2ce2-c71e-4c11-82c8-a7deeeddcc12,scenario_A_S101_MIRAGE,26,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.5,False,High assessment score (0.93) for sh-02. Gap: FOOD
+53e8b8d9-e710-4f90-a814-f151996d4c35,scenario_A_S101_MIRAGE,26,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.5,False,High assessment score (0.93) for sh-02. Gap: WATER
+ba449e82-af5d-4b4e-ac13-201ff6cd1770,scenario_A_S101_MIRAGE,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+bea56b73-f976-4ff7-a624-7a6fe9de9acd,scenario_A_S101_MIRAGE,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+bfb012dc-739b-4452-87e5-86eeac00eef3,scenario_A_S101_MIRAGE,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.WATER to sh-01
+d7c68210-2b23-4b47-ba4a-ebb2a213cf77,scenario_A_S101_MIRAGE,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.86,False,Fulfilling allocation for ResourceType.WATER to sh-02
+18ebf1f1-3718-4967-b0e1-084b4e5e642f,scenario_A_S101_MIRAGE,27,RiskAssessmentAgent,RISK,1.0,0.9,0.44,False,Cyclone intensity 4 exceeds safety thresholds.
+b73238f8-682e-4434-935f-88f017ee8899,scenario_A_S101_MIRAGE,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.16,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+99a22ddd-d5a0-4a8a-84b5-e39adc59a87c,scenario_A_S101_MIRAGE,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.16,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+8451b718-73eb-4f82-b027-36b35a4399b9,scenario_A_S101_MIRAGE,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.16,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+2d1d556e-24f6-4d77-a60f-510f15148345,scenario_A_S101_MIRAGE,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.16,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+35572ce6-caab-4ce6-b559-f123023921a0,scenario_A_S101_MIRAGE,27,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.94,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e14a8729-4b82-450d-bba4-88b10f8a5355,scenario_A_S101_MIRAGE,27,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.94,False,High assessment score (0.93) for sh-01. Gap: WATER
+e9a0d85d-04e7-4af3-98c5-25cd4a2f1c20,scenario_A_S101_MIRAGE,27,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.94,False,High assessment score (0.93) for sh-02. Gap: FOOD
+c1bb0189-0363-425b-9a02-e3a3e92a5a57,scenario_A_S101_MIRAGE,27,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.94,False,High assessment score (0.93) for sh-02. Gap: WATER
+78b8332d-b0c1-42cf-a42c-e8ee20c78db7,scenario_A_S101_MIRAGE,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+6134fe6a-0197-493c-8d1a-776c62471882,scenario_A_S101_MIRAGE,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+5d7fdef2-f540-411d-bc33-af0fbf4e63dc,scenario_A_S101_MIRAGE,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to sh-01
+3ec079ab-76c7-416f-9724-140aa5800c92,scenario_A_S101_MIRAGE,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to sh-02
+8bebab3c-cc24-4c8e-ba88-70e8d139f4f6,scenario_A_S101_MIRAGE,28,RiskAssessmentAgent,RISK,1.0,0.9,0.19,False,Cyclone intensity 4 exceeds safety thresholds.
+abaab4a9-8de4-4589-94d4-c5d075093db0,scenario_A_S101_MIRAGE,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.79,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+a2bf134e-1bb9-4d4c-bd55-de129735f466,scenario_A_S101_MIRAGE,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.79,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+6d0aaab3-eb42-4982-91c4-ae000f6c60bf,scenario_A_S101_MIRAGE,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.79,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+31a828c0-55fd-40ef-a5de-aed8494b2f96,scenario_A_S101_MIRAGE,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.79,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+40ae1767-62b7-4be2-9280-4b3d7e5fcde3,scenario_A_S101_MIRAGE,28,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.23,False,High assessment score (0.93) for sh-01. Gap: FOOD
+0997efe6-8b9e-4537-986b-b32b80475c25,scenario_A_S101_MIRAGE,28,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.23,False,High assessment score (0.93) for sh-01. Gap: WATER
+68bcb815-ca82-4750-94d6-16a83c68513d,scenario_A_S101_MIRAGE,28,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.23,False,High assessment score (0.93) for sh-02. Gap: FOOD
+b1846e2a-1833-4eab-8aa4-55986f21a51f,scenario_A_S101_MIRAGE,28,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.23,False,High assessment score (0.93) for sh-02. Gap: WATER
+f5e2414a-cd9a-4ea8-a55d-7756614ec43e,scenario_A_S101_MIRAGE,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+8446c842-a946-4155-bed0-0abd11125bdd,scenario_A_S101_MIRAGE,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+8c491e4c-c6eb-4cd7-85eb-5cf93435a373,scenario_A_S101_MIRAGE,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-01
+2f0b2d14-81b2-4a83-8b69-6c561bb7b363,scenario_A_S101_MIRAGE,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-02
+f87b018a-bc2e-4a9d-a6d8-6b073745f82d,scenario_A_S101_MIRAGE,29,RiskAssessmentAgent,RISK,1.0,0.9,0.33,False,Cyclone intensity 4 exceeds safety thresholds.
+4e0a5851-1451-4a10-9634-2b9dc5e69adb,scenario_A_S101_MIRAGE,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.85,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+09fb4716-1a54-4f25-a9db-aff8d0c95f27,scenario_A_S101_MIRAGE,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.85,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+38400379-ab4a-4c82-8cc7-de745baa084e,scenario_A_S101_MIRAGE,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.85,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+286a9a4d-aacb-4a4d-9fed-dec408b0b25f,scenario_A_S101_MIRAGE,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.85,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+490d9778-d181-4b35-86c3-a92715c137d5,scenario_A_S101_MIRAGE,29,ShelterAgent,SHELTER,0.9,0.9299999999999999,12.94,False,High assessment score (0.93) for sh-01. Gap: FOOD
+310318d1-a72c-4f96-8184-be02f076695a,scenario_A_S101_MIRAGE,29,ShelterAgent,SHELTER,0.9,0.9299999999999999,12.94,False,High assessment score (0.93) for sh-01. Gap: WATER
+95f9d556-7d19-4a32-99d2-75fdea0789b4,scenario_A_S101_MIRAGE,29,ShelterAgent,SHELTER,0.9,0.9299999999999999,12.94,False,High assessment score (0.93) for sh-02. Gap: FOOD
+7caf6528-a130-48ad-bf07-ca07adcbd52c,scenario_A_S101_MIRAGE,29,ShelterAgent,SHELTER,0.9,0.9299999999999999,12.94,False,High assessment score (0.93) for sh-02. Gap: WATER
+988ace71-df24-448c-802d-f53902f7da43,scenario_A_S101_MIRAGE,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.4,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+09ace4d9-7b1f-46e0-9b55-02972e8c2049,scenario_A_S101_MIRAGE,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.4,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+235dde21-364e-48c6-b2c3-aa5ae36abab6,scenario_A_S101_MIRAGE,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.4,False,Fulfilling allocation for ResourceType.WATER to sh-01
+425811ab-d0dd-41a8-85a3-6ac62fa280c9,scenario_A_S101_MIRAGE,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.4,False,Fulfilling allocation for ResourceType.WATER to sh-02
+df2bcb07-ec76-4703-a227-e08fdc3aa0e1,scenario_A_S101_MIRAGE,30,RiskAssessmentAgent,RISK,1.0,0.9,0.24,False,Cyclone intensity 4 exceeds safety thresholds.
+cdbb0070-3984-49fa-820d-f2a643166147,scenario_A_S101_MIRAGE,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+65ce1980-1e3b-4528-8aed-5f590d930542,scenario_A_S101_MIRAGE,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+16fb374b-139b-4c06-899e-18600d4ada31,scenario_A_S101_MIRAGE,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+4de811c5-7d30-4552-9269-c22b43515d81,scenario_A_S101_MIRAGE,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+915bc981-7d37-48ad-a516-d6dd89c7199c,scenario_A_S101_MIRAGE,30,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.94,False,Scheduled state summary bulletin.
+545794da-26aa-4364-ab1a-d682ed2273d2,scenario_A_S101_MIRAGE,30,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.86,False,High assessment score (0.93) for sh-01. Gap: FOOD
+530ad1b4-68c7-4a47-b0af-e640f655b426,scenario_A_S101_MIRAGE,30,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.86,False,High assessment score (0.93) for sh-01. Gap: WATER
+8c8c44cc-9464-45e0-984e-9f1dbf3c4118,scenario_A_S101_MIRAGE,30,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.86,False,High assessment score (0.93) for sh-02. Gap: FOOD
+12cf5096-cded-4a02-9b84-0cdf17311653,scenario_A_S101_MIRAGE,30,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.86,False,High assessment score (0.93) for sh-02. Gap: WATER
+f0906a5f-441b-42d8-a474-e0330a8c7bdd,scenario_A_S101_MIRAGE,30,LogisticsAgent,LOGISTICS,1.0,0.7,1.35,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+cf73934d-e930-4b2a-96c6-e56936eea3a1,scenario_A_S101_MIRAGE,30,LogisticsAgent,LOGISTICS,1.0,0.7,1.35,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+0824a520-aaf1-46f7-8dce-ca1982f1aa18,scenario_A_S101_MIRAGE,30,LogisticsAgent,LOGISTICS,1.0,0.7,1.35,False,Fulfilling allocation for ResourceType.WATER to sh-01
+125616be-64f4-44ee-bc05-1ec6da54cf31,scenario_A_S101_MIRAGE,30,LogisticsAgent,LOGISTICS,1.0,0.7,1.35,False,Fulfilling allocation for ResourceType.WATER to sh-02
+e69fb78e-9443-4b20-8a63-313aa6d60b94,scenario_A_S101_MIRAGE,31,RiskAssessmentAgent,RISK,1.0,0.9,0.18,False,Cyclone intensity 4 exceeds safety thresholds.
+003a8193-fa9b-4df3-9ca3-236125478dc5,scenario_A_S101_MIRAGE,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.73,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+b229727f-153c-47fc-8b56-830b7b0b609b,scenario_A_S101_MIRAGE,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.73,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+e9653f93-50f7-45b8-a5ac-5927b951fcd4,scenario_A_S101_MIRAGE,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.73,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+f9e1211c-61bb-4873-bbb3-1af8c90b43fb,scenario_A_S101_MIRAGE,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.73,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+1eeab617-f5ec-4588-985e-f391c9e6f336,scenario_A_S101_MIRAGE,31,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.03,False,High assessment score (0.93) for sh-01. Gap: FOOD
+2b32bcdc-cc2f-46b7-a95a-b27c8ee63c99,scenario_A_S101_MIRAGE,31,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.03,False,High assessment score (0.93) for sh-01. Gap: WATER
+ef07e39b-c01c-4edd-8df5-31d8e4d2f4c8,scenario_A_S101_MIRAGE,31,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.03,False,High assessment score (0.93) for sh-02. Gap: FOOD
+bf7c8a51-bd8a-4c0e-a32f-6e1ccaca9485,scenario_A_S101_MIRAGE,31,ShelterAgent,SHELTER,0.9,0.9299999999999999,23.03,False,High assessment score (0.93) for sh-02. Gap: WATER
+d84f1bdf-1750-451c-940b-7dcbfc59b8cf,scenario_A_S101_MIRAGE,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+e957dc60-0015-47bd-89b2-a78b482e0d79,scenario_A_S101_MIRAGE,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+a0705796-7e0f-4a1d-bcfa-c5590da442d4,scenario_A_S101_MIRAGE,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.WATER to sh-01
+04b2f83d-a060-4bc4-8746-a5ca38921c3a,scenario_A_S101_MIRAGE,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.WATER to sh-02
+35b3da6f-ef91-4ca3-a950-65e70bbc62ca,scenario_A_S101_MIRAGE,32,RiskAssessmentAgent,RISK,1.0,0.9,0.16,False,Cyclone intensity 4 exceeds safety thresholds.
+2c4259ed-1ef9-4b1c-9368-44a6f55ba59d,scenario_A_S101_MIRAGE,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.84,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+32da7430-7850-40a2-9d2d-1d5efe6f9122,scenario_A_S101_MIRAGE,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.84,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+b6f3366b-bfcb-47bd-b65e-6cdb976e345c,scenario_A_S101_MIRAGE,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.84,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+08d7ad06-3d62-4e1c-bcea-8ea4d4e0a0d2,scenario_A_S101_MIRAGE,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.84,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+857494cc-eec3-45d2-8a23-e225de06c809,scenario_A_S101_MIRAGE,32,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.41,False,High assessment score (0.93) for sh-01. Gap: FOOD
+ea69374f-cad0-4d22-9c64-191f0c7c028d,scenario_A_S101_MIRAGE,32,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.41,False,High assessment score (0.93) for sh-01. Gap: WATER
+c257a245-479e-4b84-89dd-29b5d2c8a9c9,scenario_A_S101_MIRAGE,32,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.41,False,High assessment score (0.93) for sh-02. Gap: FOOD
+79f85877-a015-4e72-8f06-7072ab9451d6,scenario_A_S101_MIRAGE,32,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.41,False,High assessment score (0.93) for sh-02. Gap: WATER
+25d8eca2-bd38-4d53-a194-59955278dfd4,scenario_A_S101_MIRAGE,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.42,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+3131d742-ee3e-4573-ab12-cd9d7341650a,scenario_A_S101_MIRAGE,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.42,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+fd359e5f-8f8a-4f44-98df-2c91bff6cae5,scenario_A_S101_MIRAGE,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.42,False,Fulfilling allocation for ResourceType.WATER to sh-01
+72180bbb-d575-4f2f-a1ff-efc85398af08,scenario_A_S101_MIRAGE,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.42,False,Fulfilling allocation for ResourceType.WATER to sh-02
+5e381816-a355-48b0-a12f-218c8a67ea03,scenario_A_S101_MIRAGE,33,RiskAssessmentAgent,RISK,1.0,0.9,0.16,False,Cyclone intensity 4 exceeds safety thresholds.
+c9f4d9d5-501f-4dd2-acfc-7fc560d4c9a2,scenario_A_S101_MIRAGE,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.96,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+bc092b3f-c868-4e0b-a261-b71a716e8864,scenario_A_S101_MIRAGE,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.96,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+14ab66b6-7489-4a37-adc9-70e9247ae0e0,scenario_A_S101_MIRAGE,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.96,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+b53bb5f5-942e-4c6c-8158-bdf74445bd76,scenario_A_S101_MIRAGE,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,2.96,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+557ee1b2-bd7c-4157-ba0c-d70c4618e3d8,scenario_A_S101_MIRAGE,33,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.53,False,High assessment score (0.93) for sh-01. Gap: FOOD
+a96019c7-cd3b-4988-bc03-b177502ebcd9,scenario_A_S101_MIRAGE,33,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.53,False,High assessment score (0.93) for sh-01. Gap: WATER
+324124f7-fc60-4af3-8653-95504f1fe4c7,scenario_A_S101_MIRAGE,33,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.53,False,High assessment score (0.93) for sh-02. Gap: FOOD
+e2ca9711-489e-42cc-aa4a-c16945ff7352,scenario_A_S101_MIRAGE,33,ShelterAgent,SHELTER,0.9,0.9299999999999999,28.53,False,High assessment score (0.93) for sh-02. Gap: WATER
+f7c03ea0-c169-4bb2-8645-8423919bc1c1,scenario_A_S101_MIRAGE,33,LogisticsAgent,LOGISTICS,1.0,0.7,1.56,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+ca7c8cdb-2e7a-422a-aa14-4b5ac315e957,scenario_A_S101_MIRAGE,33,LogisticsAgent,LOGISTICS,1.0,0.7,1.56,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+156ebddf-1daa-45a4-b559-a83f4190e5c1,scenario_A_S101_MIRAGE,33,LogisticsAgent,LOGISTICS,1.0,0.7,1.56,False,Fulfilling allocation for ResourceType.WATER to sh-01
+fcba03c0-6e01-47ad-a875-b189f97bace4,scenario_A_S101_MIRAGE,33,LogisticsAgent,LOGISTICS,1.0,0.7,1.56,False,Fulfilling allocation for ResourceType.WATER to sh-02
+7dd7e014-a08a-4507-a63b-ef6057d75b63,scenario_A_S101_MIRAGE,34,RiskAssessmentAgent,RISK,1.0,0.9,0.14,False,Cyclone intensity 4 exceeds safety thresholds.
+c22bc072-a5b6-49f8-a431-36b96749c923,scenario_A_S101_MIRAGE,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.47,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+cdc00921-4428-41d3-bdc4-8af678b9d5c8,scenario_A_S101_MIRAGE,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.47,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+49f5933d-dff3-4ef5-a5a8-4608e85ae127,scenario_A_S101_MIRAGE,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.47,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+3f19425c-36db-4a29-9b20-6caacf169464,scenario_A_S101_MIRAGE,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.47,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+97d86359-3636-4eb7-ae9d-087901edc189,scenario_A_S101_MIRAGE,34,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.55,False,High assessment score (0.93) for sh-01. Gap: FOOD
+54501a86-2d94-418a-b9b8-92993ec55510,scenario_A_S101_MIRAGE,34,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.55,False,High assessment score (0.93) for sh-01. Gap: WATER
+03abd17c-06fb-40f3-9fe7-1acc10db80e0,scenario_A_S101_MIRAGE,34,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.55,False,High assessment score (0.93) for sh-02. Gap: FOOD
+a8d130fc-ab34-40bb-832d-c74925cbda26,scenario_A_S101_MIRAGE,34,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.55,False,High assessment score (0.93) for sh-02. Gap: WATER
+8096b525-4615-4540-830f-5423a2427c0c,scenario_A_S101_MIRAGE,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+3a479838-c0e2-4fe4-93cb-e49fd1592b9b,scenario_A_S101_MIRAGE,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+be0b5afa-6b29-4ecb-b3af-02acb0cbe5b5,scenario_A_S101_MIRAGE,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.WATER to sh-01
+466b9996-9879-4bc3-b7ce-c29c72bb1ee9,scenario_A_S101_MIRAGE,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.46,False,Fulfilling allocation for ResourceType.WATER to sh-02
+437a5f0f-7caa-4ca5-99ab-38284a80a33b,scenario_A_S101_MIRAGE,35,RiskAssessmentAgent,RISK,1.0,0.9,0.14,False,Cyclone intensity 3 exceeds safety thresholds.
+b13a78d1-91ab-4f64-a0de-12b14887d493,scenario_A_S101_MIRAGE,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.09,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+26ddbdc8-449d-4a28-8266-7574a0ac1424,scenario_A_S101_MIRAGE,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.09,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+4de2fa38-ef26-4da8-862f-d6b78cd0deab,scenario_A_S101_MIRAGE,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.09,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+565d9fd5-44d8-4952-a8c6-2e57ec3433b0,scenario_A_S101_MIRAGE,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.09,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+3ec0efb6-a528-4f93-a7ed-db28c7ecf353,scenario_A_S101_MIRAGE,35,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.41,False,High assessment score (0.93) for sh-01. Gap: FOOD
+0638b565-48e4-48ac-94e0-7865707b4d97,scenario_A_S101_MIRAGE,35,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.41,False,High assessment score (0.93) for sh-01. Gap: WATER
+0cfe631f-eac0-48c3-b202-f5191c2f55d3,scenario_A_S101_MIRAGE,35,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.41,False,High assessment score (0.93) for sh-02. Gap: FOOD
+bb81ad83-13ae-4010-ba07-1078f773b03c,scenario_A_S101_MIRAGE,35,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.41,False,High assessment score (0.93) for sh-02. Gap: WATER
+2d5d6906-1a46-45d7-8f38-5d8fd9340e99,scenario_A_S101_MIRAGE,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.95,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+7dfc0863-e122-454a-9968-1afcd7b79d53,scenario_A_S101_MIRAGE,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.95,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+27e6f5b3-b1a1-4374-b479-cca533a6a7b3,scenario_A_S101_MIRAGE,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.95,False,Fulfilling allocation for ResourceType.WATER to sh-01
+ccb5cfcd-8023-4545-856a-bb9794fa5f64,scenario_A_S101_MIRAGE,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.95,False,Fulfilling allocation for ResourceType.WATER to sh-02
+3501b1ea-9075-42af-adf9-6c8472e596d0,scenario_A_S101_MIRAGE,36,RiskAssessmentAgent,RISK,1.0,0.9,0.15,False,Cyclone intensity 3 exceeds safety thresholds.
+13d00ee9-471c-403a-b938-c8a9aedcaeac,scenario_A_S101_MIRAGE,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.29,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+62a9d6e9-5bad-4ab8-b791-d37d24f957bb,scenario_A_S101_MIRAGE,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.29,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+609690ed-5bf4-4dd9-8890-7b47f350f0d7,scenario_A_S101_MIRAGE,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.29,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+573a49b5-f70e-4ebe-acc1-80ab341fac58,scenario_A_S101_MIRAGE,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.29,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+4dd4a150-b1c0-4776-b171-e22618a5e7f8,scenario_A_S101_MIRAGE,36,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.24,False,Scheduled state summary bulletin.
+059a3ead-edba-4a26-a85e-14fc7da7e5c1,scenario_A_S101_MIRAGE,36,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.73,False,High assessment score (0.93) for sh-01. Gap: FOOD
+37702805-f0c8-4ffa-b157-5cbe0bcc5970,scenario_A_S101_MIRAGE,36,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.73,False,High assessment score (0.93) for sh-01. Gap: WATER
+fb2a9411-b53b-4079-98b0-b533ab9aa39a,scenario_A_S101_MIRAGE,36,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.73,False,High assessment score (0.93) for sh-02. Gap: FOOD
+826d40c5-c870-4a23-8876-9f7b566a03fe,scenario_A_S101_MIRAGE,36,ShelterAgent,SHELTER,0.9,0.9299999999999999,6.73,False,High assessment score (0.93) for sh-02. Gap: WATER
+f8e07b7f-1642-4a61-ab60-e34343b66654,scenario_A_S101_MIRAGE,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+d275a487-6cc8-4355-ac90-b2ff108640ee,scenario_A_S101_MIRAGE,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+e81927b1-6b2d-454a-b693-3d93d072d9e6,scenario_A_S101_MIRAGE,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-01
+dd3b13af-794b-40f5-b039-cd1e15c63272,scenario_A_S101_MIRAGE,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.37,False,Fulfilling allocation for ResourceType.WATER to sh-02
+fa6b4020-7a95-4901-abc3-56de345e5b76,scenario_A_S101_MIRAGE,37,RiskAssessmentAgent,RISK,1.0,0.9,4.18,False,Cyclone intensity 3 exceeds safety thresholds.
+80678c97-d28d-42c8-aef9-ee325afa7d9b,scenario_A_S101_MIRAGE,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.46,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+ea4cff3f-0110-4e22-b94b-753fa483b81a,scenario_A_S101_MIRAGE,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.46,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+5b9d96a8-8f6c-4bb8-9269-a1a65b074b2b,scenario_A_S101_MIRAGE,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.46,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+cf9d5236-c185-45d4-9cfd-4ad4891e0f5c,scenario_A_S101_MIRAGE,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.46,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+e921ad46-b6b2-4c52-b138-e6fc7dab17b3,scenario_A_S101_MIRAGE,37,ShelterAgent,SHELTER,0.9,0.9299999999999999,5.0,False,High assessment score (0.93) for sh-01. Gap: FOOD
+f228dd51-6bdf-4e35-8939-eedb299dc4c3,scenario_A_S101_MIRAGE,37,ShelterAgent,SHELTER,0.9,0.9299999999999999,5.0,False,High assessment score (0.93) for sh-01. Gap: WATER
+7cf123f7-7c56-4cb9-b61a-0142d97a3706,scenario_A_S101_MIRAGE,37,ShelterAgent,SHELTER,0.9,0.9299999999999999,5.0,False,High assessment score (0.93) for sh-02. Gap: FOOD
+444e7cb7-1635-46ae-9092-6a7daee79faa,scenario_A_S101_MIRAGE,37,ShelterAgent,SHELTER,0.9,0.9299999999999999,5.0,False,High assessment score (0.93) for sh-02. Gap: WATER
+959b1420-bb87-4345-8288-3cf7d8460df2,scenario_A_S101_MIRAGE,37,LogisticsAgent,LOGISTICS,1.0,0.7,1.42,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+8357a6f0-5491-4020-8ce5-54cef66cf1b5,scenario_A_S101_MIRAGE,37,LogisticsAgent,LOGISTICS,1.0,0.7,1.42,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+e0aa787a-8de8-4a30-b142-2182bc7865b0,scenario_A_S101_MIRAGE,37,LogisticsAgent,LOGISTICS,1.0,0.7,1.42,False,Fulfilling allocation for ResourceType.WATER to sh-01
+e75b2ba6-6099-44d0-a4ca-aecce863b9fa,scenario_A_S101_MIRAGE,37,LogisticsAgent,LOGISTICS,1.0,0.7,1.42,False,Fulfilling allocation for ResourceType.WATER to sh-02
+15027b35-c190-4cf3-b818-6525b793ac06,scenario_A_S101_MIRAGE,38,RiskAssessmentAgent,RISK,1.0,0.9,0.19,False,Cyclone intensity 3 exceeds safety thresholds.
+65b5abf1-458b-484d-b2d6-a937abdad0be,scenario_A_S101_MIRAGE,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.82,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+0ef80e11-4ea2-4952-8334-999092b84c5b,scenario_A_S101_MIRAGE,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.82,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+4ed73a6e-66b6-45ef-94a8-9a200abb4c1c,scenario_A_S101_MIRAGE,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.82,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+75aa5b55-6228-40bc-accc-029df7a0cf3d,scenario_A_S101_MIRAGE,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.82,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+9f44c681-6db5-4e2b-a35a-ad177e07a694,scenario_A_S101_MIRAGE,38,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.16,False,High assessment score (0.93) for sh-01. Gap: FOOD
+251e93c8-2f71-46d0-aa6c-05d0bb0846f2,scenario_A_S101_MIRAGE,38,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.16,False,High assessment score (0.93) for sh-01. Gap: WATER
+ffa66267-2e10-4967-8ce4-4aacc0c6e272,scenario_A_S101_MIRAGE,38,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.16,False,High assessment score (0.93) for sh-02. Gap: FOOD
+4c414ca6-c46b-45b8-b568-a466cf4e631e,scenario_A_S101_MIRAGE,38,ShelterAgent,SHELTER,0.9,0.9299999999999999,9.16,False,High assessment score (0.93) for sh-02. Gap: WATER
+fd582a1d-cfdf-427f-babe-9a264cbe9084,scenario_A_S101_MIRAGE,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+093f4074-0ee8-42c2-9ea5-b7b6df628ca3,scenario_A_S101_MIRAGE,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+5191d155-bc49-449e-bad4-37a0d6d6e000,scenario_A_S101_MIRAGE,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.WATER to sh-01
+16b92345-74eb-4383-a59e-e1b80272c8cb,scenario_A_S101_MIRAGE,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.WATER to sh-02
+ebcf9b27-2789-4041-a803-a0205bc58fd9,scenario_A_S101_MIRAGE,39,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 3 exceeds safety thresholds.
+5a199c63-fbe7-45ca-be19-48dc148e4cd7,scenario_A_S101_MIRAGE,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+4555f071-a95b-429a-bf08-f96ac718fdf0,scenario_A_S101_MIRAGE,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+8bf8e9e7-ebf5-4002-83c7-40a1985608a3,scenario_A_S101_MIRAGE,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+8f3cd839-0885-4d2f-ba9e-1dee68aa09f5,scenario_A_S101_MIRAGE,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+273cf070-bd6d-4326-8078-b30d145f6dd0,scenario_A_S101_MIRAGE,39,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.05,False,High assessment score (0.93) for sh-01. Gap: FOOD
+883b95f9-0df9-46ac-b025-e9a69caeddb5,scenario_A_S101_MIRAGE,39,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.05,False,High assessment score (0.93) for sh-01. Gap: WATER
+3a539255-ee3d-4640-964a-5cc5b4264cd8,scenario_A_S101_MIRAGE,39,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.05,False,High assessment score (0.93) for sh-02. Gap: FOOD
+48a14017-8fde-4231-8eb6-395b3b65df75,scenario_A_S101_MIRAGE,39,ShelterAgent,SHELTER,0.9,0.9299999999999999,15.05,False,High assessment score (0.93) for sh-02. Gap: WATER
+5b9bb1ad-40d6-47f5-898b-45a03702b1f2,scenario_A_S101_MIRAGE,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+894d7356-b04e-48cd-8035-b8d888175af2,scenario_A_S101_MIRAGE,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+d34446ee-94a8-498f-9474-66ad8494cf0e,scenario_A_S101_MIRAGE,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.WATER to sh-01
+243c6b1f-6aa3-4964-8e95-ce2a98c391ca,scenario_A_S101_MIRAGE,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.54,False,Fulfilling allocation for ResourceType.WATER to sh-02
+10cc0354-fb2e-48c4-9e73-830b8966e6a8,scenario_A_S101_MIRAGE,40,RiskAssessmentAgent,RISK,1.0,0.9,0.14,False,Cyclone intensity 3 exceeds safety thresholds.
+9dd9f6cd-6e3b-4533-80a9-08eaec72b2f2,scenario_A_S101_MIRAGE,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+5aec4980-2524-4548-a241-7a1fd2e37e9c,scenario_A_S101_MIRAGE,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+f1defb91-21aa-4b64-9f2f-54767168d08a,scenario_A_S101_MIRAGE,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+0de9ddf2-30e7-4e6c-a788-0ee7d3028661,scenario_A_S101_MIRAGE,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.57,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+d326cf17-4d4d-468b-8eaf-4fc4c2401d5c,scenario_A_S101_MIRAGE,40,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.96,False,High assessment score (0.93) for sh-01. Gap: FOOD
+832acf21-41b8-403a-8ef0-2adba5047799,scenario_A_S101_MIRAGE,40,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.96,False,High assessment score (0.93) for sh-01. Gap: WATER
+f5bef97a-6ada-45a0-b225-f870d1f2b633,scenario_A_S101_MIRAGE,40,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.96,False,High assessment score (0.93) for sh-02. Gap: FOOD
+5307d75a-7e74-4e6a-909b-a02b1718836f,scenario_A_S101_MIRAGE,40,ShelterAgent,SHELTER,0.9,0.9299999999999999,32.96,False,High assessment score (0.93) for sh-02. Gap: WATER
+a2101d09-ff30-434e-904c-ed4a942b61a8,scenario_A_S101_MIRAGE,40,LogisticsAgent,LOGISTICS,1.0,0.7,2.36,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+50dbfe13-7c39-4011-bde0-44cd7682c25e,scenario_A_S101_MIRAGE,40,LogisticsAgent,LOGISTICS,1.0,0.7,2.36,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+29f261df-363c-4a78-b39c-a478dc58fdd3,scenario_A_S101_MIRAGE,40,LogisticsAgent,LOGISTICS,1.0,0.7,2.36,False,Fulfilling allocation for ResourceType.WATER to sh-01
+ef6c6100-0b02-4122-983d-b8a81cbffc25,scenario_A_S101_MIRAGE,40,LogisticsAgent,LOGISTICS,1.0,0.7,2.36,False,Fulfilling allocation for ResourceType.WATER to sh-02
+a27d4cad-35dd-447e-81d2-56014b1a66c6,scenario_A_S101_MIRAGE,41,RiskAssessmentAgent,RISK,1.0,0.9,0.25,False,Cyclone intensity 3 exceeds safety thresholds.
+6559dda6-1371-48c2-9ff6-c5927b3f3534,scenario_A_S101_MIRAGE,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.05,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+d5019cf8-ecaf-4615-ba5b-4220d5c097c2,scenario_A_S101_MIRAGE,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.05,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+1e1413a9-6f00-453c-8c53-9e1bda8faad3,scenario_A_S101_MIRAGE,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.05,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+ea010615-8eb0-4f1f-bbb0-eafbf2951e90,scenario_A_S101_MIRAGE,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.05,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+e07d85c7-a141-4e3f-bfee-8e4812826928,scenario_A_S101_MIRAGE,41,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.1,False,High assessment score (0.93) for sh-01. Gap: FOOD
+5ae69d7a-3868-4aa0-93ca-921c9bb66b70,scenario_A_S101_MIRAGE,41,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.1,False,High assessment score (0.93) for sh-01. Gap: WATER
+095d1f2d-9c17-4933-ae54-a34aa7393058,scenario_A_S101_MIRAGE,41,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.1,False,High assessment score (0.93) for sh-02. Gap: FOOD
+7ec82af0-cc99-4a9a-91ef-3d1df342a5cb,scenario_A_S101_MIRAGE,41,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.1,False,High assessment score (0.93) for sh-02. Gap: WATER
+2a24c574-f551-44d2-8f4a-749ddddd7a97,scenario_A_S101_MIRAGE,41,LogisticsAgent,LOGISTICS,1.0,0.7,2.0,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+29a5b663-9e44-4dd3-adfa-c263de4c81e4,scenario_A_S101_MIRAGE,41,LogisticsAgent,LOGISTICS,1.0,0.7,2.0,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+98936b61-4d6b-412c-8ab7-78eee144b332,scenario_A_S101_MIRAGE,41,LogisticsAgent,LOGISTICS,1.0,0.7,2.0,False,Fulfilling allocation for ResourceType.WATER to sh-01
+2ae1cdff-0d51-47e4-9a1d-9de8a906a9e2,scenario_A_S101_MIRAGE,41,LogisticsAgent,LOGISTICS,1.0,0.7,2.0,False,Fulfilling allocation for ResourceType.WATER to sh-02
+c8a1e1b7-cb3f-4eb3-a1d0-632145740c16,scenario_A_S101_MIRAGE,42,RiskAssessmentAgent,RISK,1.0,0.9,0.38,False,Cyclone intensity 3 exceeds safety thresholds.
+3b74fdef-7e89-4f10-9840-14f18dc73652,scenario_A_S101_MIRAGE,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.3,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+27a764e1-54c8-4f8e-9e95-f9e8f6de2dba,scenario_A_S101_MIRAGE,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.3,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+8e4d9ff0-10a4-4450-a6fe-8204f6609ffa,scenario_A_S101_MIRAGE,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.3,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+d979bc7b-856d-4ea4-8602-fc181a2d64bb,scenario_A_S101_MIRAGE,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,1.3,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+c5be1dfe-b5a7-48ad-989e-c2d9c342c968,scenario_A_S101_MIRAGE,42,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.19,False,Scheduled state summary bulletin.
+3e70ae45-0e5e-4509-97bc-f535f1379726,scenario_A_S101_MIRAGE,42,ShelterAgent,SHELTER,0.9,0.9299999999999999,33.07,False,High assessment score (0.93) for sh-01. Gap: FOOD
+933b0e98-0832-4362-a5bf-5c305e13a5af,scenario_A_S101_MIRAGE,42,ShelterAgent,SHELTER,0.9,0.9299999999999999,33.07,False,High assessment score (0.93) for sh-01. Gap: WATER
+33863b7f-8250-4703-8e47-4dc4b2262f9f,scenario_A_S101_MIRAGE,42,ShelterAgent,SHELTER,0.9,0.9299999999999999,33.07,False,High assessment score (0.93) for sh-02. Gap: FOOD
+7ce97be2-8934-403f-b1f4-be1d5833a0c4,scenario_A_S101_MIRAGE,42,ShelterAgent,SHELTER,0.9,0.9299999999999999,33.07,False,High assessment score (0.93) for sh-02. Gap: WATER
+0029ce01-6d81-44cd-b744-6fed53f7b182,scenario_A_S101_MIRAGE,42,LogisticsAgent,LOGISTICS,1.0,0.7,1.95,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+5b612090-72c0-4d17-a106-407675a00cfa,scenario_A_S101_MIRAGE,42,LogisticsAgent,LOGISTICS,1.0,0.7,1.95,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+d7341414-0cca-4b39-af33-24728eee25c5,scenario_A_S101_MIRAGE,42,LogisticsAgent,LOGISTICS,1.0,0.7,1.95,False,Fulfilling allocation for ResourceType.WATER to sh-01
+08807436-ac14-42dd-bea0-82f9126faab5,scenario_A_S101_MIRAGE,42,LogisticsAgent,LOGISTICS,1.0,0.7,1.95,False,Fulfilling allocation for ResourceType.WATER to sh-02
+11ad9fd9-5561-466d-ba7a-1e4487f524dc,scenario_A_S101_MIRAGE,43,RiskAssessmentAgent,RISK,1.0,0.9,0.15,False,Cyclone intensity 3 exceeds safety thresholds.
+1a3c7516-a421-4cd8-b892-c046570269f9,scenario_A_S101_MIRAGE,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,9.31,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+7fb0713d-7b8e-40b0-80df-8a628b0254e8,scenario_A_S101_MIRAGE,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,9.31,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+31e7989a-60ab-41a9-89fc-d8f28b4e2e90,scenario_A_S101_MIRAGE,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,9.31,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+6a816550-f9b7-47a4-abff-3766b8bed815,scenario_A_S101_MIRAGE,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,9.31,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+783eeb8c-1b09-4756-9347-d12c4ab51f81,scenario_A_S101_MIRAGE,43,ShelterAgent,SHELTER,0.9,0.9299999999999999,151.17,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e63e7ee4-5e73-4097-95cf-4913f7d3c16f,scenario_A_S101_MIRAGE,43,ShelterAgent,SHELTER,0.9,0.9299999999999999,151.17,False,High assessment score (0.93) for sh-01. Gap: WATER
+6b8c02d4-02f3-4689-8f42-5c01f2d45203,scenario_A_S101_MIRAGE,43,ShelterAgent,SHELTER,0.9,0.9299999999999999,151.17,False,High assessment score (0.93) for sh-02. Gap: FOOD
+2012b53e-096e-43df-bc75-12eb9b7324d3,scenario_A_S101_MIRAGE,43,ShelterAgent,SHELTER,0.9,0.9299999999999999,151.17,False,High assessment score (0.93) for sh-02. Gap: WATER
+59273084-754f-4a3b-ac97-99813ac738d1,scenario_A_S101_MIRAGE,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+0e52a6d0-2df7-412a-9bfd-29c147338b75,scenario_A_S101_MIRAGE,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+c86a2e5e-6070-4c95-92d2-0c6c730a2fe2,scenario_A_S101_MIRAGE,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.WATER to sh-01
+e8c0badf-6257-4124-9960-816f0e7d562c,scenario_A_S101_MIRAGE,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.55,False,Fulfilling allocation for ResourceType.WATER to sh-02
+00ff08e8-f4e0-4343-9f62-5208b7f7ff19,scenario_A_S101_MIRAGE,44,RiskAssessmentAgent,RISK,1.0,0.9,0.26,False,Cyclone intensity 3 exceeds safety thresholds.
+a9a88a6f-6a21-4982-88db-d255a44008ec,scenario_A_S101_MIRAGE,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+f9c9161e-0a5d-44f4-905a-9b40f5355c00,scenario_A_S101_MIRAGE,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+13d1ac8a-4c13-4936-b63f-2bc57bc8bd35,scenario_A_S101_MIRAGE,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+0c28b977-9f7c-4c4d-b5c5-41808add2ceb,scenario_A_S101_MIRAGE,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+b85f2c3e-71f6-434d-b85f-13fc202c1853,scenario_A_S101_MIRAGE,44,ShelterAgent,SHELTER,0.9,0.9299999999999999,117.52,False,High assessment score (0.93) for sh-01. Gap: FOOD
+d834f3f1-b84b-4e39-827b-6e788993649d,scenario_A_S101_MIRAGE,44,ShelterAgent,SHELTER,0.9,0.9299999999999999,117.52,False,High assessment score (0.93) for sh-01. Gap: WATER
+7cc4654c-680b-4f3f-a865-69c2ad3334bd,scenario_A_S101_MIRAGE,44,ShelterAgent,SHELTER,0.9,0.9299999999999999,117.52,False,High assessment score (0.93) for sh-02. Gap: FOOD
+257d6baa-12bd-48b7-b039-e04e51b27eca,scenario_A_S101_MIRAGE,44,ShelterAgent,SHELTER,0.9,0.9299999999999999,117.52,False,High assessment score (0.93) for sh-02. Gap: WATER
+c981cb1f-44ab-4aa1-bbb5-e0b39634b727,scenario_A_S101_MIRAGE,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.64,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+3f9daddc-3424-4a40-989a-be050af5dc1d,scenario_A_S101_MIRAGE,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.64,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+28544f6b-8c66-49b1-93f6-1072eacff23f,scenario_A_S101_MIRAGE,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.64,False,Fulfilling allocation for ResourceType.WATER to sh-01
+27bbea8e-347f-4655-b103-c9e297a3a1ca,scenario_A_S101_MIRAGE,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.64,False,Fulfilling allocation for ResourceType.WATER to sh-02
+ea96877d-13c4-4586-9b78-c000ae56fd73,scenario_A_S101_MIRAGE,45,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 3 exceeds safety thresholds.
+5613ef0c-a7d8-4d99-bbdc-f327d6e5373b,scenario_A_S101_MIRAGE,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.53,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+8f9c05a3-0099-4704-892d-3e43fb58c686,scenario_A_S101_MIRAGE,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.53,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+62b4a621-31c9-46f9-a4df-eb329297b45f,scenario_A_S101_MIRAGE,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.53,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+f203dad4-bd39-44fe-ba61-23d873ce3409,scenario_A_S101_MIRAGE,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.53,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+18e9cb45-9b97-4a4e-8dc5-ec7a2728bf0f,scenario_A_S101_MIRAGE,45,ShelterAgent,SHELTER,0.9,0.9299999999999999,48.74,False,High assessment score (0.93) for sh-01. Gap: FOOD
+e9b849e2-9662-4d54-a6de-1812023bf584,scenario_A_S101_MIRAGE,45,ShelterAgent,SHELTER,0.9,0.9299999999999999,48.74,False,High assessment score (0.93) for sh-01. Gap: WATER
+313e8ffe-eac7-4c0a-9ffa-bafc0a01ee5f,scenario_A_S101_MIRAGE,45,ShelterAgent,SHELTER,0.9,0.9299999999999999,48.74,False,High assessment score (0.93) for sh-02. Gap: FOOD
+8b2533dc-183a-426a-94f5-dfaf7fe0acb7,scenario_A_S101_MIRAGE,45,ShelterAgent,SHELTER,0.9,0.9299999999999999,48.74,False,High assessment score (0.93) for sh-02. Gap: WATER
+fd849f6e-24cb-4236-9abd-522d8cac437a,scenario_A_S101_MIRAGE,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+2a30644a-d3ce-48d6-a896-7830e3be4c19,scenario_A_S101_MIRAGE,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+d7629c49-e44e-4a96-ad6f-bd17ebc9570d,scenario_A_S101_MIRAGE,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.WATER to sh-01
+eb8cbb55-57a6-4583-ab33-5f11337b5882,scenario_A_S101_MIRAGE,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.51,False,Fulfilling allocation for ResourceType.WATER to sh-02
+7bc1dae6-c766-4493-ac08-28f08a44128c,scenario_A_S101_MIRAGE,46,RiskAssessmentAgent,RISK,1.0,0.9,0.15,False,Cyclone intensity 3 exceeds safety thresholds.
+66f55f2e-1836-4957-aabf-81d75804f00f,scenario_A_S101_MIRAGE,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,3.66,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+20c4da22-9e05-4210-8634-8302eff6697d,scenario_A_S101_MIRAGE,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,3.66,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+3f66dc06-6e9e-4a9b-a1da-0e8059a246ff,scenario_A_S101_MIRAGE,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,3.66,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+e282a916-8683-4b3f-a6cb-867e66280d10,scenario_A_S101_MIRAGE,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,3.66,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+d37fcb90-4652-4e8f-ac4b-05241a851979,scenario_A_S101_MIRAGE,46,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.99,False,High assessment score (0.93) for sh-01. Gap: FOOD
+81252d11-aba4-424e-9ff9-fb6bee34ddac,scenario_A_S101_MIRAGE,46,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.99,False,High assessment score (0.93) for sh-01. Gap: WATER
+7c0b9d0a-d88f-4ac5-9c3f-ea8072cade2a,scenario_A_S101_MIRAGE,46,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.99,False,High assessment score (0.93) for sh-02. Gap: FOOD
+73be45de-a518-44ec-b79d-edefaf703aa5,scenario_A_S101_MIRAGE,46,ShelterAgent,SHELTER,0.9,0.9299999999999999,18.99,False,High assessment score (0.93) for sh-02. Gap: WATER
+b3d95744-7d2f-49dd-93ef-d5b9ba1f3a53,scenario_A_S101_MIRAGE,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+a6beff4d-8ad6-4d64-9e9f-3cca9fca6d15,scenario_A_S101_MIRAGE,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+2e0acad9-254f-4da4-aeb3-6ce9bc1938ff,scenario_A_S101_MIRAGE,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to sh-01
+3ecdc2b0-ceaf-49d8-8981-051a87b51c54,scenario_A_S101_MIRAGE,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to sh-02
+51a3f17a-41c6-4d20-96e8-2891eacc607a,scenario_A_S101_MIRAGE,47,RiskAssessmentAgent,RISK,1.0,0.9,0.17,False,Cyclone intensity 3 exceeds safety thresholds.
+c4b90a87-2722-4792-8b55-b8b09680eb16,scenario_A_S101_MIRAGE,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,4.31,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+0962f938-2b73-485b-8159-83e3b84fd8c2,scenario_A_S101_MIRAGE,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,4.31,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+2f989e26-aecf-4f85-b8b9-83312721a073,scenario_A_S101_MIRAGE,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,4.31,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+6b4c9b42-494c-401b-aa0c-813098870c22,scenario_A_S101_MIRAGE,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,4.31,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+a9afb31d-24f8-4e3e-a378-db76287a0090,scenario_A_S101_MIRAGE,47,ShelterAgent,SHELTER,0.9,0.9299999999999999,237.25,False,High assessment score (0.93) for sh-01. Gap: FOOD
+618099d7-f38d-4eef-8944-9f222cfa0407,scenario_A_S101_MIRAGE,47,ShelterAgent,SHELTER,0.9,0.9299999999999999,237.25,False,High assessment score (0.93) for sh-01. Gap: WATER
+48dde234-3074-460f-a37b-71fc7670aee1,scenario_A_S101_MIRAGE,47,ShelterAgent,SHELTER,0.9,0.9299999999999999,237.25,False,High assessment score (0.93) for sh-02. Gap: FOOD
+55cff03f-d92b-4ed1-96e1-7a2916c564c0,scenario_A_S101_MIRAGE,47,ShelterAgent,SHELTER,0.9,0.9299999999999999,237.25,False,High assessment score (0.93) for sh-02. Gap: WATER
+8e5f6f42-4641-4429-987e-bd3d98e606fd,scenario_A_S101_MIRAGE,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.62,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+ba4e9cbd-eee8-47dc-85bc-c2c66a733c51,scenario_A_S101_MIRAGE,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.62,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+44cd8c2a-2f87-4bc1-91f2-5da4714991dc,scenario_A_S101_MIRAGE,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.62,False,Fulfilling allocation for ResourceType.WATER to sh-01
+116ada60-9796-4f57-8974-c6b6bab0914c,scenario_A_S101_MIRAGE,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.62,False,Fulfilling allocation for ResourceType.WATER to sh-02
+41ea6967-594b-4d67-be70-240b9aad6635,scenario_A_S101_MIRAGE,48,RiskAssessmentAgent,RISK,1.0,0.9,0.39,False,Cyclone intensity 3 exceeds safety thresholds.
+38da13cd-0407-40c5-9d90-e7d6b5f70102,scenario_A_S101_MIRAGE,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.69,False,Low stock detected for ResourceType.WATER at shelter sh-01.
+d7ad92a6-efcc-47f9-86c6-bc7b91fe864d,scenario_A_S101_MIRAGE,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.69,False,Low stock detected for ResourceType.FOOD at shelter sh-01.
+0d5a8974-6906-4030-a1b5-3b842410a4b6,scenario_A_S101_MIRAGE,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.69,False,Low stock detected for ResourceType.WATER at shelter sh-02.
+4711936e-68db-4629-87db-01f85517075d,scenario_A_S101_MIRAGE,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,8.69,False,Low stock detected for ResourceType.FOOD at shelter sh-02.
+f6ab1038-6a94-4965-aa89-1332fde0d24f,scenario_A_S101_MIRAGE,48,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.21,False,Scheduled state summary bulletin.
+83ffa842-745b-4938-80d6-92e63b1088dd,scenario_A_S101_MIRAGE,48,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.67,False,High assessment score (0.93) for sh-01. Gap: FOOD
+aa81903e-81b1-4e8c-81ee-a8024d5cce7f,scenario_A_S101_MIRAGE,48,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.67,False,High assessment score (0.93) for sh-01. Gap: WATER
+6a01a213-e190-4976-b09f-597e8bde4cb6,scenario_A_S101_MIRAGE,48,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.67,False,High assessment score (0.93) for sh-02. Gap: FOOD
+68e27948-c3be-4e86-abd5-97a6d691a61b,scenario_A_S101_MIRAGE,48,ShelterAgent,SHELTER,0.9,0.9299999999999999,19.67,False,High assessment score (0.93) for sh-02. Gap: WATER
+a522e967-6f7b-4ecd-90e7-7632c195daf5,scenario_A_S101_MIRAGE,48,LogisticsAgent,LOGISTICS,1.0,0.7,2.81,False,Fulfilling allocation for ResourceType.FOOD to sh-01
+ccb6bf87-7e41-4511-9ef8-c25b65f00f7b,scenario_A_S101_MIRAGE,48,LogisticsAgent,LOGISTICS,1.0,0.7,2.81,False,Fulfilling allocation for ResourceType.FOOD to sh-02
+5650e7a8-7af0-4cad-80ed-01455486621d,scenario_A_S101_MIRAGE,48,LogisticsAgent,LOGISTICS,1.0,0.7,2.81,False,Fulfilling allocation for ResourceType.WATER to sh-01
+169377f9-dde1-443f-8187-ad23e7457195,scenario_A_S101_MIRAGE,48,LogisticsAgent,LOGISTICS,1.0,0.7,2.81,False,Fulfilling allocation for ResourceType.WATER to sh-02

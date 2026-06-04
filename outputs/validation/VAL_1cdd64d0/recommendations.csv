@@ -1,0 +1,366 @@
+rec_id,run_id,tick,agent,category,confidence,priority,latency_ms,accepted,rationale
+0c2a1cd0-4533-4752-8c1b-94f841c2c92a,VAL_1cdd64d0,1,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 3 exceeds safety thresholds.
+018188ce-ce61-4320-9e9b-5d723150c080,VAL_1cdd64d0,1,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.17,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+53e60d29-2795-4390-888e-58696472e7ef,VAL_1cdd64d0,2,RiskAssessmentAgent,RISK,1.0,0.9,0.08,False,Cyclone intensity 3 exceeds safety thresholds.
+72391e9d-63c9-4d3e-84ce-83c8a454f019,VAL_1cdd64d0,2,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+625c6d30-1d25-486e-8641-9ebcc832b568,VAL_1cdd64d0,3,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 3 exceeds safety thresholds.
+49a320e6-a337-46a5-aa7d-3c9efbeccaf5,VAL_1cdd64d0,3,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+ebcac819-5f26-489a-8f9f-c4e307145849,VAL_1cdd64d0,4,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 3 exceeds safety thresholds.
+6a4502f0-7bd3-46c0-b457-737cd8105652,VAL_1cdd64d0,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+6ad94449-cdff-4207-9da4-660274aaa2a1,VAL_1cdd64d0,5,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 3 exceeds safety thresholds.
+345ac49a-58c8-4522-90d7-ec3230c40d50,VAL_1cdd64d0,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+df8e0d7c-cc2b-4e8d-b5e3-22ea0b3c9ba7,VAL_1cdd64d0,5,ShelterAgent,SHELTER,0.9,0.16345714285714286,2.03,False,High assessment score (0.16) for SH_02. Gap: WATER
+8541ea16-b8e5-47bb-8a9d-2514facf7059,VAL_1cdd64d0,6,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+96483b9b-b553-41ec-b20b-7e8ad1d5f873,VAL_1cdd64d0,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+e8525337-7f66-4f4b-8d78-d37145a7b57b,VAL_1cdd64d0,6,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+470be194-3a6a-4e4a-bbb8-587e686725c0,VAL_1cdd64d0,6,ShelterAgent,SHELTER,0.9,0.2001142857142857,2.59,False,High assessment score (0.20) for SH_02. Gap: WATER
+b86498d1-4bbd-4f8d-9b4f-1a7f7717ad72,VAL_1cdd64d0,6,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_02
+1b45c236-04a6-4dc3-8777-2cb31acd803a,VAL_1cdd64d0,7,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 4 exceeds safety thresholds.
+fd1835a8-26e6-4ad9-83b2-41f01556697d,VAL_1cdd64d0,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+9a67da40-8aa3-40e3-8000-59f35eed5a97,VAL_1cdd64d0,7,ShelterAgent,SHELTER,0.9,0.22158571428571427,2.3,False,High assessment score (0.22) for SH_02. Gap: WATER
+3a84bdd1-13b8-4cfb-a3f5-0de3bfb4ab25,VAL_1cdd64d0,7,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_02
+9a6493e1-c44e-4f5f-a933-9b58cd16d882,VAL_1cdd64d0,8,RiskAssessmentAgent,RISK,1.0,0.9,0.1,False,Cyclone intensity 4 exceeds safety thresholds.
+d6027039-d343-402d-8a12-6233ccfdd17f,VAL_1cdd64d0,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+6b9303ad-9c6c-44b9-a433-0ed62bbbcc0d,VAL_1cdd64d0,8,ShelterAgent,SHELTER,0.9,0.23918571428571428,2.89,False,High assessment score (0.24) for SH_02. Gap: WATER
+9bf96eca-58ac-44c6-bcfb-7f5e2257c182,VAL_1cdd64d0,8,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_02
+b12af420-3299-477b-bf90-ea35fab0ce21,VAL_1cdd64d0,9,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+f6172c4e-4197-4b6a-b83e-aa6b55fd590f,VAL_1cdd64d0,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+0ffebd80-e2cc-4eee-91f7-82a528294567,VAL_1cdd64d0,9,ShelterAgent,SHELTER,0.9,0.25271428571428567,2.48,False,High assessment score (0.25) for SH_02. Gap: WATER
+c4e24ae6-a23c-4229-b170-5348bbedde50,VAL_1cdd64d0,9,LogisticsAgent,LOGISTICS,1.0,0.7,0.08,False,Fulfilling allocation for ResourceType.WATER to SH_02
+2301ec94-7d26-4a81-927b-6ffe9be3e509,VAL_1cdd64d0,10,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+bc33f6f3-ad6c-4bcb-857e-f528ed81bea1,VAL_1cdd64d0,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+09e90f1d-10fa-439e-8f71-f68dd7d77cb1,VAL_1cdd64d0,10,ShelterAgent,SHELTER,0.9,0.2638857142857143,2.87,False,High assessment score (0.26) for SH_02. Gap: WATER
+f0400ac3-2d41-4d78-a25b-97682eaef2f4,VAL_1cdd64d0,10,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_02
+ce4d9c0a-e595-4795-be51-eecb9ac3f9b9,VAL_1cdd64d0,11,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+bad65083-0f41-4d10-a197-d748e883f515,VAL_1cdd64d0,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+adc3234e-49bd-47af-aee9-a4dc5a8574ad,VAL_1cdd64d0,11,ShelterAgent,SHELTER,0.9,0.2868428571428571,2.9,False,High assessment score (0.29) for SH_02. Gap: FOOD
+e0616baf-73ea-4760-a9b7-ef3b3399aebb,VAL_1cdd64d0,11,ShelterAgent,SHELTER,0.9,0.2868428571428571,2.9,False,High assessment score (0.29) for SH_02. Gap: WATER
+0e3d088c-8e35-4403-b196-2b3fe0b5f61f,VAL_1cdd64d0,11,LogisticsAgent,LOGISTICS,1.0,0.7,0.08,False,Fulfilling allocation for ResourceType.WATER to SH_02
+90461853-4af3-4e4f-96d8-f9b01a3c9fbd,VAL_1cdd64d0,12,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+57c2ada0-10b0-4ce8-b89c-6dd49c0d4e92,VAL_1cdd64d0,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.21,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a507ceac-b4a7-4a65-b73b-fefd18be14a8,VAL_1cdd64d0,12,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+f8a064f4-cf4f-4207-a4b8-e875529af61a,VAL_1cdd64d0,12,ShelterAgent,SHELTER,0.9,0.30894285714285713,1.98,False,High assessment score (0.31) for SH_02. Gap: FOOD
+5ecd847a-b283-4227-8708-7afd17a6e7cc,VAL_1cdd64d0,12,ShelterAgent,SHELTER,0.9,0.30894285714285713,1.98,False,High assessment score (0.31) for SH_02. Gap: WATER
+8b6ea685-9501-44db-a8b6-70a8390a7cb9,VAL_1cdd64d0,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+036a1a8d-492c-40be-8626-c1730b4a30a6,VAL_1cdd64d0,12,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+fc723cc3-f1e0-40cc-b8b4-77bfdbc123fb,VAL_1cdd64d0,13,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+115dd19d-84df-4725-967d-097e41f8ba89,VAL_1cdd64d0,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+cb3a6a5b-baad-4962-a9bd-d5f8a35c7bd1,VAL_1cdd64d0,13,ShelterAgent,SHELTER,0.9,0.32761428571428575,1.94,False,High assessment score (0.33) for SH_02. Gap: FOOD
+e219058a-5c01-4e2c-9727-d51fe0cae098,VAL_1cdd64d0,13,ShelterAgent,SHELTER,0.9,0.32761428571428575,1.94,False,High assessment score (0.33) for SH_02. Gap: WATER
+9a6f2938-eae2-455a-9a88-3a79836d6283,VAL_1cdd64d0,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+2cff3d42-b85c-4c2b-af0c-bcd5ec64a4da,VAL_1cdd64d0,13,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_02
+09e031f1-a11b-4792-a027-26918c64591e,VAL_1cdd64d0,14,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+4f9f065e-e5ec-4202-ad78-7ce59ab6ec9d,VAL_1cdd64d0,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+e31d62a1-9111-4e8b-aa13-4c672de2ba05,VAL_1cdd64d0,14,ShelterAgent,SHELTER,0.9,0.3449857142857143,2.42,False,High assessment score (0.34) for SH_02. Gap: FOOD
+dadee900-e5cc-437c-9122-eacb555cfc2d,VAL_1cdd64d0,14,ShelterAgent,SHELTER,0.9,0.3449857142857143,2.42,False,High assessment score (0.34) for SH_02. Gap: WATER
+92ff56a4-265f-4440-8154-dbaada91d804,VAL_1cdd64d0,14,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+72ca3d13-f0f6-4450-b2c5-66a67efa0c63,VAL_1cdd64d0,14,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_02
+5eccb3e2-105d-48ea-ba28-b3aefc8dc3f3,VAL_1cdd64d0,15,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+d888d288-9c86-4a8c-9183-131a15035ab6,VAL_1cdd64d0,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.2,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a231b82d-a81f-4899-b1b7-c68abdae11de,VAL_1cdd64d0,15,ShelterAgent,SHELTER,0.9,0.3595857142857143,2.01,False,High assessment score (0.36) for SH_02. Gap: FOOD
+d0b7c8c6-9cc7-4b17-a1e3-3103c386fb4c,VAL_1cdd64d0,15,ShelterAgent,SHELTER,0.9,0.3595857142857143,2.01,False,High assessment score (0.36) for SH_02. Gap: WATER
+3ca7239e-b7fc-4334-850d-00de7a29bec6,VAL_1cdd64d0,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+a3821eee-c267-49f4-800b-de113e02923c,VAL_1cdd64d0,15,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_02
+de74bd74-6f4c-4eed-8207-dab8a0621ee6,VAL_1cdd64d0,16,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 4 exceeds safety thresholds.
+43d2fa35-114c-48be-8ecb-8966c8c7d8b1,VAL_1cdd64d0,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+5a9f701b-3c74-4b4a-b8f1-dbc3c3d2cf85,VAL_1cdd64d0,16,ShelterAgent,SHELTER,0.9,0.37247142857142856,2.14,False,High assessment score (0.37) for SH_02. Gap: FOOD
+fcb4f83a-e911-412b-94ff-452996fff8cc,VAL_1cdd64d0,16,ShelterAgent,SHELTER,0.9,0.37247142857142856,2.14,False,High assessment score (0.37) for SH_02. Gap: WATER
+08efcdc5-e203-4b75-afd1-876c9592ee5d,VAL_1cdd64d0,16,LogisticsAgent,LOGISTICS,1.0,0.7,0.09,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+ee1d6553-2748-433e-91d0-e9c84f1af3d9,VAL_1cdd64d0,16,LogisticsAgent,LOGISTICS,1.0,0.7,0.09,False,Fulfilling allocation for ResourceType.WATER to SH_02
+cfbfc8c0-2bbc-414f-a8f3-69e82a60d44a,VAL_1cdd64d0,17,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+082f551e-1571-4a17-9015-060a2674c011,VAL_1cdd64d0,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+d64b88ea-783c-48eb-a494-829731e417d7,VAL_1cdd64d0,17,ShelterAgent,SHELTER,0.9,0.38428571428571423,1.79,False,High assessment score (0.38) for SH_02. Gap: FOOD
+c1df7c87-a74b-481d-ae86-6debec9442a8,VAL_1cdd64d0,17,ShelterAgent,SHELTER,0.9,0.38428571428571423,1.79,False,High assessment score (0.38) for SH_02. Gap: WATER
+0842f14e-8ca4-4d76-8f7c-db881b3a7413,VAL_1cdd64d0,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+3155d05b-bcaa-4c08-ae1e-e0c3c1923c74,VAL_1cdd64d0,17,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_02
+5077ebff-b59f-42c5-82f5-3fe72b2c4e35,VAL_1cdd64d0,18,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 4 exceeds safety thresholds.
+5696f867-77a1-423f-bcc6-5042a3d3fabb,VAL_1cdd64d0,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+3cda1930-e74b-4f8a-926f-b0c96102e442,VAL_1cdd64d0,18,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.05,False,Scheduled state summary bulletin.
+df23d1b0-98e9-4a98-8eb7-7d8ea6b5650b,VAL_1cdd64d0,18,ShelterAgent,SHELTER,0.9,0.3944,2.02,False,High assessment score (0.39) for SH_02. Gap: FOOD
+f9bd78da-03fd-43ad-bee6-4359a989c1fd,VAL_1cdd64d0,18,ShelterAgent,SHELTER,0.9,0.3944,2.02,False,High assessment score (0.39) for SH_02. Gap: WATER
+3ed9ef20-222e-4d19-ae82-5f7f43d9419c,VAL_1cdd64d0,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+610e6e13-87d2-477a-9452-61c96959c8bb,VAL_1cdd64d0,18,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_02
+61fe7dc6-57d8-49cb-bfc1-1d50ca67b627,VAL_1cdd64d0,19,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 5 exceeds safety thresholds.
+63507c88-7c01-4bf4-ad7b-61fbc4d9fb0a,VAL_1cdd64d0,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a0fd45c6-4bf5-4a77-9e01-0df1e9276464,VAL_1cdd64d0,19,ShelterAgent,SHELTER,0.9,0.17378285714285713,2.18,False,High assessment score (0.17) for SH_01. Gap: WATER
+c699e9fe-ecab-42d7-b61c-265249463223,VAL_1cdd64d0,19,ShelterAgent,SHELTER,0.9,0.4061714285714285,2.18,False,High assessment score (0.41) for SH_02. Gap: FOOD
+78e23399-043f-4307-a497-c2b1c1ea09f8,VAL_1cdd64d0,19,ShelterAgent,SHELTER,0.9,0.4061714285714285,2.18,False,High assessment score (0.41) for SH_02. Gap: WATER
+db487311-6b89-4ed6-87b1-24b26fe56836,VAL_1cdd64d0,19,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+165e9592-ca58-4d1a-ad40-ec6d999c8dcb,VAL_1cdd64d0,19,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.WATER to SH_02
+7b79aa05-056c-4fdf-b331-542c41b1c996,VAL_1cdd64d0,20,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 5 exceeds safety thresholds.
+00e741ad-4df7-40f3-a2f8-701463e7802e,VAL_1cdd64d0,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a102ceed-e91a-4d28-8c45-e9a64b9677c3,VAL_1cdd64d0,20,ShelterAgent,SHELTER,0.9,0.1851342857142857,2.53,False,High assessment score (0.19) for SH_01. Gap: WATER
+b52ddbb0-b227-440c-8896-1a46866a667f,VAL_1cdd64d0,20,ShelterAgent,SHELTER,0.9,0.41687142857142856,2.53,False,High assessment score (0.42) for SH_02. Gap: FOOD
+2fe9f5ef-3267-463c-b110-ef9c0943ea61,VAL_1cdd64d0,20,ShelterAgent,SHELTER,0.9,0.41687142857142856,2.53,False,High assessment score (0.42) for SH_02. Gap: WATER
+e90b2ea1-92db-4285-b4c9-7905a3b65fa5,VAL_1cdd64d0,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_01
+131f882e-4438-4a83-835b-86f3eee04dab,VAL_1cdd64d0,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_02
+51a55c2b-fc01-4967-baa9-e6e6f7e9b401,VAL_1cdd64d0,20,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+e62fdf03-d8ca-44c4-91da-befb7c6810f2,VAL_1cdd64d0,21,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+7daa42ee-128f-42ba-bfff-86b8c9091fb8,VAL_1cdd64d0,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.53,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+0d5e0100-8404-4155-aaa2-0e90ff35ae3e,VAL_1cdd64d0,21,ShelterAgent,SHELTER,0.9,0.1956285714285714,2.02,False,High assessment score (0.20) for SH_01. Gap: WATER
+d369bb8b-2170-4b7a-927d-bab1afc037a2,VAL_1cdd64d0,21,ShelterAgent,SHELTER,0.9,0.42692857142857144,2.02,False,High assessment score (0.43) for SH_02. Gap: FOOD
+00f5d479-1bdf-4f49-b04a-a08432b38fae,VAL_1cdd64d0,21,ShelterAgent,SHELTER,0.9,0.42692857142857144,2.02,False,High assessment score (0.43) for SH_02. Gap: WATER
+19bd3021-c995-44df-b1cb-2cb577fb7182,VAL_1cdd64d0,21,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_01
+9554bcd9-85b8-4351-b97b-13b2124c8b21,VAL_1cdd64d0,21,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+b0214524-5405-4881-b371-e170a71c0c34,VAL_1cdd64d0,21,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+377e6d8f-0512-45ff-a7ba-1b0307a199f0,VAL_1cdd64d0,22,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+4f530fe5-e4a0-4266-b499-fe0cbfc70a9d,VAL_1cdd64d0,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+da358e97-9312-4713-846e-e1f041f903b3,VAL_1cdd64d0,22,ShelterAgent,SHELTER,0.9,0.20483714285714286,2.93,False,High assessment score (0.20) for SH_01. Gap: WATER
+507244f6-38ce-4a9d-bca2-5a1431f2ca7b,VAL_1cdd64d0,22,ShelterAgent,SHELTER,0.9,0.43634285714285714,2.93,False,High assessment score (0.44) for SH_02. Gap: FOOD
+47dd8bb7-3975-4e69-a7d4-f40973197422,VAL_1cdd64d0,22,ShelterAgent,SHELTER,0.9,0.43634285714285714,2.93,False,High assessment score (0.44) for SH_02. Gap: WATER
+6212b130-a715-486c-bb3f-87fcfdd9dbe8,VAL_1cdd64d0,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_01
+8fd03b21-d89c-420c-a83d-bb13a680494e,VAL_1cdd64d0,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_02
+721cfc53-c73f-4729-860f-62d234fea594,VAL_1cdd64d0,22,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+a20eaee8-7753-4456-9292-1ce7e7805f66,VAL_1cdd64d0,23,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+35a257a7-a410-4ea4-81e6-8c86e05b0457,VAL_1cdd64d0,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+09f5b50c-0a66-4bfe-9825-4edb79c452f9,VAL_1cdd64d0,23,ShelterAgent,SHELTER,0.9,0.21340285714285712,4.77,False,High assessment score (0.21) for SH_01. Gap: WATER
+2f5ccc8d-5b02-432c-9748-1d33ea358c4e,VAL_1cdd64d0,23,ShelterAgent,SHELTER,0.9,0.44489999999999996,4.77,False,High assessment score (0.44) for SH_02. Gap: FOOD
+c777fbea-24cf-4028-ade0-0027768a7f81,VAL_1cdd64d0,23,ShelterAgent,SHELTER,0.9,0.44489999999999996,4.77,False,High assessment score (0.44) for SH_02. Gap: WATER
+d9d54dde-3513-4081-af1e-5a9c653b590a,VAL_1cdd64d0,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_01
+ddef3219-4bbe-41b7-8673-8b73dfe84469,VAL_1cdd64d0,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+10ea0b72-7044-4b68-b930-e03a0d1f8a16,VAL_1cdd64d0,23,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+e01ab65b-692c-43fb-8215-d70ac63b0c92,VAL_1cdd64d0,24,RiskAssessmentAgent,RISK,1.0,0.9,0.2,False,Cyclone intensity 5 exceeds safety thresholds.
+ff8e95ce-34e2-45ff-a4a3-0d705f1cfc6c,VAL_1cdd64d0,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.33,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+7e0c0142-bf36-4b27-bd4c-616418db42c9,VAL_1cdd64d0,24,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.07,False,Scheduled state summary bulletin.
+1dee1e92-7d0d-4e89-bfa1-136d534d17b2,VAL_1cdd64d0,24,ShelterAgent,SHELTER,0.9,0.22111142857142857,1.9,False,High assessment score (0.22) for SH_01. Gap: WATER
+75762ba0-e78a-43de-af73-50d02054b763,VAL_1cdd64d0,24,ShelterAgent,SHELTER,0.9,0.45324285714285717,1.9,False,High assessment score (0.45) for SH_02. Gap: FOOD
+689bad2a-1f49-43c5-bd59-30d2716c5508,VAL_1cdd64d0,24,ShelterAgent,SHELTER,0.9,0.45324285714285717,1.9,False,High assessment score (0.45) for SH_02. Gap: WATER
+ca2595e9-b189-46fe-b740-9e725df269b2,VAL_1cdd64d0,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_01
+92339876-6a1e-466a-85fc-82fd5ef17f24,VAL_1cdd64d0,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_02
+cd6594e6-6bab-4c54-b2e1-2cc0b0f9264e,VAL_1cdd64d0,24,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+6f60e2e4-9789-4152-8df2-ff83d46d4f06,VAL_1cdd64d0,25,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 5 exceeds safety thresholds.
+5584f06d-f130-4453-8eee-76ec1543b3e8,VAL_1cdd64d0,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+dcd6aa99-b097-40c3-b9da-f0c0343dcec4,VAL_1cdd64d0,25,ShelterAgent,SHELTER,0.9,0.22839142857142858,2.36,False,High assessment score (0.23) for SH_01. Gap: WATER
+5e625374-c073-4c09-929b-1531ddc28f0d,VAL_1cdd64d0,25,ShelterAgent,SHELTER,0.9,0.46094285714285715,2.36,False,High assessment score (0.46) for SH_02. Gap: FOOD
+b62cbe44-4d59-44ed-b6ef-cc72863888c1,VAL_1cdd64d0,25,ShelterAgent,SHELTER,0.9,0.46094285714285715,2.36,False,High assessment score (0.46) for SH_02. Gap: WATER
+5e80282d-4606-4dba-8f61-bfc36603a39b,VAL_1cdd64d0,25,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_01
+ccef6007-5e5b-4c77-91c1-f61e2ea0e30e,VAL_1cdd64d0,25,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_02
+cce1edfd-445f-412b-8c6c-5d727c179252,VAL_1cdd64d0,25,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+7d8307f8-1284-4335-8d7c-4fa46eed7636,VAL_1cdd64d0,26,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 5 exceeds safety thresholds.
+ebd4344b-78ae-4f85-9290-0ed6571313d6,VAL_1cdd64d0,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+51275c8e-8417-4ca1-a7fc-f5383df21e95,VAL_1cdd64d0,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+dcc671ab-6725-419b-9508-762fedf3f63a,VAL_1cdd64d0,26,ShelterAgent,SHELTER,0.9,0.23553714285714286,1.61,False,High assessment score (0.24) for SH_01. Gap: WATER
+8f067520-4846-4521-a9b7-456891a3c3e9,VAL_1cdd64d0,26,ShelterAgent,SHELTER,0.9,0.46905714285714284,1.61,False,High assessment score (0.47) for SH_02. Gap: FOOD
+04ebace4-d0ea-421d-bb11-3582b15d07b5,VAL_1cdd64d0,26,ShelterAgent,SHELTER,0.9,0.46905714285714284,1.61,False,High assessment score (0.47) for SH_02. Gap: WATER
+6bcb2559-f8a7-4e9b-8f3a-a7680283d1a3,VAL_1cdd64d0,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_01
+2872ff87-7886-4bbf-9a9a-cd51d85c4530,VAL_1cdd64d0,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_02
+eb9c25e0-1348-4419-9c27-2d30297d6490,VAL_1cdd64d0,26,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+2f8ca792-0057-4ff8-9926-c9771618563e,VAL_1cdd64d0,27,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+f3472947-6be9-4474-ad00-f601fa2e888d,VAL_1cdd64d0,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+1359222e-a0e8-40d9-af63-8cfde3af14f9,VAL_1cdd64d0,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+6f96ac6d-691b-44a8-ad59-0645088c4221,VAL_1cdd64d0,27,ShelterAgent,SHELTER,0.9,0.24204,2.76,False,High assessment score (0.24) for SH_01. Gap: WATER
+819b2eb3-e988-445f-b260-ee532ab7fbe9,VAL_1cdd64d0,27,ShelterAgent,SHELTER,0.9,0.4765285714285714,2.76,False,High assessment score (0.48) for SH_02. Gap: FOOD
+6bd54df1-9e9b-4658-82fb-9b0120584b76,VAL_1cdd64d0,27,ShelterAgent,SHELTER,0.9,0.4765285714285714,2.76,False,High assessment score (0.48) for SH_02. Gap: WATER
+2eb37c83-d797-469f-8710-936aaad56e14,VAL_1cdd64d0,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_01
+c04e1504-96cd-4b29-9556-b7adcc8f9fcf,VAL_1cdd64d0,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_02
+0cece672-c2df-4081-867b-d24187afcfc5,VAL_1cdd64d0,27,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+cb34e431-fb49-42ec-a8bf-a7ac2df7ec58,VAL_1cdd64d0,28,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+b2a5adab-cc81-45bd-a074-963a84d90dfa,VAL_1cdd64d0,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+108bf564-a6f6-4ede-92d9-27e49533d467,VAL_1cdd64d0,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+02e1125f-7b34-4526-b9e5-09919b619bfd,VAL_1cdd64d0,28,ShelterAgent,SHELTER,0.9,0.24811428571428573,2.17,False,High assessment score (0.25) for SH_01. Gap: WATER
+f8067f37-b36a-4429-b5ab-e324fbe65880,VAL_1cdd64d0,28,ShelterAgent,SHELTER,0.9,0.48378571428571426,2.17,False,High assessment score (0.48) for SH_02. Gap: FOOD
+182871d7-d1c6-4572-95be-574cfcd6d5bb,VAL_1cdd64d0,28,ShelterAgent,SHELTER,0.9,0.48378571428571426,2.17,False,High assessment score (0.48) for SH_02. Gap: WATER
+fd3d93dc-db0a-4adf-82d2-b0451ae646ce,VAL_1cdd64d0,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.15,False,Fulfilling allocation for ResourceType.WATER to SH_01
+0425f04d-f296-431e-ac31-5e1db3daa1c5,VAL_1cdd64d0,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.15,False,Fulfilling allocation for ResourceType.WATER to SH_02
+572c8717-1c2e-4065-9c3b-d6cf1e81bc96,VAL_1cdd64d0,28,LogisticsAgent,LOGISTICS,1.0,0.7,0.15,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+0d9c002b-a315-4332-90b8-6f44f1b250ea,VAL_1cdd64d0,29,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+b6a63d59-6edf-466a-b710-2c9b68051859,VAL_1cdd64d0,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a849a3ad-84ae-4028-96a9-3d10176d29c9,VAL_1cdd64d0,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+6b5f303d-e273-412e-aef7-934dc3164058,VAL_1cdd64d0,29,ShelterAgent,SHELTER,0.9,0.2539742857142857,2.01,False,High assessment score (0.25) for SH_01. Gap: WATER
+70756883-ddc4-41b1-b3b2-8362ecdb7ba3,VAL_1cdd64d0,29,ShelterAgent,SHELTER,0.9,0.4908285714285714,2.01,False,High assessment score (0.49) for SH_02. Gap: FOOD
+7bebf2c2-2d6f-4ab4-b91d-2ff1fa2cecf8,VAL_1cdd64d0,29,ShelterAgent,SHELTER,0.9,0.4908285714285714,2.01,False,High assessment score (0.49) for SH_02. Gap: WATER
+58e55873-0d94-40fd-9a83-cde7932634c6,VAL_1cdd64d0,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to SH_01
+f9c74ad5-37cc-4821-a742-88a0d1842c67,VAL_1cdd64d0,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.WATER to SH_02
+bcb194a6-cf71-4655-bafe-a35941227b86,VAL_1cdd64d0,29,LogisticsAgent,LOGISTICS,1.0,0.7,0.75,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+52d76ce0-1b75-44a2-8bce-8a2700d49c12,VAL_1cdd64d0,30,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 4 exceeds safety thresholds.
+82a98e86-8bc1-4c46-9b9d-a82413ea3f01,VAL_1cdd64d0,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+d1a1de51-9bf5-401a-bf5c-1018a15be7bb,VAL_1cdd64d0,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+26cbe309-7939-45b3-ac4d-0281dca708d4,VAL_1cdd64d0,30,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.11,False,Scheduled state summary bulletin.
+62be9458-162b-42c7-b7d9-9438384c3420,VAL_1cdd64d0,30,ShelterAgent,SHELTER,0.9,0.2581485714285714,1.96,False,High assessment score (0.26) for SH_01. Gap: WATER
+cfb82fde-ba0f-4be3-ab1f-9ed8015c9008,VAL_1cdd64d0,30,ShelterAgent,SHELTER,0.9,0.4962285714285714,1.96,False,High assessment score (0.50) for SH_02. Gap: FOOD
+6fe97e74-0690-4c44-bcab-176bf386312a,VAL_1cdd64d0,30,ShelterAgent,SHELTER,0.9,0.4962285714285714,1.96,False,High assessment score (0.50) for SH_02. Gap: WATER
+37bc7019-96ad-455d-848b-27bb2455bb21,VAL_1cdd64d0,30,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_01
+282dffbb-e5c4-4742-b0ce-18a1400c515a,VAL_1cdd64d0,30,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.WATER to SH_02
+a19715d3-7792-4910-8a7b-69ea6a2f35aa,VAL_1cdd64d0,30,LogisticsAgent,LOGISTICS,1.0,0.7,0.12,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+dcfc4da5-6a1b-45e9-965f-4c2e3b5c81aa,VAL_1cdd64d0,31,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+77e37022-95fe-4ef5-9be1-74f9cfd494f8,VAL_1cdd64d0,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+55797ce2-e84b-4e80-b3ac-3818afd9a842,VAL_1cdd64d0,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+d62de677-1567-4604-8057-501fa8f5f4ee,VAL_1cdd64d0,31,ShelterAgent,SHELTER,0.9,0.26210857142857147,1.88,False,High assessment score (0.26) for SH_01. Gap: WATER
+fb93d755-46c2-4eec-a538-985ee45602d9,VAL_1cdd64d0,31,ShelterAgent,SHELTER,0.9,0.5014142857142857,1.88,False,High assessment score (0.50) for SH_02. Gap: FOOD
+dba35c36-8e61-455d-8083-1cadb96f953c,VAL_1cdd64d0,31,ShelterAgent,SHELTER,0.9,0.5014142857142857,1.88,False,High assessment score (0.50) for SH_02. Gap: WATER
+3eb809ae-2043-4144-b34b-8c62bfbcf890,VAL_1cdd64d0,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_01
+653c366d-0792-447e-aea0-dd61bd51538e,VAL_1cdd64d0,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_02
+fa8ea51d-b7dd-4d98-933a-043808934cfb,VAL_1cdd64d0,31,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+d9b51eb5-55ea-4951-b86c-1cd7867c07ed,VAL_1cdd64d0,32,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+d26173d8-8a00-43d1-88ce-005c64b5ba9b,VAL_1cdd64d0,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.16,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+0d879d36-bb04-441d-b285-37983e450095,VAL_1cdd64d0,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.16,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+52a8b753-0e6a-4e5a-a5ff-018d0ccde2dc,VAL_1cdd64d0,32,ShelterAgent,SHELTER,0.9,0.26644285714285715,1.41,False,High assessment score (0.27) for SH_01. Gap: WATER
+a6c6ff55-3cee-4ff0-a57f-0ebc02548fc8,VAL_1cdd64d0,32,ShelterAgent,SHELTER,0.9,0.5067857142857142,1.41,False,High assessment score (0.51) for SH_02. Gap: FOOD
+fa5fbf6f-ae89-4f5d-ac19-0e80bc1d5324,VAL_1cdd64d0,32,ShelterAgent,SHELTER,0.9,0.5067857142857142,1.41,False,High assessment score (0.51) for SH_02. Gap: WATER
+355d73e0-769f-4070-827d-89c43cfd8b99,VAL_1cdd64d0,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_01
+ca8b3937-6c7d-4f82-b6ee-fbcca36c2c17,VAL_1cdd64d0,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.WATER to SH_02
+2bfcd89d-2bab-4ae0-9aae-53cd998f1cec,VAL_1cdd64d0,32,LogisticsAgent,LOGISTICS,1.0,0.7,0.1,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+4a3014ab-b221-4070-bc7b-9de12a32d1f3,VAL_1cdd64d0,33,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 4 exceeds safety thresholds.
+aed1cc81-88c4-4bea-b593-0774af65b68e,VAL_1cdd64d0,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+cf0e04ca-4257-4634-a1e5-1af7654498f6,VAL_1cdd64d0,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+44c93cba-45f5-4853-8cc1-17fa1eb4a21d,VAL_1cdd64d0,33,ShelterAgent,SHELTER,0.9,0.2702685714285714,1.86,False,High assessment score (0.27) for SH_01. Gap: WATER
+68de3b98-5101-49f9-8437-965f0f89f2be,VAL_1cdd64d0,33,ShelterAgent,SHELTER,0.9,0.5121714285714285,1.86,False,High assessment score (0.51) for SH_02. Gap: FOOD
+e1fe3d96-b45e-48ce-a052-5db2c37131df,VAL_1cdd64d0,33,ShelterAgent,SHELTER,0.9,0.5121714285714285,1.86,False,High assessment score (0.51) for SH_02. Gap: WATER
+27e5123f-2a62-4dfc-9c90-b4aeadd26abd,VAL_1cdd64d0,33,LogisticsAgent,LOGISTICS,1.0,0.7,0.21,False,Fulfilling allocation for ResourceType.WATER to SH_01
+ab5988ed-1a56-4305-bf72-715b671cefce,VAL_1cdd64d0,33,LogisticsAgent,LOGISTICS,1.0,0.7,0.21,False,Fulfilling allocation for ResourceType.WATER to SH_02
+90e2ba4c-263e-4260-82bb-54e2b28d86cf,VAL_1cdd64d0,33,LogisticsAgent,LOGISTICS,1.0,0.7,0.21,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+f5c27199-892b-40dc-a288-6f054557fcef,VAL_1cdd64d0,34,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 4 exceeds safety thresholds.
+e4595fd5-8458-47ad-a690-b5709fe7d556,VAL_1cdd64d0,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+74b2278c-4fff-4077-968f-364ee34813bb,VAL_1cdd64d0,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+d1437aea-e048-4992-9376-78064f5f1c5c,VAL_1cdd64d0,34,ShelterAgent,SHELTER,0.9,0.2743885714285714,1.79,False,High assessment score (0.27) for SH_01. Gap: WATER
+4cdee1e0-50d8-4340-a6c7-68518e582496,VAL_1cdd64d0,34,ShelterAgent,SHELTER,0.9,0.5175428571428571,1.79,False,High assessment score (0.52) for SH_02. Gap: FOOD
+d6554870-36b9-4913-bd9c-e1a41ae71d53,VAL_1cdd64d0,34,ShelterAgent,SHELTER,0.9,0.5175428571428571,1.79,False,High assessment score (0.52) for SH_02. Gap: WATER
+a62a56f4-80a3-4d10-85f2-e86aced57823,VAL_1cdd64d0,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_01
+5496ffca-36dd-4f91-8042-ad2424c37447,VAL_1cdd64d0,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_02
+3fb1872d-1dd5-4f22-925f-018fde2b5832,VAL_1cdd64d0,34,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+4d816246-652f-473d-84a5-03cefd527ed0,VAL_1cdd64d0,35,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 4 exceeds safety thresholds.
+be578ff2-4469-4b67-a77f-0d78c4e97ab2,VAL_1cdd64d0,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+0a7461ab-08e0-4a3c-a8a1-35ab3b519b71,VAL_1cdd64d0,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+742e3696-4ee5-46d0-af85-a15bc2db14a6,VAL_1cdd64d0,35,ShelterAgent,SHELTER,0.9,0.27808,1.81,False,High assessment score (0.28) for SH_01. Gap: WATER
+8a0bf4e6-07bd-4dd6-b85f-854a1f84c3d5,VAL_1cdd64d0,35,ShelterAgent,SHELTER,0.9,0.5229142857142858,1.81,False,High assessment score (0.52) for SH_02. Gap: FOOD
+011a9403-fc90-4476-ae5c-45875818b0fc,VAL_1cdd64d0,35,ShelterAgent,SHELTER,0.9,0.5229142857142858,1.81,False,High assessment score (0.52) for SH_02. Gap: WATER
+d4f06761-0227-4f85-ac54-fdb82308d011,VAL_1cdd64d0,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_01
+76348a9b-a217-46f1-98dc-676f62feb5fc,VAL_1cdd64d0,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+ef7df75a-cefa-4980-8553-0e5a7c55d402,VAL_1cdd64d0,35,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+36ab4b98-a3ce-439d-89f3-027f4190d958,VAL_1cdd64d0,36,RiskAssessmentAgent,RISK,1.0,0.9,0.12,False,Cyclone intensity 4 exceeds safety thresholds.
+c12e7e93-15ad-47bd-b3cf-2fe7d43b1eab,VAL_1cdd64d0,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.15,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+3e9fc0cd-1912-417e-bc00-6109c7aa6f71,VAL_1cdd64d0,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.15,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+ffc8456b-40ea-4773-acb1-846643e82366,VAL_1cdd64d0,36,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.07,False,Scheduled state summary bulletin.
+bb183bd5-e80d-45f4-956b-4e7429f44e4b,VAL_1cdd64d0,36,ShelterAgent,SHELTER,0.9,0.28139714285714285,1.98,False,High assessment score (0.28) for SH_01. Gap: WATER
+70cf5f34-a07b-4681-9977-fa1bb43f0c7c,VAL_1cdd64d0,36,ShelterAgent,SHELTER,0.9,0.5266,1.98,False,High assessment score (0.53) for SH_02. Gap: FOOD
+dbdccc92-b3bc-4795-88dc-39278227dfc0,VAL_1cdd64d0,36,ShelterAgent,SHELTER,0.9,0.5266,1.98,False,High assessment score (0.53) for SH_02. Gap: WATER
+dfaa7a73-4294-42fa-9bcd-d0a02730d7f9,VAL_1cdd64d0,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_01
+7a7a9ff4-11fd-42e4-950c-13a0ad361add,VAL_1cdd64d0,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.WATER to SH_02
+5423f3cf-709d-4717-a86b-d5b3220460fe,VAL_1cdd64d0,36,LogisticsAgent,LOGISTICS,1.0,0.7,0.14,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+370ada60-a25a-4f31-8efd-69c1626117bb,VAL_1cdd64d0,37,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+10edb218-bec1-4def-90bb-602d3cb10de0,VAL_1cdd64d0,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.16,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+979c06e0-047e-4ef2-afc6-3280ec58fc0f,VAL_1cdd64d0,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.16,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+dee02b4d-4e02-4657-8e9c-7df5774486ed,VAL_1cdd64d0,37,ShelterAgent,SHELTER,0.9,0.2850885714285714,1.72,False,High assessment score (0.29) for SH_01. Gap: WATER
+084d5bad-16fa-4f87-8efc-50c2cc45d6a6,VAL_1cdd64d0,37,ShelterAgent,SHELTER,0.9,0.5308999999999999,1.72,False,High assessment score (0.53) for SH_02. Gap: FOOD
+36eacb8f-46d3-4c20-8b49-45417142737e,VAL_1cdd64d0,37,ShelterAgent,SHELTER,0.9,0.5308999999999999,1.72,False,High assessment score (0.53) for SH_02. Gap: WATER
+da9486ff-8065-4a72-90f8-54239d4f9d4d,VAL_1cdd64d0,37,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_01
+cfcc1311-f78e-4a91-ac71-fae0fab16f22,VAL_1cdd64d0,37,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+222bf5a1-0eec-4219-8e10-064b46b3bc23,VAL_1cdd64d0,37,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+d803553c-776c-4a72-9fad-878531c5578b,VAL_1cdd64d0,38,RiskAssessmentAgent,RISK,1.0,0.9,0.08,False,Cyclone intensity 4 exceeds safety thresholds.
+0743e548-2de1-435c-a39c-e2821f32c4c2,VAL_1cdd64d0,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.15,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+bf372a2a-d50e-46c2-8b35-54eda7cca76c,VAL_1cdd64d0,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.15,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+8af50128-1002-44d2-bbfe-1a0ce26cc600,VAL_1cdd64d0,38,ShelterAgent,SHELTER,0.9,0.28848571428571423,2.06,False,High assessment score (0.29) for SH_01. Gap: WATER
+5f575d75-3843-4c7d-b8ed-7ac9267a2efd,VAL_1cdd64d0,38,ShelterAgent,SHELTER,0.9,0.535,2.06,False,High assessment score (0.54) for SH_02. Gap: FOOD
+0ac8d7d2-2c86-475f-8048-50a5042a8de0,VAL_1cdd64d0,38,ShelterAgent,SHELTER,0.9,0.535,2.06,False,High assessment score (0.54) for SH_02. Gap: WATER
+6f054e4f-6198-4596-bec6-794a92ab91ee,VAL_1cdd64d0,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.25,False,Fulfilling allocation for ResourceType.WATER to SH_01
+dca55e4b-4810-4bb1-96a3-892e22fbb001,VAL_1cdd64d0,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.25,False,Fulfilling allocation for ResourceType.WATER to SH_02
+6c343a28-b653-4f39-8ead-eb120d4ff3f1,VAL_1cdd64d0,38,LogisticsAgent,LOGISTICS,1.0,0.7,0.25,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+0bf6cf20-492b-4a66-8de4-826c711a30e4,VAL_1cdd64d0,39,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+456acb9a-dbe2-41b1-bdc1-2cbdfd4f64e9,VAL_1cdd64d0,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+120035e4-c4d5-418c-a585-2bc10aa138a9,VAL_1cdd64d0,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+ca6bf6e3-23ef-483c-8c59-21d59d8c1fa8,VAL_1cdd64d0,39,ShelterAgent,SHELTER,0.9,0.29166857142857144,1.93,False,High assessment score (0.29) for SH_01. Gap: WATER
+9a907e96-5f94-49c7-8bb1-da494248f45f,VAL_1cdd64d0,39,ShelterAgent,SHELTER,0.9,0.5388857142857142,1.93,False,High assessment score (0.54) for SH_02. Gap: FOOD
+d7d9b024-127b-4acc-b11a-ffe79494ae19,VAL_1cdd64d0,39,ShelterAgent,SHELTER,0.9,0.5388857142857142,1.93,False,High assessment score (0.54) for SH_02. Gap: WATER
+b722493d-242f-4c58-af10-d199b72085b5,VAL_1cdd64d0,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_01
+45d8ae09-c92a-4666-938b-dac96bd06486,VAL_1cdd64d0,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.WATER to SH_02
+79affa01-aae1-4c0f-9b6a-8f687f0132a6,VAL_1cdd64d0,39,LogisticsAgent,LOGISTICS,1.0,0.7,0.11,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+fffbf5e2-7442-4be6-bec8-eff60be3db3c,VAL_1cdd64d0,40,RiskAssessmentAgent,RISK,1.0,0.9,0.08,False,Cyclone intensity 4 exceeds safety thresholds.
+2160159e-ddfb-46e7-90e5-2920ee23371b,VAL_1cdd64d0,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+c6ed182d-4bcb-49c7-90e8-9e74a5afb7a2,VAL_1cdd64d0,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+3c4d8dd6-bab1-42ac-95c7-627ee3e210d8,VAL_1cdd64d0,40,ShelterAgent,SHELTER,0.9,0.29771714285714285,2.06,False,High assessment score (0.30) for SH_01. Gap: FOOD
+c7548c57-28a6-405e-8654-2152f1e9a4fe,VAL_1cdd64d0,40,ShelterAgent,SHELTER,0.9,0.29771714285714285,2.06,False,High assessment score (0.30) for SH_01. Gap: WATER
+64d416fa-6e42-4074-888d-6558620047a7,VAL_1cdd64d0,40,ShelterAgent,SHELTER,0.9,0.5429714285714287,2.06,False,High assessment score (0.54) for SH_02. Gap: FOOD
+4b500405-d517-4b7c-b407-59870188cece,VAL_1cdd64d0,40,ShelterAgent,SHELTER,0.9,0.5429714285714287,2.06,False,High assessment score (0.54) for SH_02. Gap: WATER
+eeeb21a4-084b-4aa2-a970-feed78770d09,VAL_1cdd64d0,40,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.WATER to SH_01
+8b4a9575-c5b9-489f-a8a2-9eeb431c62dd,VAL_1cdd64d0,40,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.WATER to SH_02
+b9ddb2d7-ebee-4143-9207-83caa948d630,VAL_1cdd64d0,40,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+48a1169a-d432-4a8f-9097-a6a72d29e2c3,VAL_1cdd64d0,41,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 4 exceeds safety thresholds.
+9b1d478b-e88b-450d-a5d3-a2ddc5c083ee,VAL_1cdd64d0,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+80cfefe8-9da5-4e7b-b2a9-0dab1c92b770,VAL_1cdd64d0,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+aaab3d1b-29d4-4955-b992-3e12c1d28d84,VAL_1cdd64d0,41,ShelterAgent,SHELTER,0.9,0.30467714285714287,1.72,False,High assessment score (0.30) for SH_01. Gap: FOOD
+ca3f5016-1bcd-4934-8199-c02a25443c35,VAL_1cdd64d0,41,ShelterAgent,SHELTER,0.9,0.30467714285714287,1.72,False,High assessment score (0.30) for SH_01. Gap: WATER
+139eb8e7-aa73-42d1-ba99-9154c9688605,VAL_1cdd64d0,41,ShelterAgent,SHELTER,0.9,0.546657142857143,1.72,False,High assessment score (0.55) for SH_02. Gap: FOOD
+1023cd2a-bca9-4168-8b1b-a28d789ea7e3,VAL_1cdd64d0,41,ShelterAgent,SHELTER,0.9,0.546657142857143,1.72,False,High assessment score (0.55) for SH_02. Gap: WATER
+292010e8-1014-45b9-85ab-a5b4b976ff2e,VAL_1cdd64d0,41,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+6ca4231d-c9be-47f6-b7f3-813150f04022,VAL_1cdd64d0,41,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+dd41bb70-ad2c-439d-83ff-e9e8606a06f6,VAL_1cdd64d0,41,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_01
+e55b98e5-bbe6-4fe7-8628-586c98cbb53f,VAL_1cdd64d0,41,LogisticsAgent,LOGISTICS,1.0,0.7,0.16,False,Fulfilling allocation for ResourceType.WATER to SH_02
+82f76aee-7398-41fd-bf87-3759d31da145,VAL_1cdd64d0,42,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+2d3ea276-d9c8-40bd-9887-929ab7ddc49a,VAL_1cdd64d0,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+49cf149d-4ce0-4390-9299-94931f6cec08,VAL_1cdd64d0,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+0fc66d7d-b441-4e3c-96d3-b4ecca4c9fe7,VAL_1cdd64d0,42,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+e5f4a7c1-56b2-4004-b145-d87c1e332b34,VAL_1cdd64d0,42,ShelterAgent,SHELTER,0.9,0.3119314285714285,1.92,False,High assessment score (0.31) for SH_01. Gap: FOOD
+5dad7e1b-248c-49df-8e38-b64c993c007c,VAL_1cdd64d0,42,ShelterAgent,SHELTER,0.9,0.3119314285714285,1.92,False,High assessment score (0.31) for SH_01. Gap: WATER
+2a02ee55-070d-4233-8eed-82eae67782e9,VAL_1cdd64d0,42,ShelterAgent,SHELTER,0.9,0.5503285714285714,1.92,False,High assessment score (0.55) for SH_02. Gap: FOOD
+a9633cab-28b4-4fa9-bdda-481711adc2f3,VAL_1cdd64d0,42,ShelterAgent,SHELTER,0.9,0.5503285714285714,1.92,False,High assessment score (0.55) for SH_02. Gap: WATER
+921a9989-95af-4267-9ce6-df4334f240cc,VAL_1cdd64d0,42,LogisticsAgent,LOGISTICS,1.0,0.7,0.17,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+a826a94d-9fe7-42f4-a1a5-bc5d9e78c4cf,VAL_1cdd64d0,42,LogisticsAgent,LOGISTICS,1.0,0.7,0.17,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+701b1e5e-a912-461d-a632-ac14ae260a0b,VAL_1cdd64d0,42,LogisticsAgent,LOGISTICS,1.0,0.7,0.17,False,Fulfilling allocation for ResourceType.WATER to SH_01
+72599e5e-eeb5-45c3-9409-a55be428fdaf,VAL_1cdd64d0,42,LogisticsAgent,LOGISTICS,1.0,0.7,0.17,False,Fulfilling allocation for ResourceType.WATER to SH_02
+8afda9c0-c735-4789-9717-55f8c7d38d91,VAL_1cdd64d0,43,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 3 exceeds safety thresholds.
+bf0e07c5-dfca-4d1e-a6e3-aaf0185788e0,VAL_1cdd64d0,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.17,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+fbf96ca8-24d3-42f7-9b7e-f916f8eea80e,VAL_1cdd64d0,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.17,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+2c5e32a1-201b-4167-83a7-2a4377aaff51,VAL_1cdd64d0,43,ShelterAgent,SHELTER,0.9,0.3173657142857143,3.01,False,High assessment score (0.32) for SH_01. Gap: FOOD
+88d01eaa-9679-4d4f-be7f-356ce72e5a95,VAL_1cdd64d0,43,ShelterAgent,SHELTER,0.9,0.3173657142857143,3.01,False,High assessment score (0.32) for SH_01. Gap: WATER
+0e89a95f-b31c-4590-8862-1f900b4723bb,VAL_1cdd64d0,43,ShelterAgent,SHELTER,0.9,0.5534142857142856,3.01,False,High assessment score (0.55) for SH_02. Gap: FOOD
+c7fdfe6b-278a-48a3-b296-7941cc29e1ec,VAL_1cdd64d0,43,ShelterAgent,SHELTER,0.9,0.5534142857142856,3.01,False,High assessment score (0.55) for SH_02. Gap: WATER
+b114a54f-451c-4bb6-9b16-47478728647b,VAL_1cdd64d0,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.29,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+8b5eb3d0-97f9-481f-a279-854bad441c32,VAL_1cdd64d0,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.29,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+27e7dae7-4944-43ea-b0be-08ae6afcc2df,VAL_1cdd64d0,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.29,False,Fulfilling allocation for ResourceType.WATER to SH_01
+b46ff80c-2275-4d6d-8554-5d21d8a7f896,VAL_1cdd64d0,43,LogisticsAgent,LOGISTICS,1.0,0.7,0.29,False,Fulfilling allocation for ResourceType.WATER to SH_02
+ac249804-74ce-4ae3-b7e2-66009520b9a8,VAL_1cdd64d0,44,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 3 exceeds safety thresholds.
+6b049d84-68f3-447a-9443-7e8447a370a1,VAL_1cdd64d0,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+afc68246-08e5-4baa-88f5-f98789b7bf4f,VAL_1cdd64d0,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.67,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+6b99b283-5b2e-4871-bbbf-9ac4d996811e,VAL_1cdd64d0,44,ShelterAgent,SHELTER,0.9,0.32288,2.35,False,High assessment score (0.32) for SH_01. Gap: FOOD
+d6164b56-4ccf-4b75-869e-700f362824c6,VAL_1cdd64d0,44,ShelterAgent,SHELTER,0.9,0.32288,2.35,False,High assessment score (0.32) for SH_01. Gap: WATER
+3f26a540-2518-42c3-b67d-6a328bc3cb4c,VAL_1cdd64d0,44,ShelterAgent,SHELTER,0.9,0.5564857142857143,2.35,False,High assessment score (0.56) for SH_02. Gap: FOOD
+5c895a09-1b8e-49db-ba76-27120ea74cac,VAL_1cdd64d0,44,ShelterAgent,SHELTER,0.9,0.5564857142857143,2.35,False,High assessment score (0.56) for SH_02. Gap: WATER
+3fa72188-a464-46b4-ace2-02851e8eaefa,VAL_1cdd64d0,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.36,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+6191d914-cdef-4594-82ed-21f9c776093b,VAL_1cdd64d0,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.36,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+3f9c604d-42ca-4c60-852f-b5a84e6a6e14,VAL_1cdd64d0,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.36,False,Fulfilling allocation for ResourceType.WATER to SH_01
+e68fcef6-8e4e-4bad-9016-d27187751383,VAL_1cdd64d0,44,LogisticsAgent,LOGISTICS,1.0,0.7,0.36,False,Fulfilling allocation for ResourceType.WATER to SH_02
+2fdfa2a4-ae08-4976-b9f7-79faf95349a3,VAL_1cdd64d0,45,RiskAssessmentAgent,RISK,1.0,0.9,0.12,False,Cyclone intensity 3 exceeds safety thresholds.
+3c7da166-066d-4950-9d69-ab9f10119253,VAL_1cdd64d0,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+766e85f5-ba4e-45ed-89c2-e8e81c40b271,VAL_1cdd64d0,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+ca6aa2c1-e395-40a7-bf49-aea279096175,VAL_1cdd64d0,45,ShelterAgent,SHELTER,0.9,0.32839428571428575,2.93,False,High assessment score (0.33) for SH_01. Gap: FOOD
+68c4a2e8-ea14-4a4d-9ad5-7b7ddadd77ee,VAL_1cdd64d0,45,ShelterAgent,SHELTER,0.9,0.32839428571428575,2.93,False,High assessment score (0.33) for SH_01. Gap: WATER
+cbdc2d74-d337-43fd-b988-af8f1a371d42,VAL_1cdd64d0,45,ShelterAgent,SHELTER,0.9,0.5595571428571429,2.93,False,High assessment score (0.56) for SH_02. Gap: FOOD
+acbcbcda-e1c8-4ea1-9a2d-38f491a35eb0,VAL_1cdd64d0,45,ShelterAgent,SHELTER,0.9,0.5595571428571429,2.93,False,High assessment score (0.56) for SH_02. Gap: WATER
+7324abbb-3138-4a02-b97c-62f829d8f94e,VAL_1cdd64d0,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+65982538-6989-40a8-941d-02dfd7065b2a,VAL_1cdd64d0,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+ce53b4d1-f7bd-4e6b-a573-9c09d4176bc8,VAL_1cdd64d0,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.WATER to SH_01
+46915d02-8195-440c-81a9-aa957c768137,VAL_1cdd64d0,45,LogisticsAgent,LOGISTICS,1.0,0.7,0.19,False,Fulfilling allocation for ResourceType.WATER to SH_02
+8eb29ddf-a90a-4bcf-9af1-ec0e6a613b70,VAL_1cdd64d0,46,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 3 exceeds safety thresholds.
+e3ae658a-a722-4758-b1ee-e01e331d6252,VAL_1cdd64d0,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+ea41c9ca-f220-4d0d-844b-39d501e63d32,VAL_1cdd64d0,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.18,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+6ef1b804-4709-43d4-83f2-462ea220d2f3,VAL_1cdd64d0,46,ShelterAgent,SHELTER,0.9,0.3336142857142857,2.84,False,High assessment score (0.33) for SH_01. Gap: FOOD
+388959f9-a3c6-42f4-ada7-a5cbce358865,VAL_1cdd64d0,46,ShelterAgent,SHELTER,0.9,0.3336142857142857,2.84,False,High assessment score (0.33) for SH_01. Gap: WATER
+b6e0a8ab-8220-4feb-9e27-0e5ee6976d22,VAL_1cdd64d0,46,ShelterAgent,SHELTER,0.9,0.5624285714285715,2.84,False,High assessment score (0.56) for SH_02. Gap: FOOD
+03cbb350-3b5f-40fd-aa28-c0d2e3cbac6a,VAL_1cdd64d0,46,ShelterAgent,SHELTER,0.9,0.5624285714285715,2.84,False,High assessment score (0.56) for SH_02. Gap: WATER
+4fca6a35-a30e-44d9-9b27-f45ef1f36dd8,VAL_1cdd64d0,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.28,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+e61d7045-e01b-4c03-ad4e-cd0092da53e6,VAL_1cdd64d0,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.28,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+fbcede9e-a150-4f09-bf33-632399392692,VAL_1cdd64d0,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.28,False,Fulfilling allocation for ResourceType.WATER to SH_01
+e423d410-7e6f-4d2e-9a49-ac2093fa3d15,VAL_1cdd64d0,46,LogisticsAgent,LOGISTICS,1.0,0.7,0.28,False,Fulfilling allocation for ResourceType.WATER to SH_02
+fb7aacac-ebab-4fee-8a0c-fd5ebc7c7d76,VAL_1cdd64d0,47,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 3 exceeds safety thresholds.
+401df0e9-955f-4685-8167-608dea4a0594,VAL_1cdd64d0,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+5ebe8941-e4b7-4df7-bf75-a42bf7d40a12,VAL_1cdd64d0,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.51,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+d9e763ee-1b5b-4950-9c72-ea266ad66ed3,VAL_1cdd64d0,47,ShelterAgent,SHELTER,0.9,0.3387,2.8,False,High assessment score (0.34) for SH_01. Gap: FOOD
+862c87ad-c93d-4e9d-a05c-1e97fe1538cb,VAL_1cdd64d0,47,ShelterAgent,SHELTER,0.9,0.3387,2.8,False,High assessment score (0.34) for SH_01. Gap: WATER
+9ffe15fe-eb80-492e-800e-1080ea463bda,VAL_1cdd64d0,47,ShelterAgent,SHELTER,0.9,0.5652857142857143,2.8,False,High assessment score (0.57) for SH_02. Gap: FOOD
+d92cf6ba-c97b-4773-8d06-d6484873a202,VAL_1cdd64d0,47,ShelterAgent,SHELTER,0.9,0.5652857142857143,2.8,False,High assessment score (0.57) for SH_02. Gap: WATER
+75843af4-1cb2-4c85-b77a-49bfda0ff087,VAL_1cdd64d0,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+10dae7a3-f517-4b0c-90d0-6d70058b99af,VAL_1cdd64d0,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+0fedf59b-5d01-441c-9b60-e728378a9b84,VAL_1cdd64d0,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_01
+96de5ae0-afe8-4cbe-a119-1c5681c6d7f0,VAL_1cdd64d0,47,LogisticsAgent,LOGISTICS,1.0,0.7,0.13,False,Fulfilling allocation for ResourceType.WATER to SH_02
+7d90d755-680c-47f0-9e12-d268171381ad,VAL_1cdd64d0,48,RiskAssessmentAgent,RISK,1.0,0.9,0.09,False,Cyclone intensity 3 exceeds safety thresholds.
+fea21471-9a8e-4bd2-96a0-8694b7a0a4eb,VAL_1cdd64d0,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.23,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+28321d3e-fe35-4a9b-bab8-9e76d5111b7f,VAL_1cdd64d0,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.23,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+24686cb2-f55c-4d19-924d-aed71264e3d3,VAL_1cdd64d0,48,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+be124214-013f-486f-9772-093f2156aaeb,VAL_1cdd64d0,48,ShelterAgent,SHELTER,0.9,0.34400000000000003,3.29,False,High assessment score (0.34) for SH_01. Gap: FOOD
+48f203ed-8ba6-45c5-a66f-08f1ffd83707,VAL_1cdd64d0,48,ShelterAgent,SHELTER,0.9,0.34400000000000003,3.29,False,High assessment score (0.34) for SH_01. Gap: WATER
+7d327c6f-9360-439b-8ee4-07b7002e6f13,VAL_1cdd64d0,48,ShelterAgent,SHELTER,0.9,0.5683571428571429,3.29,False,High assessment score (0.57) for SH_02. Gap: FOOD
+10aa4dca-96ce-49d2-8dd3-51d70d427518,VAL_1cdd64d0,48,ShelterAgent,SHELTER,0.9,0.5683571428571429,3.29,False,High assessment score (0.57) for SH_02. Gap: WATER
+65af905a-9132-48ed-af80-884b59c99763,VAL_1cdd64d0,48,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.FOOD to SH_01
+1c08847b-989d-4878-a756-355fe94ad330,VAL_1cdd64d0,48,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.FOOD to SH_02
+a2d9a630-818f-4ca5-9c82-7dc9d5f4437d,VAL_1cdd64d0,48,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.WATER to SH_01
+de44a48e-05c5-496a-b2c4-0f51c4776bfc,VAL_1cdd64d0,48,LogisticsAgent,LOGISTICS,1.0,0.7,0.22,False,Fulfilling allocation for ResourceType.WATER to SH_02

@@ -1,0 +1,128 @@
+rec_id,run_id,tick,agent,category,confidence,priority,latency_ms,accepted,rationale
+d8d0371d-51d0-434d-8963-13032f7863da,VAL_4f04a60e,1,RiskAssessmentAgent,RISK,1.0,0.9,0.12,False,Cyclone intensity 3 exceeds safety thresholds.
+9e20acac-f6ac-4314-bb35-5b1e5d83c5d3,VAL_4f04a60e,1,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,6.5,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+30273868-8540-40c1-936c-918b52771f04,VAL_4f04a60e,2,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 3 exceeds safety thresholds.
+562747a9-150b-44f4-ac5d-01c85ae9ef5b,VAL_4f04a60e,2,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+5e7a31f6-5b1c-4909-b537-e131a8273073,VAL_4f04a60e,3,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 3 exceeds safety thresholds.
+bf5e871a-6bed-4bac-87dc-a86afff7e77a,VAL_4f04a60e,3,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+4d8b9b4e-a79f-4dd1-b97c-b43d2aa6bd94,VAL_4f04a60e,4,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 3 exceeds safety thresholds.
+30653ffa-c465-4c0d-a417-4544a6fdd3e6,VAL_4f04a60e,4,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+2a8c68ae-57d2-480f-87c8-c862c070c077,VAL_4f04a60e,5,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 3 exceeds safety thresholds.
+1d9d03e6-4724-450e-bb08-d51d3fa3cceb,VAL_4f04a60e,5,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+746b8a6b-41a3-4251-aaab-6d80d12d6c2b,VAL_4f04a60e,6,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+414ab3cb-3dd0-441a-a87c-8f7b71760f2a,VAL_4f04a60e,6,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a8b47dbb-7d55-4e13-bb24-32c32777fa51,VAL_4f04a60e,6,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.08,False,Scheduled state summary bulletin.
+8abc774d-2a3d-46f5-8f27-ae74cc05de7c,VAL_4f04a60e,7,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+a2b87231-4dc3-4e1a-a855-69842ff2b7bb,VAL_4f04a60e,7,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+983a6ca0-2507-46e6-8402-d14ae9ea4338,VAL_4f04a60e,8,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+9a08a58f-2210-4581-93dd-096af10ff328,VAL_4f04a60e,8,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+8800d188-acd8-4fbf-aa20-2ac6b2258c69,VAL_4f04a60e,9,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+fc1f9961-ef60-4dbb-9ffb-214acf940bcf,VAL_4f04a60e,9,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+e6f9c469-e704-4e22-a109-64c2e27b49f0,VAL_4f04a60e,10,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+a4b20e74-7c87-4d0f-b22c-a9ff0c800c37,VAL_4f04a60e,10,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+8c1c4944-0fef-4c1b-95fc-2923c18fd81b,VAL_4f04a60e,11,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+33d3842a-3ad0-482b-afb7-8801b4fb4d3e,VAL_4f04a60e,11,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.14,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+db4e89d1-b563-410d-af15-8f0b7129e330,VAL_4f04a60e,12,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+8419fd91-b94b-47f9-8984-dc0d6dd0d987,VAL_4f04a60e,12,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a337effd-8d2b-4d81-81b1-992ff55ba9c9,VAL_4f04a60e,12,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.09,False,Scheduled state summary bulletin.
+53bd9862-9caf-4b8a-b49a-6c0c8156d4fa,VAL_4f04a60e,13,RiskAssessmentAgent,RISK,1.0,0.9,0.07,False,Cyclone intensity 4 exceeds safety thresholds.
+8db6def8-9321-4e2c-82a1-adeeb345d441,VAL_4f04a60e,13,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+8ddaf41c-be59-4260-88f5-c3cad0fd1400,VAL_4f04a60e,14,RiskAssessmentAgent,RISK,1.0,0.9,0.08,False,Cyclone intensity 4 exceeds safety thresholds.
+50b4b197-cb16-459c-bc49-92bc61240e2d,VAL_4f04a60e,14,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+d239cc82-971f-453c-bba3-9e5490464406,VAL_4f04a60e,15,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+60529976-feef-4eaa-b9ff-852b1386e102,VAL_4f04a60e,15,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+491ecc96-323f-4b80-97ea-cca97d197fc6,VAL_4f04a60e,16,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+7127fed5-a7bd-406a-8895-0b340414f330,VAL_4f04a60e,16,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+402de4da-8466-4b53-afc7-b93e0b7ea4f5,VAL_4f04a60e,17,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 4 exceeds safety thresholds.
+cfc86e1d-b268-447b-8ed7-769f3c163e19,VAL_4f04a60e,17,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+c30947bb-9eda-4d3f-9687-7c1a2b6959bb,VAL_4f04a60e,18,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 4 exceeds safety thresholds.
+b1b99fc0-5a1e-4f76-8acb-8d996975878a,VAL_4f04a60e,18,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+fb6d2ea9-ee76-46db-b390-16c914fef7e6,VAL_4f04a60e,18,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+3fbe41e0-7b61-4e10-89fe-1e0f562f1323,VAL_4f04a60e,19,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 5 exceeds safety thresholds.
+eb359c4b-f618-4ec2-b183-4c308dd25e1d,VAL_4f04a60e,19,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.12,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+9c6f5c72-ba82-4bcc-8532-181fb2e11d56,VAL_4f04a60e,20,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 5 exceeds safety thresholds.
+a90e351f-f02a-4a48-8b1f-e22b4f3e0ec3,VAL_4f04a60e,20,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+d483bc1a-2ed6-4818-97b5-46657a518255,VAL_4f04a60e,21,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 5 exceeds safety thresholds.
+f16433af-500d-480e-8667-053970a52557,VAL_4f04a60e,21,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.1,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+10f993f9-bad3-4f82-bdeb-9b988df7f809,VAL_4f04a60e,22,RiskAssessmentAgent,RISK,1.0,0.9,0.06,False,Cyclone intensity 5 exceeds safety thresholds.
+ef5db18d-8a5a-4739-8743-f7ffd6756ed6,VAL_4f04a60e,22,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.13,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+7f4ebdd2-7056-44df-a84a-01b3898fff77,VAL_4f04a60e,23,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 5 exceeds safety thresholds.
+34764f08-263b-48a7-a09d-dadccf44e817,VAL_4f04a60e,23,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+ec549de4-5c33-4496-9156-d1bc8ee34ba2,VAL_4f04a60e,24,RiskAssessmentAgent,RISK,1.0,0.9,0.05,False,Cyclone intensity 5 exceeds safety thresholds.
+58319d57-c1fb-490d-8282-ca4d0568fab7,VAL_4f04a60e,24,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+63e3853c-ede8-4ad1-9a8a-abbef1edd732,VAL_4f04a60e,24,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.09,False,Scheduled state summary bulletin.
+7512f7c9-d8b9-42ec-9e3f-5cb6ed5e5930,VAL_4f04a60e,25,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+0b4c7ddf-7f0f-4dae-bc2c-1d8eee945119,VAL_4f04a60e,25,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+6a0512eb-53d2-49e3-b3d8-0d00f62492e4,VAL_4f04a60e,26,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+aca3fcd4-17ae-4147-a9b9-4438b688085e,VAL_4f04a60e,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+5f1a8ad6-a48f-4d4b-a227-0fe33ad03215,VAL_4f04a60e,26,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+4493899d-3f2f-4668-8fde-60d1241c3e52,VAL_4f04a60e,27,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+6165fb3e-d94f-489f-82e5-f0ee55742360,VAL_4f04a60e,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a6731bf9-999c-48b9-ba6a-74f30ea6d8db,VAL_4f04a60e,27,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.11,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+4d635118-795f-4161-a575-2e072d469655,VAL_4f04a60e,28,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+37832403-4fc5-4783-84f4-08f1082fb982,VAL_4f04a60e,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+2e7e8c54-5ef5-4855-bbe2-753ae563b295,VAL_4f04a60e,28,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.09,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+4d4068fa-010a-4bdd-a3bf-903d31072620,VAL_4f04a60e,29,RiskAssessmentAgent,RISK,1.0,0.9,0.04,False,Cyclone intensity 5 exceeds safety thresholds.
+8594aea2-6454-40dd-bd4d-2a39a863faf6,VAL_4f04a60e,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+33592b4b-5655-418b-8955-e3cd5a78c069,VAL_4f04a60e,29,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+b7015bac-cbf9-46e3-89d4-57fcb0b78b69,VAL_4f04a60e,30,RiskAssessmentAgent,RISK,1.0,0.9,0.03,False,Cyclone intensity 4 exceeds safety thresholds.
+a9ab519b-f8eb-4d6c-a5bb-964104914db7,VAL_4f04a60e,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+20ac6c43-922b-40ec-9959-3247c523c823,VAL_4f04a60e,30,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.08,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+68c77973-52a0-4891-9dc1-bc2e30fda02b,VAL_4f04a60e,30,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.04,False,Scheduled state summary bulletin.
+503d5aba-6ef0-4305-b4ba-a0b7b9b685ab,VAL_4f04a60e,31,RiskAssessmentAgent,RISK,1.0,0.9,0.03,False,Cyclone intensity 4 exceeds safety thresholds.
+c16ed530-a550-4cf3-88b9-53ddc2611f1e,VAL_4f04a60e,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+ae0f4d44-cc45-430f-9261-701aa6be83da,VAL_4f04a60e,31,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+a17503a8-1161-4c5c-8001-36b7415e7388,VAL_4f04a60e,32,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+68e66fa5-514b-4feb-8a3a-5b30b3beca45,VAL_4f04a60e,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+c858673f-cf52-4f5c-b369-5aaaa5f0e547,VAL_4f04a60e,32,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+cf0c7476-ef3e-4bbb-88bf-872346da0935,VAL_4f04a60e,33,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+adb6ed43-84e2-4eca-ad04-cb153588cc5c,VAL_4f04a60e,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+42aa7ae4-6673-4b1a-b91c-ca72d11cd068,VAL_4f04a60e,33,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+cb9e6698-61db-4772-bd64-4d9605f05484,VAL_4f04a60e,34,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+1792989a-b2e5-4d90-a517-8e6c2056e159,VAL_4f04a60e,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+b3eafbc9-3e7e-4809-8243-209d5ba1d824,VAL_4f04a60e,34,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+b46e290b-5b74-459d-a3c9-9d49ae074540,VAL_4f04a60e,35,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+fc6bd8f3-5fa5-441c-8fde-6437d1fe71c9,VAL_4f04a60e,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+59993695-c429-4167-9c53-2d4ed85c4718,VAL_4f04a60e,35,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+0857f222-d5c3-4cbe-becd-104726cc1d89,VAL_4f04a60e,36,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+25c55759-8506-4df8-8303-0de5feb0ae0d,VAL_4f04a60e,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+569860a0-0264-4ee1-b225-a8d47dfc2f3c,VAL_4f04a60e,36,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+07dbe547-3e0f-416f-a96a-1b8f89dfe3a6,VAL_4f04a60e,36,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.02,False,Scheduled state summary bulletin.
+e77c4c2c-1b39-4a4c-9eff-b701d7545a00,VAL_4f04a60e,37,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+af1029a5-50f3-489e-bfc9-5e1733bb5d10,VAL_4f04a60e,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+9fbf2ecf-6a0e-437c-9f1c-541bede80514,VAL_4f04a60e,37,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+aebaa0c6-39aa-459a-993c-e38df79d28c2,VAL_4f04a60e,38,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+90422fa2-e3fc-4337-b0f4-52f07d77e0bb,VAL_4f04a60e,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+a747d0ad-0bca-4a5d-9835-2b641efd8c29,VAL_4f04a60e,38,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+9a9b24e1-57b3-42e6-8660-ae92e8800fd5,VAL_4f04a60e,39,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+6da13bb2-e60b-42fc-8298-460ed93efab8,VAL_4f04a60e,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+47ed4902-a4dc-4adf-ac9c-8a730eae2c41,VAL_4f04a60e,39,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+b710dd9b-75c2-47de-b5dd-e154214e9d84,VAL_4f04a60e,40,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 4 exceeds safety thresholds.
+492d9543-de10-46c2-9102-d28d12fe62c3,VAL_4f04a60e,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+979af939-e153-4c70-9e5a-01e0baf8bb0a,VAL_4f04a60e,40,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+5a5d5f65-981f-45a6-b7ef-ffa8c4749091,VAL_4f04a60e,41,RiskAssessmentAgent,RISK,1.0,0.9,0.03,False,Cyclone intensity 4 exceeds safety thresholds.
+7546f153-743d-4254-88ad-b363adc23685,VAL_4f04a60e,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.07,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+00bcb174-d33a-406a-b660-90d9c60a3b33,VAL_4f04a60e,41,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.07,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+4e61ead5-d7e0-47e1-9cc5-79a6c3b9b562,VAL_4f04a60e,42,RiskAssessmentAgent,RISK,1.0,0.9,0.03,False,Cyclone intensity 4 exceeds safety thresholds.
+2561c680-43a6-4159-b94e-52b17859023f,VAL_4f04a60e,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+4b0fb48b-dc0b-49a3-a95b-d3513772209d,VAL_4f04a60e,42,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+0cf1ec87-fb1b-4b25-9456-557974104464,VAL_4f04a60e,42,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.03,False,Scheduled state summary bulletin.
+4d84a7fe-3224-4aef-b09e-a0267188da9e,VAL_4f04a60e,43,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 3 exceeds safety thresholds.
+5117f1ec-3064-4a7c-8d98-d393501507e5,VAL_4f04a60e,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+692dcff6-47f0-42a8-b659-2b23b397c866,VAL_4f04a60e,43,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+c1cc3da5-27e2-4b91-b56f-47280387ee85,VAL_4f04a60e,44,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 3 exceeds safety thresholds.
+8d327a2c-d800-485b-883b-a9b78b0eca2a,VAL_4f04a60e,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+54c6c199-e864-45a7-8a5c-d1aac2939480,VAL_4f04a60e,44,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+58396b05-397e-4df7-bc01-4b65f22092dc,VAL_4f04a60e,45,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 3 exceeds safety thresholds.
+4a3560e2-5497-4a98-95fa-9bb380af42b0,VAL_4f04a60e,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+28a45d68-7407-4ae6-a33f-9d1cf047c8cc,VAL_4f04a60e,45,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+d4fef627-9864-4da4-bd9b-8a2095756e0d,VAL_4f04a60e,46,RiskAssessmentAgent,RISK,1.0,0.9,0.03,False,Cyclone intensity 3 exceeds safety thresholds.
+4427273d-ed87-4181-bc74-c40ae68f0b39,VAL_4f04a60e,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+2669cd2b-1aa7-4a30-a338-3756ddc2c250,VAL_4f04a60e,46,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.06,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+53726591-b83f-48fa-aaa6-9d7f524b98dd,VAL_4f04a60e,47,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 3 exceeds safety thresholds.
+e8140c90-3f6a-4f24-a954-4769710053a5,VAL_4f04a60e,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.07,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+98cdb84c-59ca-4ed1-810b-fde5b1f09823,VAL_4f04a60e,47,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.07,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+fba1bd6e-1f36-450d-a738-08588fd72223,VAL_4f04a60e,48,RiskAssessmentAgent,RISK,1.0,0.9,0.02,False,Cyclone intensity 3 exceeds safety thresholds.
+2f57beed-0c89-4e04-a1b9-520e85e1928b,VAL_4f04a60e,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.FOOD at shelter SH_02.
+26e2d823-2469-4f4d-9814-ca371643b328,VAL_4f04a60e,48,ResourceAdvisorAgent,LOGISTICS,1.0,0.8,0.05,False,Low stock detected for ResourceType.WATER at shelter SH_02.
+7f169547-e3d0-485b-825f-77eef4aeb0c1,VAL_4f04a60e,48,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.02,False,Scheduled state summary bulletin.

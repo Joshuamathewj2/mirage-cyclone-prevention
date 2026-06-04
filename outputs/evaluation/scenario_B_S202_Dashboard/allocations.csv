@@ -1,0 +1,17 @@
+allocation_id,run_id,tick_index,request_id,shelter_id,resource_type,allocated_qty,explanation
+2667d28d-4dda-4f26-bb28-8c255937e3e3,scenario_B_S202_Dashboard,6,7d1a4cee-6c55-423e-8b96-94a8a8e281d4,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+aedb6c38-0a2d-4661-8040-9bf6d7bc82b0,scenario_B_S202_Dashboard,6,5e727e1c-d71e-40ad-a9a5-8e26247ed75f,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+3f1a23ee-7614-4a12-9b1f-413f9b5e47b7,scenario_B_S202_Dashboard,12,b3281f29-de08-409f-9a95-8abf579273c8,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+5e1b9b86-0f76-4b90-ab5b-c8303bd1a742,scenario_B_S202_Dashboard,12,4fe66c85-796f-4610-b236-36d4745d706b,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+2207693e-933f-4750-85fa-7cfb7b484db0,scenario_B_S202_Dashboard,18,76ef9d1c-de58-4fa6-bbbf-f5fbca57f3d0,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+281e6ab8-bce4-456c-8062-c083240a05b9,scenario_B_S202_Dashboard,18,cd137a53-3f97-4dc0-a07a-fc3dfb701837,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+5786f6b1-5b88-4b65-b84a-0dda9579fa0a,scenario_B_S202_Dashboard,24,7b598304-2de9-4bc6-8a4c-e6f40362d4bc,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+6bb21a21-5217-4443-a5b5-9f1b8fdf528c,scenario_B_S202_Dashboard,24,1344651b-b971-4a12-bce0-bb4a46435efb,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+c8f4feb9-057a-4e67-869a-2e022fbfe9a7,scenario_B_S202_Dashboard,30,a5dcf0d2-06d1-42f1-b2ff-499304156220,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+6510c2c3-918d-4113-99d9-61d7f36485a7,scenario_B_S202_Dashboard,30,a1374581-3b89-46eb-a574-6411903174f2,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+a23b200d-2841-4f87-ae56-b45d9d3c2be5,scenario_B_S202_Dashboard,36,0991ef0f-7908-4988-88fb-42000b9af780,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+267e4a27-b06c-4689-9bb4-379c6bdb20bc,scenario_B_S202_Dashboard,36,befe95f2-3b7e-49fd-bc84-045dfdb7e840,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+07e807c5-93b8-47a0-9ac7-ab8f8f421075,scenario_B_S202_Dashboard,42,c922f4bb-74fa-4af1-8819-e99fe4bc053d,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+57ad612f-636c-4eda-b8da-0b6f3383507d,scenario_B_S202_Dashboard,42,d46ba62d-243c-4583-a092-9ad31cdcd144,sh-02,WATER,1000.0,Inventory sufficient for full allocation.
+4096c8a7-2443-41ba-998c-11feeadef521,scenario_B_S202_Dashboard,48,f29453b6-d100-4f6a-a50e-b0675dfda9b4,sh-01,WATER,1000.0,Inventory sufficient for full allocation.
+e11e006b-ef58-45bc-9c01-2278f5c6cf6b,scenario_B_S202_Dashboard,48,eb58b389-23d3-4003-8a15-bc96df9dfc47,sh-02,WATER,1000.0,Inventory sufficient for full allocation.

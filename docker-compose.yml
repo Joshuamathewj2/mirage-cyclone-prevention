@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: mirage
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mirage_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --notify-keyspace-events Ex
+    ports:
+      - "6379:6379"
+
+  api:
+    build: .
+    command: uvicorn mirage.api.main:app --reload --host 0.0.0.0 --port 8000
+    environment:
+      DATABASE_URL: postgresql://postgres:mirage_dev@postgres:5432/mirage
+      REDIS_URL: redis://redis:6379
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+      - redis
+
+volumes:
+  pgdata:

@@ -1,0 +1,2 @@
+run_id,scenario_id,seed,duration,status,M6b_rate,M9_compliance,M10_fairness,M11_rec_rate,M12_latency
+scenario_C_S202_Manual,scenario_C,202,0,RUNNING,0.0,1.0,0.0,0.0,0.0

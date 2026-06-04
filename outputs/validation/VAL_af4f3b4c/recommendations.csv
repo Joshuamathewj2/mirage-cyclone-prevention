@@ -1,0 +1,9 @@
+rec_id,run_id,tick,agent,category,confidence,priority,latency_ms,accepted,rationale
+0462d377-2f27-44ae-95ea-9383437cdeaf,VAL_af4f3b4c,6,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.5,False,Scheduled state summary bulletin.
+9123a00e-08bc-452a-b50c-7f32ad956e0f,VAL_af4f3b4c,12,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+2c714889-1a94-47b6-bff1-31e9644bf419,VAL_af4f3b4c,18,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.06,False,Scheduled state summary bulletin.
+b9f825ef-b4e9-466b-a0a2-2c1130407b1f,VAL_af4f3b4c,24,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.02,False,Scheduled state summary bulletin.
+2b6e122a-cb33-4969-8974-dd907eb26d86,VAL_af4f3b4c,30,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.03,False,Scheduled state summary bulletin.
+ce609888-a1e8-4aa5-8c42-f451b53c98aa,VAL_af4f3b4c,36,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.03,False,Scheduled state summary bulletin.
+07557bc4-47bd-47c0-924f-3caa2aa9e0bb,VAL_af4f3b4c,42,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.02,False,Scheduled state summary bulletin.
+be75703c-e497-47e3-a0dc-eec4e05cfc3a,VAL_af4f3b4c,48,RuleBasedCommunicationAgent,COMMUNICATION,1.0,0.5,0.02,False,Scheduled state summary bulletin.

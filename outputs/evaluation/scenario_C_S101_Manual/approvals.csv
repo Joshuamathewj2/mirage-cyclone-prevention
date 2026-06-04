@@ -1,0 +1,15 @@
+approval_id,run_id,request_id,status,required_level,current_level,latency_sec
+e2ff9a17-07f7-4872-ab17-70dd6e0cd8ea,scenario_C_S101_Manual,988336b9-dcb9-445a-82f4-0b9278810a19,APPROVED_L1,1,1,0.01
+e4a36402-a359-4da6-ac54-6cd45c6e1b89,scenario_C_S101_Manual,511a03f6-ce2b-476c-8f1e-1e0c3e8de039,APPROVED_L1,1,1,0.02
+f2f3ee94-a34a-42d2-bb51-24515c860b04,scenario_C_S101_Manual,b92297ad-0211-4131-b32c-bf98098860a1,APPROVED_L1,1,1,0.01
+9fbaa7ac-02ed-4c02-af85-d25a31ffde38,scenario_C_S101_Manual,c4e5c56e-9b78-49da-8131-2fdc86ea52c0,APPROVED_L1,1,1,0.02
+9e4469a9-ea0b-4ff9-af67-f53bbcfe0cee,scenario_C_S101_Manual,53694590-5023-4355-a2e6-b46b12674039,APPROVED_L1,1,1,0.01
+a2b72da4-1edd-428d-8cf2-7c066bdcbc78,scenario_C_S101_Manual,412fc5ec-1ad0-4056-a861-5caab46d9399,APPROVED_L1,1,1,0.01
+017e61e1-d314-4cdd-b1b2-443476776cfd,scenario_C_S101_Manual,4d8c16b8-132c-412f-b1fd-2cc3e2140937,APPROVED_L1,1,1,0.01
+1b322c03-d2a0-4b07-a0c6-242dc3c4d2be,scenario_C_S101_Manual,92d151de-dbf5-466e-83e7-dae6234f48e6,APPROVED_L1,1,1,0.01
+e1996491-eab7-4643-a546-008a5a9d8dc3,scenario_C_S101_Manual,8d91e98d-e646-4f73-b4af-c880f040413e,APPROVED_L1,1,1,0.0
+5c7091d0-aa7a-4f9f-be19-32d295c875b1,scenario_C_S101_Manual,cb291105-afac-4ddb-b188-2757a5046f86,APPROVED_L1,1,1,0.01
+34ca5582-487d-4b88-b90b-6e466276acc3,scenario_C_S101_Manual,f2cba305-1d0d-4a61-8108-3a297ebb1d81,APPROVED_L1,1,1,0.0
+0792abb0-a827-4fa9-a06f-f52a92c7e8f3,scenario_C_S101_Manual,76680e6c-f99b-4bb5-a57c-de903d902ff0,APPROVED_L1,1,1,0.01
+cb3fc611-af29-4df9-a87e-045980b49755,scenario_C_S101_Manual,c1de29e1-e08a-47ae-bdb4-9f12d1d2b008,APPROVED_L1,1,1,0.01
+1e7f5a14-177a-49d1-ad91-1cc7d83b7a0c,scenario_C_S101_Manual,507117e2-e2d6-4dc0-b6f2-83b34fa9ebf6,APPROVED_L1,1,1,0.02

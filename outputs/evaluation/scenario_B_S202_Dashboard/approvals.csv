@@ -1,0 +1,15 @@
+approval_id,run_id,request_id,status,required_level,current_level,latency_sec
+d114c9c7-95f6-42ed-9646-be1b7205f12a,scenario_B_S202_Dashboard,295d6c99-8d88-4146-8c09-654ff255b349,APPROVED_L1,1,1,0.09
+58663f30-4ceb-4a0b-9d62-141325383b1f,scenario_B_S202_Dashboard,a87bf70c-8665-4289-b716-2b8254128fa2,APPROVED_L1,1,1,0.24
+8fc196ba-e13b-4c49-85b5-d9a54413e3b9,scenario_B_S202_Dashboard,d9bcf431-9df9-4c7f-88d2-d512c16e2eaa,APPROVED_L1,1,1,0.02
+17dbd383-2857-4176-aabe-36f24b40d512,scenario_B_S202_Dashboard,4f61747d-93bb-44c4-8cac-05eb3c83eb44,APPROVED_L1,1,1,0.06
+88ffb8d2-52d3-4322-9677-2e7f4b0f8a8d,scenario_B_S202_Dashboard,a78f7268-8f19-4254-a6cc-a5cae2828e2d,APPROVED_L1,1,1,0.01
+38f5c684-79e5-4e7a-9861-92187cd7a3ff,scenario_B_S202_Dashboard,cff7b8fd-b1ee-4a9e-847c-e5688c764ff2,APPROVED_L1,1,1,0.05
+4667c573-086d-47c1-8e96-f19ceb7c577d,scenario_B_S202_Dashboard,552e950f-bdbc-408d-a1fa-1e5fc379b7ea,APPROVED_L1,1,1,0.08
+fda13240-3e8b-49ee-a9fc-8b4fe21ffdd7,scenario_B_S202_Dashboard,cb8139ad-1ac3-473a-8c53-3be8ac7b8069,APPROVED_L1,1,1,0.04
+34ade6e0-8ccc-41ba-b32f-584d3fe7898a,scenario_B_S202_Dashboard,7f0fa01d-2b14-4149-8088-db5011a5d516,APPROVED_L1,1,1,0.01
+179cb280-ab3d-4d2b-9e72-9d54f3c23662,scenario_B_S202_Dashboard,3975339e-2c2e-42b4-8fa0-4532125e7990,APPROVED_L1,1,1,0.04
+90a4de81-76b3-4a4f-b085-ffc3fdbff74b,scenario_B_S202_Dashboard,8413cf8b-fc5c-4f94-b621-a62b5bacf811,APPROVED_L1,1,1,0.01
+53413e7b-4aa7-4237-975b-28677bf2be56,scenario_B_S202_Dashboard,fe763661-2d74-4d84-8e11-6ee668fdad62,APPROVED_L1,1,1,0.02
+b3051df1-7c54-41f9-91c0-74a172cc71d7,scenario_B_S202_Dashboard,224f0f22-7d82-4747-a404-f303ee4b5a87,APPROVED_L1,1,1,0.01
+47baaacf-9bf9-4f33-9e1e-73ff4942149a,scenario_B_S202_Dashboard,2380c0b9-22a6-45b2-902e-25dd7aeb1a2c,APPROVED_L1,1,1,0.01

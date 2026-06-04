@@ -1,0 +1,17 @@
+request_id,run_id,tick,shelter_id,resource_type,quantity
+0df07565-9218-48f3-91c5-f01eb4719ceb,scenario_C_S202_Equal,6,sh-01,ResourceType.WATER,1000.0
+38906464-70e7-4840-9833-8c2b6230e0e4,scenario_C_S202_Equal,6,sh-02,ResourceType.WATER,1000.0
+88d1c3c2-64a8-4bb6-b06a-a31b7173e97a,scenario_C_S202_Equal,12,sh-01,ResourceType.WATER,1000.0
+a80cf056-e494-4b4a-a3fb-26f2daf89d2b,scenario_C_S202_Equal,12,sh-02,ResourceType.WATER,1000.0
+b4e90b34-18fd-401b-9813-a626799cf55b,scenario_C_S202_Equal,18,sh-01,ResourceType.WATER,1000.0
+e5e18feb-ee08-49da-a86b-a21b1649f4da,scenario_C_S202_Equal,18,sh-02,ResourceType.WATER,1000.0
+7aaa5f5d-ac6a-4cc5-bf8b-277f7bfc4507,scenario_C_S202_Equal,24,sh-01,ResourceType.WATER,1000.0
+aa8fabfe-7f18-4ae1-8115-e07fd76139a9,scenario_C_S202_Equal,24,sh-02,ResourceType.WATER,1000.0
+81417b36-9c6f-40df-ac64-19e66eb6cd0d,scenario_C_S202_Equal,30,sh-01,ResourceType.WATER,1000.0
+3fc95bbf-7ab0-4358-a388-21cde6bed10e,scenario_C_S202_Equal,30,sh-02,ResourceType.WATER,1000.0
+48ae441f-f002-47dc-a049-77d959144fe9,scenario_C_S202_Equal,36,sh-01,ResourceType.WATER,1000.0
+d0c75ddc-2a65-497c-84ad-0b408e62512b,scenario_C_S202_Equal,36,sh-02,ResourceType.WATER,1000.0
+7598edd8-7426-44c9-8f15-6f556a994ab2,scenario_C_S202_Equal,42,sh-01,ResourceType.WATER,1000.0
+c6d58247-0d78-433a-a08f-79a5399d928c,scenario_C_S202_Equal,42,sh-02,ResourceType.WATER,1000.0
+3ffc9e26-7e79-4868-adc3-49d379b526e6,scenario_C_S202_Equal,48,sh-01,ResourceType.WATER,1000.0
+7a9d74a6-64ee-41fd-bd0d-bd9770766f9c,scenario_C_S202_Equal,48,sh-02,ResourceType.WATER,1000.0

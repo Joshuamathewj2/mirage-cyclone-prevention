@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# SQLite demo db
+mirage_demo.db
+
+# Outputs - keep structure but not large CSVs
+outputs/evaluation/results_summary.csv
+outputs/evaluation/paper_figures/
+
+# Environment
+.env
+.env.*
+
+# Node / Next.js
+mirage/frontend/node_modules/
+mirage/frontend/.next/
+mirage/frontend/out/
+mirage/frontend/.turbo/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Redis dump
+dump.rdb

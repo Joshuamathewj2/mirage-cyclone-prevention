@@ -1,0 +1,3 @@
+run_id,scenario_id,seed,duration,status,M6b_rate,M9_compliance,M10_fairness,M11_rec_rate,M12_latency
+VAL_af4f3b4c,scenario_A,101,0,RUNNING,0.0,1.0,0.0,0.0,0.0
+VAL_af4f3b4c,scenario_A,101,48,SUCCESS,0.0,1.0,0.0,0.0,0.09366250014863908

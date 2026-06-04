@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+sqlalchemy
+psycopg2-binary
+geoalchemy2
+redis
+simpy
+networkx
+langgraph
+langchain-google-genai
+pandas
+pytest
+python-multipart
+python-dotenv
