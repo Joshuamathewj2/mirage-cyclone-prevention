@@ -30,17 +30,33 @@ class TestE2EFlow(unittest.TestCase):
 
     def test_complete_shortage_to_approval_flow(self):
         # 1. Seed the blackboard
-        self.blackboard.db["shelters"] = INITIAL_SHELTERS
-        self.blackboard.db["resources"] = INITIAL_Resources = [
+        self.blackboard.update_shelters(INITIAL_SHELTERS)
+        self.blackboard.update_resources([
             {"id": "res-01", "type": "FOOD", "quantity": 100, "unit": "kg", "shelter_id": "sh-01"}
-        ]
+        ])
         
         # 2. Run a tick that triggers shortage
         # sh-01 has 100kg. If occupancy is high, it will trigger request.
-        self.blackboard.db["shelters"][0]["current_occupancy"] = 5000
+        self.blackboard.update_shelters([
+            {"id": "sh-01", "current_occupancy": 5000}
+        ])
         
         # Trigger conflict resolution step
-        self.engine.run_conflict_resolution(10)
+        from mirage.models.entities import ResourceRequest, ResourceType
+        reqs = [
+            ResourceRequest(
+                request_id="R1",
+                shelter_id="sh-01",
+                resource_type=ResourceType.FOOD,
+                quantity_requested=500.0,
+                risk_score=0.9,
+                occupancy_ratio=0.9,
+                stock_days_remaining=0.2,
+                accessibility_score=1.0,
+                agent_name="ResourceAdvisorAgent"
+            )
+        ]
+        self.engine.run_conflict_resolution(10, reqs)
         
         # 3. Verify allocation was generated
         # Check if recorder logged allocations
@@ -54,7 +70,14 @@ class TestE2EFlow(unittest.TestCase):
         plan = AllocationPlan(
             tick=10,
             allocations=[
-                Allocation(request_id="R1", shelter_id="sh-01", resource_type=ResourceType.FOOD, quantity_allocated=500, explanation="Test")
+                Allocation(
+                    request_id="R1",
+                    shelter_id="sh-01",
+                    resource_type=ResourceType.FOOD,
+                    quantity_requested=500.0,
+                    quantity_allocated=500.0,
+                    explanation="Test"
+                )
             ],
             summary="Test plan"
         )

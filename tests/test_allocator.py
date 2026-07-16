@@ -44,10 +44,9 @@ class TestConflictResolver(unittest.TestCase):
         ]
         inventory = {ResourceType.FOOD: 500}
         plan = self.resolver.resolve(1, reqs, inventory)
-        # One gets it all, others 0.
+        # Both get equal share of 250.
         allocations = [a.quantity_allocated for a in plan.allocations]
-        self.assertIn(500, allocations)
-        self.assertIn(0, allocations)
+        self.assertEqual(allocations, [250.0, 250.0])
 
     def test_case_4_inaccessible_route(self):
         """Inaccessible route (Accessibility Score = 0)."""
@@ -85,7 +84,7 @@ class TestConflictResolver(unittest.TestCase):
         inventory = {ResourceType.FOOD: 450}
         plan = self.resolver.resolve(1, reqs, inventory)
         self.assertEqual(plan.allocations[0].quantity_allocated, 450)
-        self.assertIn("Partial", plan.allocations[0].explanation)
+        self.assertIn("Pro-rata", plan.allocations[0].explanation)
 
     def test_case_7_medical_emergency(self):
         """Medical kits competition."""

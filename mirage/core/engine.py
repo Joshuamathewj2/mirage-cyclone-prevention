@@ -37,7 +37,7 @@ class SimulationClock:
             self.gov_latency_ticks = 2
             self.use_agents = False
         else: # MIRAGE / Rule-Based
-            self.strategy = "WEIGHTED"
+            self.strategy = "AI"
             self.gov_latency_ticks = 0
             self.use_agents = True
 
@@ -118,7 +118,8 @@ class SimulationClock:
                         risk_score=rec.priority,
                         occupancy_ratio=0.5, 
                         stock_days_remaining=2.0,
-                        accessibility_score=1.0
+                        accessibility_score=1.0,
+                        agent_name=rec.agent_name
                     )
                     agent_requests.append(req)
         else:
@@ -134,7 +135,8 @@ class SimulationClock:
                         risk_score=0.5,
                         occupancy_ratio=s.get("current_occupancy", 0)/s.get("capacity", 1),
                         stock_days_remaining=s.get("water_days", 2.0),
-                        accessibility_score=1.0
+                        accessibility_score=1.0,
+                        agent_name="Manual Dispatch"
                     )
                     agent_requests.append(req)
         

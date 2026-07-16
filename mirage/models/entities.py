@@ -151,6 +151,7 @@ class ResourceRequest(BaseModel):
     occupancy_ratio: float
     stock_days_remaining: float
     accessibility_score: float
+    agent_name: str = "Unknown Agent"
 
 class Allocation(BaseModel):
     request_id: str
@@ -160,10 +161,26 @@ class Allocation(BaseModel):
     quantity_allocated: float
     explanation: str
 
+class AllocationDecision(BaseModel):
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    agent_name: str
+    shelter_id: str
+    resource_type: str
+    requested: float
+    allocated: float
+    strategy_used: str
+    timestamp: datetime = Field(default_factory=datetime.now)
+    reasoning: str
+    problem: str = "Unknown Problem"
+    reason: str = "No reason provided"
+    recommended_action: str = "No action recommended"
+    priority: str = "Medium"
+
 class AllocationPlan(BaseModel):
     plan_id: str = Field(default_factory=lambda: str(uuid.uuid4()))
     tick: int
     allocations: List[Allocation]
+    decisions: List[AllocationDecision] = []
     summary: str
     created_at: datetime = Field(default_factory=datetime.now)
 
@@ -191,3 +208,64 @@ class DeliveryPlan(BaseModel):
     estimated_arrival_tick: int
     status: str = "PENDING"
     created_at: datetime = Field(default_factory=datetime.now)
+
+
+# ─── Community Alert / Broadcast ─────────────────────────────────────────────
+
+class BroadcastChannel(str, Enum):
+    """
+    Channels available for community alert dispatch.
+    In production, each would map to a real provider:
+      RADIO  → Regional FM broadcast API
+      SMS    → Africa's Talking / Twilio SMS
+      SIREN  → IoT siren network relay
+      ALL    → All channels simultaneously
+    Currently MOCKED — alerts are logged and stored but not transmitted.
+    """
+    RADIO = "RADIO"
+    SMS = "SMS"
+    SIREN = "SIREN"
+    ALL = "ALL"
+
+
+class AlertSeverity(str, Enum):
+    INFO = "INFO"          # General awareness (Cat 1–2)
+    WARNING = "WARNING"    # Prepare to evacuate (Cat 3)
+    CRITICAL = "CRITICAL"  # Immediate evacuation required (Cat 4–5)
+
+
+class AlertStatus(str, Enum):
+    SUGGESTED = "SUGGESTED"  # Auto-suggested by Risk Agent, awaiting operator action
+    SENT = "SENT"            # Operator confirmed and broadcast
+    DISMISSED = "DISMISSED"  # Operator dismissed the suggestion
+
+
+class CommunityAlert(BaseModel):
+    """
+    Represents a community hazard alert broadcast by the EOC operator.
+    Auto-suggested when the cyclone Risk Agent crosses a severity threshold.
+    The `mock_send` field records whether this was dispatched via the mock
+    provider — replace with real provider logic in production.
+    """
+    id: str = Field(default_factory=lambda: str(uuid.uuid4()))
+    tick: int = 0
+    hazard_type: str = "CYCLONE"
+    severity: AlertSeverity
+    cyclone_category: int = 0
+    affected_zones: List[str] = []
+    message: str
+    channel: BroadcastChannel = BroadcastChannel.ALL
+    status: AlertStatus = AlertStatus.SUGGESTED
+    sent_by: str = "EOC_OPERATOR"  # or "AUTO_SUGGESTED"
+    # MOCK: in production this would be a provider receipt ID
+    mock_delivery_log: Optional[str] = None
+    created_at: datetime = Field(default_factory=datetime.now)
+    sent_at: Optional[datetime] = None
+
+
+class AlertBroadcastRequest(BaseModel):
+    """Payload for POST /api/alerts/broadcast from the frontend."""
+    affected_zones: List[str]
+    message: Optional[str] = None          # If None, message is auto-generated
+    channel: BroadcastChannel = BroadcastChannel.ALL
+    sent_by: str = "EOC_OPERATOR"

@@ -1,0 +1,3 @@
+approval_id,run_id,request_id,status,required_level,current_level,latency_sec
+e7b2e4fd-368b-4499-8896-7186f9b18b86,test-run,6afdbb2d-434e-4797-a8bb-2f17ae83a2c6,APPROVED_L1,1,1,0.01
+424b07df-f10e-412d-b0e4-583c960f5dac,test-run,a7fbfe8c-28e1-4a62-a03b-8da149c1ed50,APPROVED_L1,1,1,0.0

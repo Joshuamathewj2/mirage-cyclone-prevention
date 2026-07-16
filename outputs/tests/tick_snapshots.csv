@@ -1,0 +1,4 @@
+snapshot_id,run_id,tick_index,cyclone_cat,total_occupancy,stock_level_avg
+3860e516-97b1-4376-ae27-141a81d2e5ea,test-run,10,0,5000,0.001
+eff10c69-2854-42fa-b42b-83a44c77dfa3,test-run,10,0,5000,0.001
+0e28f672-a7bf-4bc3-b709-5993bdd2f1b0,test-run,10,0,5000,0.001
