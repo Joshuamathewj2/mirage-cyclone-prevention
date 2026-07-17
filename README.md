@@ -2,7 +2,7 @@
 
 > **early-warning-to-early-action coordination system for the Horn of Africa**
 >
-> 🎥 **[WATCH THE DEMO VIDEO (3 MINS)](https://youtu.be/example-demo-video)** *(Note: Replace with your actual video link)*
+> 🎥 **[WATCH THE DEMO VIDEO (3 MINS)]([https://youtu.be/example-demo-video](https://www.youtube.com/watch?v=dfB6zRLU4Gg))** *(Note: Replace with your actual video link)*
 >
 > MIRAGE is an early-warning disaster response coordinator designed for the IGAD region (coastal Somalia, Kenya, Ethiopia). It uniquely combines explainable multi-agent planning with deterministic conflict resolution and strict human-in-the-loop governance. Unlike unpredictable black-box AI tools, **MIRAGE's agents only advise, a deterministic algorithm decides, and humans govern.**
 
