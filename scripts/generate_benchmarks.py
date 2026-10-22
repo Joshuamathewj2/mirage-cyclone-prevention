@@ -15,7 +15,7 @@ from data.scenarios import SCENARIO_A, SCENARIO_B, SCENARIO_C, DISTRICT_CONFIG, 
 
 def run_snapshot(scenario_config, seed):
     sim_id = str(uuid.uuid4())[:8]
-    blackboard = Blackboard("redis://localhost:6379", "sqlite:///mirage.db")
+    blackboard = Blackboard()
     recorder = None # We don't need the full recorder for benchmarks
     
     # Init DTs

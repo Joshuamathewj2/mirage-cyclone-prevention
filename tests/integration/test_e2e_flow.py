@@ -11,8 +11,10 @@ from mirage.core.governance import GovernanceService
 
 class TestE2EFlow(unittest.TestCase):
     def setUp(self):
+        import tempfile
+        self.out_dir = tempfile.mkdtemp(prefix="mirage-test-")  # keep tracked outputs/ clean
         self.blackboard = Blackboard("redis://localhost:6379", "sqlite://")
-        self.recorder = ExperimentRecorder("outputs/tests", "test-run", "scenario-A", 101)
+        self.recorder = ExperimentRecorder(self.out_dir, "test-run", "scenario-A", 101)
         
         # Initialize DTs
         self.cyclone_dt = CycloneDT(SCENARIO_A, 101)
@@ -60,7 +62,7 @@ class TestE2EFlow(unittest.TestCase):
         
         # 3. Verify allocation was generated
         # Check if recorder logged allocations
-        alloc_file = "outputs/tests/allocations.csv"
+        alloc_file = os.path.join(self.out_dir, "allocations.csv")
         self.assertTrue(os.path.exists(alloc_file))
         
         # 4. Process allocations through Governance
@@ -98,7 +100,7 @@ class TestE2EFlow(unittest.TestCase):
         
         # 6. Verify result
         self.assertEqual(requests[0].status, ApprovalStatus.APPROVED_L1)
-        self.assertTrue(os.path.exists("outputs/tests/approvals.csv"))
+        self.assertTrue(os.path.exists(os.path.join(self.out_dir, "approvals.csv")))
 
 if __name__ == "__main__":
     unittest.main()

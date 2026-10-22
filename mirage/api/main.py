@@ -18,7 +18,7 @@ from mirage.dt.resource import ResourceDT
 from mirage.dt.infra import InfraDT
 from mirage.core.blackboard import Blackboard
 from mirage.models.entities import (
-    CommunityAlert, AlertBroadcastRequest,
+    CommunityAlert, AlertBroadcastRequest, ApprovalDecision,
     AlertSeverity, AlertStatus, BroadcastChannel
 )
 # Research scenarios (validated, unchanged)
@@ -197,11 +197,8 @@ def initialize_simulation(scenario_name: Optional[str] = None):
     sim_state.active_scenario = name
     cfg = _SCENARIO_REGISTRY[name]
 
-    db_url = "sqlite:///mirage_demo.db"
-    if os.path.exists("mirage_demo.db"):
-        os.remove("mirage_demo.db")
-
-    sim_state.blackboard = Blackboard("redis://localhost:6379", db_url=db_url)
+    db_url = os.getenv("DATABASE_URL")
+    sim_state.blackboard = Blackboard(os.getenv("REDIS_URL"), db_url=db_url)
     sim_state.blackboard.set_simulation_id(f"demo_{name}")
 
     dt_engine = [
@@ -212,7 +209,7 @@ def initialize_simulation(scenario_name: Optional[str] = None):
         ResourceDT(cfg["resources"], {"consumption_rates": {"FOOD": 0.05, "WATER": 0.25}})
     ]
 
-    sim_state.clock = SimulationClock(sim_state.blackboard, dt_engine, recorder=None, baseline="MIRAGE")
+    sim_state.clock = SimulationClock(sim_state.blackboard, dt_engine, recorder=None, baseline="MIRAGE", auto_approve=False)
     sim_state.tick = 0
     sim_state.is_running = False
 
@@ -286,8 +283,21 @@ def get_allocations():
 
 @app.get("/approvals")
 def get_approvals():
-    # Auto-approved in simulation; stub kept for frontend compatibility
-    return []
+    if not sim_state.clock:
+        return []
+    return [req.model_dump(mode="json") for req in sim_state.clock.governance.requests.values()]
+
+
+@app.post("/approvals/decision")
+def decide_approval(decision: ApprovalDecision):
+    if not sim_state.clock or decision.request_id not in sim_state.clock.governance.requests:
+        raise HTTPException(status_code=404, detail="Approval request not found")
+    try:
+        sim_state.clock.governance.handle_decision(decision)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    req = sim_state.clock.governance.requests[decision.request_id]
+    return req.model_dump(mode="json")
 
 
 @app.get("/map-data")

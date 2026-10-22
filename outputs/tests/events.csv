@@ -1,5 +1,0 @@
-event_id,run_id,tick_index,event_type,payload
-5a06d459-9a4c-4b00-9bbc-bb07c7495965,test-run,10,APPROVAL_REQUESTED,"{'request_id': '6afdbb2d-434e-4797-a8bb-2f17ae83a2c6', 'shelter_id': 'sh-01', 'level': 1}"
-3ad2b13c-56e4-4ad0-b9ab-69c556328639,test-run,0,APPROVAL_DECISION,"{'id': '77a7eee0-3e10-4ded-8d9d-9589f4da0f2a', 'request_id': '6afdbb2d-434e-4797-a8bb-2f17ae83a2c6', 'approver_id': 'boss-1', 'level': 1, 'decision': <ApprovalStatus.APPROVED_L1: 'APPROVED_L1'>, 'reason': None, 'processed_at': datetime.datetime(2026, 7, 16, 23, 57, 47, 754506)}"
-11567959-a9b2-49a6-9379-aadf7006df5b,test-run,10,APPROVAL_REQUESTED,"{'request_id': 'a7fbfe8c-28e1-4a62-a03b-8da149c1ed50', 'shelter_id': 'sh-01', 'level': 1}"
-9a60f05e-5da5-4e7a-bb17-a68fa339a9c1,test-run,0,APPROVAL_DECISION,"{'id': 'b09145cf-84fc-4352-8837-f82f75d14c28', 'request_id': 'a7fbfe8c-28e1-4a62-a03b-8da149c1ed50', 'approver_id': 'boss-1', 'level': 1, 'decision': <ApprovalStatus.APPROVED_L1: 'APPROVED_L1'>, 'reason': None, 'processed_at': datetime.datetime(2026, 7, 17, 0, 4, 36, 983828)}"

@@ -1,9 +1,0 @@
-run_id,scenario_id,seed,duration,status
-e57f042f-1225-4db9-adc0-3c7a2a8af771,Scenario A,101,0,RUNNING
-e57f042f-1225-4db9-adc0-3c7a2a8af771,Scenario A,101,72,SUCCESS
-391a8ddd-046b-419f-912e-61e995840e95,Scenario A,101,0,RUNNING
-391a8ddd-046b-419f-912e-61e995840e95,Scenario A,101,72,SUCCESS
-610a45fa-edfc-43ae-a701-330b39b5ee41,Scenario A,101,0,RUNNING
-610a45fa-edfc-43ae-a701-330b39b5ee41,Scenario A,101,72,SUCCESS
-8f8e8953-9dca-4d16-9438-6224624dbae5,Scenario A,101,0,RUNNING
-8f8e8953-9dca-4d16-9438-6224624dbae5,Scenario A,101,72,SUCCESS

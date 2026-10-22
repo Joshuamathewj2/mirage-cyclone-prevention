@@ -134,48 +134,29 @@ class ClaudeAdapter(BaseLLMAdapter):
             )
 
 class GeminiAdapter(BaseLLMAdapter):
-    def __init__(self, model_name: str = "gemini-1.5-pro"):
-        super().__init__(model_name)
-        self.api_key = os.getenv("GOOGLE_API_KEY")
+    def __init__(self, model_name: Optional[str] = None):
+        super().__init__(model_name or os.getenv("GEMINI_MODEL", "gemini-2.5-flash"))
+        self.api_key = os.getenv("GEMINI_API_KEY")
 
     def generate(self, system_prompt: str, user_prompt: str) -> LLMResponse:
-        import google.generativeai as genai
-        genai.configure(api_key=self.api_key)
-        model = genai.GenerativeModel(self.model_name)
         start_time = time.time()
         try:
-            # Note: Gemini often puts system instruction in model init or starts chat
-            # Using simple content generation with combined prompt for abstraction
+            if not self.api_key:
+                raise RuntimeError("GEMINI_API_KEY is not configured")
+            from google import genai
+            client = genai.Client(api_key=self.api_key)
             combined_prompt = f"SYSTEM: {system_prompt}\n\nUSER: {user_prompt}"
-            response = model.generate_content(combined_prompt)
+            response = client.models.generate_content(model=self.model_name, contents=combined_prompt)
             latency = (time.time() - start_time) * 1000
-            text = response.text
-            
-            # Token counting is slightly more complex in Gemini API, using estimates for v1
-            usage_metadata = response.usage_metadata
-            input_tokens = usage_metadata.prompt_token_count
-            output_tokens = usage_metadata.candidates_token_count
-            
-            # Simple cost estimate
+            text = response.text or ""
+            usage = getattr(response, "usage_metadata", None)
+            input_tokens = getattr(usage, "prompt_token_count", 0) or 0
+            output_tokens = getattr(usage, "candidates_token_count", 0) or 0
             cost = (input_tokens * 0.0035 + output_tokens * 0.0105) / 1000
-            
-            return LLMResponse(
-                provider=self.provider_name,
-                model=self.model_name,
-                latency_ms=latency,
-                prompt_tokens=input_tokens,
-                completion_tokens=output_tokens,
-                total_tokens=input_tokens + output_tokens,
-                cost_estimate=cost,
-                output_text=text,
-                success=True
-            )
+            return LLMResponse(provider=self.provider_name, model=self.model_name, latency_ms=latency,
+                prompt_tokens=input_tokens, completion_tokens=output_tokens,
+                total_tokens=input_tokens + output_tokens, cost_estimate=cost,
+                output_text=text, success=True)
         except Exception as e:
-            return LLMResponse(
-                provider=self.provider_name,
-                model=self.model_name,
-                latency_ms=(time.time() - start_time) * 1000,
-                output_text="",
-                success=False,
-                error=str(e)
-            )
+            return LLMResponse(provider=self.provider_name, model=self.model_name,
+                latency_ms=(time.time() - start_time) * 1000, output_text="", success=False, error=str(e))

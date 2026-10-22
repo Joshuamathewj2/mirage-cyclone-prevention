@@ -1,10 +1,11 @@
+import copy
 from typing import Dict, Any, List
 from mirage.dt.base import DigitalTwin
 
 class ResourceDT(DigitalTwin):
     def __init__(self, resources_data: List[Dict[str, Any]], config: Dict[str, Any]):
         super().__init__("ResourceDT")
-        self.resources = resources_data
+        self.resources = copy.deepcopy(resources_data)
         self.rates = config.get("consumption_rates", {
             "FOOD": 0.05,        # kg/person/tick
             "WATER": 0.25,       # L/person/tick

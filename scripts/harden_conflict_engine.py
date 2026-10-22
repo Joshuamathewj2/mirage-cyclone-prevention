@@ -96,7 +96,7 @@ Perturbing weights by ±10% resulted in the following allocation shifts:
 ## 4. Conclusion
 The Conflict Resolution Engine is **Hardened**. While weights were aligned with expert ground truth, the logic remains mathematically sound under random perturbations.
 """
-    with open("c:/mirage_ai_agent/outputs/conflict_validation_report.md", "w") as f:
+    with open("outputs/conflict_validation_report.md", "w", encoding="utf-8") as f:
         f.write(report)
     print("Hardening complete. Report generated.")
 

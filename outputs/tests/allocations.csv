@@ -1,4 +1,0 @@
-allocation_id,run_id,tick_index,request_id,shelter_id,resource_type,allocated_qty,explanation
-e30bf458-c148-47e2-b020-685df2db6d58,test-run,10,R1,sh-01,FOOD,500.0,Inventory sufficient for full allocation.
-e9daed8a-8b0d-4c25-ba49-2da646dd5af5,test-run,10,R1,sh-01,FOOD,500.0,Inventory sufficient for full allocation.
-5c3d967b-c6dd-4306-bfa9-cb3e534c7951,test-run,10,R1,sh-01,FOOD,500.0,Inventory sufficient for full allocation.

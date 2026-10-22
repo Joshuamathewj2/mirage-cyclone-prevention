@@ -1,44 +1,15 @@
-import uuid
-from typing import List, Dict, Any
+import logging
+from typing import List, Dict
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
+import hashlib
 from mirage.models.entities import ResourceRequest, Allocation, AllocationPlan, ResourceType, AllocationDecision
+
+logger = logging.getLogger(__name__)
 
 def generate_reasoning(agent_name: str, resource_type: str, requested: float,
                        allocated: float, strategy: str) -> str:
-    import google.generativeai as genai
-    import os
-    import time
-    from dotenv import load_dotenv
-    
-    project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-    dotenv_path = os.path.join(project_root, ".env")
-    load_dotenv(dotenv_path)
-    
-    api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-    if not api_key or api_key == "your_api_key_here":
-        return f"{strategy} strategy allocated {allocated}/{requested} units of {resource_type} to {agent_name}."
-    
-    try:
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-3.5-flash")
-        prompt = (
-            f"In one short sentence, explain why the '{strategy}' allocation "
-            f"strategy gave {allocated} units of {resource_type} to {agent_name}, "
-            f"who requested {requested}. Be concise and factual, no fluff."
-        )
-        for attempt in range(3):
-            try:
-                response = model.generate_content(prompt)
-                return response.text.strip()
-            except Exception as e:
-                if "429" in str(e) and attempt < 2:
-                    time.sleep(1.0 * (attempt + 1))
-                    continue
-                raise e
-    except Exception as e:
-        print(f"Gemini reasoning generation failed: {e}")
-        return f"{strategy} strategy allocated {allocated}/{requested} units of {resource_type} to {agent_name}."
+    """Produce a local explanation; allocation quantities are already finalized."""
+    return f"{strategy} deterministically allocated {allocated:g}/{requested:g} units of {resource_type} to {agent_name}."
 
 
 def derive_decision_metadata(req: ResourceRequest, allocated: float, strategy: str):
@@ -86,8 +57,12 @@ class ConflictResolver:
     def resolve(self, tick: int, requests: List[ResourceRequest], inventory: Dict[ResourceType, float], strategy: str = "WEIGHTED") -> AllocationPlan:
         """
         Resolve competing resource requests based on specified strategy.
-        Strategies: AI, WEIGHTED (MIRAGE), FCFS, EQUAL, PRO_RATA
+        Strategies: WEIGHTED (MIRAGE), FCFS, EQUAL, PRO_RATA.
+        Legacy AI strategy requests fall back to deterministic WEIGHTED allocation.
         """
+        if strategy.upper() == "AI":
+            logger.warning("Legacy AI allocation requested; using deterministic WEIGHTED strategy.")
+            strategy = "WEIGHTED"
         # 1. Group requests by resource type
         by_type = {}
         for req in requests:
@@ -99,7 +74,8 @@ class ConflictResolver:
         total_conflicts = 0
 
         # 2. Iterate each resource type
-        for r_type, req_list in by_type.items():
+        for r_type, req_list in sorted(by_type.items(), key=lambda item: str(item[0])):
+            req_list.sort(key=lambda req: (req.request_id, req.shelter_id))
             available = inventory.get(r_type, 0.0)
             total_requested = sum(r.quantity_requested for r in req_list)
 
@@ -112,70 +88,36 @@ class ConflictResolver:
                     allocations = self._allocate_fcfs(req_list, available)
                 elif strategy == "PRO_RATA":
                     allocations = self._allocate_pro_rata(req_list, available)
-                elif strategy == "AI":
-                    allocations = self._allocate_ai(req_list, available)
                 else: # WEIGHTED / MIRAGE
                     allocations = self._allocate_conflicted(req_list, available)
             else:
-                if strategy == "AI":
-                    allocations = self._allocate_ai(req_list, available)
-                else:
-                    allocations = self._allocate_full(req_list)
+                allocations = self._allocate_full(req_list)
 
             all_allocations.extend(allocations)
 
         decisions = []
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            futures = []
-            for alloc in all_allocations:
-                req = next((r for r in requests if r.request_id == alloc.request_id), None)
-                agent_name = req.agent_name if req and hasattr(req, "agent_name") else "Unknown Agent"
-                
-                future = executor.submit(
-                    generate_reasoning,
-                    agent_name=agent_name,
-                    resource_type=str(alloc.resource_type),
-                    requested=alloc.quantity_requested,
-                    allocated=alloc.quantity_allocated,
-                    strategy=strategy
-                )
-                futures.append((alloc, agent_name, req, future))
-                
-            for alloc, agent_name, req, future in futures:
-                try:
-                    reasoning = future.result(timeout=15.0)
-                except Exception as e:
-                    print(f"Failed to fetch reasoning: {e}")
-                    reasoning = f"{strategy} strategy allocated {alloc.quantity_allocated}/{alloc.quantity_requested} units of {alloc.resource_type} to {agent_name}."
-                
-                problem, reason, recommended_action, priority = derive_decision_metadata(
-                    req, alloc.quantity_allocated, strategy
-                )
-                
-                decisions.append(
-                    AllocationDecision(
-                        agent_name=agent_name,
-                        shelter_id=alloc.shelter_id,
-                        resource_type=str(alloc.resource_type),
-                        requested=alloc.quantity_requested,
-                        allocated=alloc.quantity_allocated,
-                        strategy_used=strategy,
-                        timestamp=datetime.now(),
-                        reasoning=reasoning,
-                        problem=problem,
-                        reason=reason,
-                        recommended_action=recommended_action,
-                        priority=priority
-                    )
-                )
+        for alloc in all_allocations:
+            req = next((r for r in requests if r.request_id == alloc.request_id), None)
+            agent_name = req.agent_name if req and hasattr(req, "agent_name") else "Unknown Agent"
+            reasoning = generate_reasoning(agent_name, str(alloc.resource_type),
+                                           alloc.quantity_requested, alloc.quantity_allocated, strategy)
+            problem, reason, recommended_action, priority = derive_decision_metadata(
+                req, alloc.quantity_allocated, strategy
+            )
+            decisions.append(AllocationDecision(
+                id=f"decision-{tick}-{alloc.request_id}", agent_name=agent_name, shelter_id=alloc.shelter_id,
+                resource_type=str(alloc.resource_type), requested=alloc.quantity_requested,
+                allocated=alloc.quantity_allocated, strategy_used=strategy,
+                timestamp=datetime(2000, 1, 1), reasoning=reasoning, problem=problem,
+                reason=reason, recommended_action=recommended_action, priority=priority))
 
         summary = f"Processed {len(requests)} requests using {strategy}. Conflicts: {total_conflicts}."
         
+        fingerprint = "|".join(f"{a.request_id}:{a.shelter_id}:{a.resource_type}:{a.quantity_requested}:{a.quantity_allocated}" for a in sorted(all_allocations, key=lambda x: x.request_id))
+        stable_plan_id = hashlib.sha256(f"{tick}|{fingerprint}".encode()).hexdigest()[:32]
         return AllocationPlan(
-            tick=tick,
-            allocations=all_allocations,
-            decisions=decisions,
-            summary=summary
+            plan_id=stable_plan_id, tick=tick, allocations=all_allocations,
+            decisions=decisions, summary=summary, created_at=datetime(2000, 1, 1)
         )
 
     def _allocate_equal(self, requests: List[ResourceRequest], available: float) -> List[Allocation]:
@@ -265,77 +207,6 @@ class ConflictResolver:
                 remaining_inventory = 0
 
         return allocations
-
-    def _allocate_ai(self, requests: List[ResourceRequest], available: float) -> List[Allocation]:
-        """AI-based allocation using Gemini with the provided API key."""
-        import json
-        import os
-        from dotenv import load_dotenv
-        import google.generativeai as genai
-        
-        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-        dotenv_path = os.path.join(project_root, ".env")
-        load_dotenv(dotenv_path)
-        
-        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-        if not api_key or api_key == "your_api_key_here":
-            raise ValueError("GEMINI_API_KEY or GOOGLE_API_KEY environment variable not set")
-            
-        genai.configure(api_key=api_key)
-        model = genai.GenerativeModel("gemini-1.5-flash")
-        
-        prompt = f"You are an AI Resource Allocator for disaster management. We have {available} units available.\n"
-        prompt += "Requests:\n"
-        for i, req in enumerate(requests):
-            prompt += f"[{i}] RequestID: {req.request_id}, Shelter: {req.shelter_id}, Requested: {req.quantity_requested}, Risk: {req.risk_score:.2f}, Occupancy: {req.occupancy_ratio:.2f}\n"
-        
-        prompt += """
-Allocate the available inventory among the requests optimally.
-If available inventory is sufficient, grant all requests in full.
-Otherwise, prioritize based on Risk and Occupancy.
-Total allocated must not exceed the available amount.
-Return ONLY a JSON array of objects. Each object must have:
-- "request_id" (string, matching the input RequestID)
-- "quantity_allocated" (number)
-- "explanation" (string, max 10 words)
-Do not use markdown formatting like ```json, just output the raw JSON array.
-"""
-        try:
-            response = model.generate_content(prompt)
-            text = response.text.strip()
-            if text.startswith("```json"):
-                text = text[7:]
-            if text.startswith("```"):
-                text = text[3:]
-            if text.endswith("```"):
-                text = text[:-3]
-            
-            data = json.loads(text)
-            allocations = []
-            for item in data:
-                req = next((r for r in requests if r.request_id == item.get("request_id")), None)
-                if req:
-                    allocations.append(
-                        Allocation(
-                            request_id=req.request_id,
-                            shelter_id=req.shelter_id,
-                            resource_type=req.resource_type,
-                            quantity_requested=req.quantity_requested,
-                            quantity_allocated=float(item.get("quantity_allocated", 0.0)),
-                            explanation=f"AI: {item.get('explanation', 'Optimal decision.')}"
-                        )
-                    )
-            # Fill in any missing requests with 0 allocation
-            processed_ids = {a.request_id for a in allocations}
-            for req in requests:
-                if req.request_id not in processed_ids:
-                    allocations.append(self._create_allocation(req, 0.0, 0.0, "AI: Request not selected."))
-            return allocations
-        except Exception as e:
-            print(f"AI Allocation failed: {e}. Falling back to WEIGHTED.")
-            if available >= sum(r.quantity_requested for r in requests):
-                return self._allocate_full(requests)
-            return self._allocate_conflicted(requests, available)
 
     def _create_allocation(self, req: ResourceRequest, allocated: float, score: float, prefix: str) -> Allocation:
         reason = f"{prefix} Score: {score:.2f}. " + self._explain_score(req)

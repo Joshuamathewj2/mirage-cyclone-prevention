@@ -1,0 +1,10 @@
+.git
+.venv
+**/__pycache__
+**/*.py[cod]
+.env
+node_modules
+mirage/frontend/node_modules
+mirage/frontend/.next
+outputs
+*.zip

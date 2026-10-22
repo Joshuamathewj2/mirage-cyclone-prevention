@@ -5,7 +5,7 @@
 ---
 
 ### 🎥 Live Demo Video
-* **Watch the Walkthrough Video:** **[MIRAGE Live Simulation & GIS Map Demo](https://youtu.be/example-demo-video)** *(Note: Replace with your actual video link)*
+* **Watch the Walkthrough Video:** **[MIRAGE Live Simulation & GIS Map Demo](https://www.youtube.com/watch?v=dfB6zRLU4Gg)**
 
 ---
 

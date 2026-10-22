@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect, useCallback } from "react";
 import dynamic from "next/dynamic";
 import {
@@ -12,10 +12,10 @@ import {
 } from "recharts";
 import type { MapData } from "./components/MapPanel";
 
-// ── Dynamic import: Leaflet must not run on the server ────────────────────────
+// â”€â”€ Dynamic import: Leaflet must not run on the server â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const MapPanel = dynamic(() => import("./components/MapPanel"), { ssr: false });
 
-// ─── Types ────────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Types â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 interface SimState {
   tick: number;
@@ -99,9 +99,9 @@ interface ScenarioInfo {
   available: string[];
 }
 
-// ─── Constants ────────────────────────────────────────────────────────────────
+// â”€â”€â”€ Constants â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
-const API = "http://localhost:8000";
+const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 const POLL_MS = 1500;
 
 // Default map center = IGAD demo region (Horn of Africa / Puntland, Somalia)
@@ -123,7 +123,7 @@ const SEVERITY_CONFIG = {
   },
 };
 
-// ─── Main Dashboard ───────────────────────────────────────────────────────────
+// â”€â”€â”€ Main Dashboard â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 export default function Dashboard() {
   const [state, setState] = useState<SimState>({ tick: 0, is_running: false, cyclone_category: 0, cyclone_wind: 0 });
@@ -246,14 +246,14 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-neutral-950 text-white font-sans">
 
-      {/* ── Sticky top bar ─────────────────────────────────────────────── */}
+      {/* â”€â”€ Sticky top bar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */}
       <div className="border-b border-white/10 bg-black/50 backdrop-blur-xl sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row justify-between items-center gap-3">
           <div>
             <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
               MIRAGE OS
             </h1>
-            <p className="text-neutral-500 text-xs">IGAD Early Warning &amp; Early Action — EOC Dashboard</p>
+            <p className="text-neutral-500 text-xs">IGAD Early Warning &amp; Early Action â€” EOC Dashboard</p>
           </div>
 
           {/* Tab switcher */}
@@ -308,14 +308,14 @@ export default function Dashboard() {
 
       <div className="max-w-7xl mx-auto px-6 py-5 space-y-5">
 
-        {/* ── API error */}
+        {/* â”€â”€ API error */}
         {apiError && (
           <div className="p-3 bg-red-900/60 border border-red-500/40 rounded-xl text-sm text-red-300">
-            ⚠ Cannot reach backend at <code>http://localhost:8000</code>. Make sure uvicorn is running.
+            âš  Cannot reach backend at <code>http://localhost:8000</code>. Make sure uvicorn is running.
           </div>
         )}
 
-        {/* ── Alert suggestion banner */}
+        {/* â”€â”€ Alert suggestion banner */}
         {state.suggested_alert && (
           <AlertSuggestionBanner
             suggestion={state.suggested_alert}
@@ -325,7 +325,7 @@ export default function Dashboard() {
           />
         )}
 
-        {/* ════════════════════════ DASHBOARD TAB ════════════════════════ */}
+        {/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• DASHBOARD TAB â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */}
         {activeTab === "dashboard" && (
           <>
             {/* KPI strip */}
@@ -410,8 +410,8 @@ export default function Dashboard() {
                 })}
               </Panel>
 
-              {/* AI Allocations */}
-              <Panel title="AI Allocation Decisions" icon={<Activity size={14} />}>
+              {/* Deterministic allocation decisions */}
+              <Panel title="Allocation Decisions" icon={<Activity size={14} />}>
                 {allocations.length === 0 && <EmptyState label="No allocations yet. Press Start." />}
                 {allocations.map((a, i) => {
                   const priorityColors: Record<string, string> = {
@@ -467,7 +467,7 @@ export default function Dashboard() {
                         </span>
                       </div>
 
-                      {/* Keep the reasoning field (from Gemini) as helper text at bottom if available */}
+                      {/* Show the allocator explanation as supporting detail. */}
                       {a.reasoning && (
                         <p className="text-[10px] text-neutral-500 italic leading-snug pt-1 border-t border-white/5 border-dashed">
                           Note: {a.reasoning}
@@ -484,7 +484,7 @@ export default function Dashboard() {
           </>
         )}
 
-        {/* ════════════════════════ MAP TAB ════════════════════════════── */}
+        {/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• MAP TAB â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â”€â”€ */}
         {activeTab === "map" && (
           <div className="space-y-4">
             {/* Scenario info bar */}
@@ -515,7 +515,7 @@ export default function Dashboard() {
                     </button>
                   ))}
                 </div>
-                {scenarioSwitching && <span className="text-xs text-neutral-500 animate-pulse">Switching…</span>}
+                {scenarioSwitching && <span className="text-xs text-neutral-500 animate-pulse">Switchingâ€¦</span>}
               </div>
             </div>
             {/* Map legend */}
@@ -524,7 +524,7 @@ export default function Dashboard() {
                 <span className="w-3 h-3 rounded-full bg-emerald-500 inline-block" /> Shelter (&lt;70%)
               </span>
               <span className="flex items-center gap-1.5">
-                <span className="w-3 h-3 rounded-full bg-amber-500 inline-block" /> Shelter (70–90%)
+                <span className="w-3 h-3 rounded-full bg-amber-500 inline-block" /> Shelter (70â€“90%)
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="w-3 h-3 rounded-full bg-red-500 inline-block" /> Shelter (&gt;90% / overflow)
@@ -536,14 +536,14 @@ export default function Dashboard() {
                 <span className="w-6 border-t-2 border-red-500 border-dashed inline-block" /> Route (Blocked)
               </span>
               <span className="flex items-center gap-1.5">
-                <span className="text-base">🌀</span> Cyclone eye
+                <span className="text-base">ðŸŒ€</span> Cyclone eye
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="w-3 h-3 rounded-full border border-red-500 border-dashed inline-block" /> Impact zone
               </span>
             </div>
 
-            {/* Map container — 600px tall */}
+            {/* Map container â€” 600px tall */}
             <div
               className="w-full rounded-2xl overflow-hidden border border-white/10"
               style={{ height: "600px" }}
@@ -553,7 +553,7 @@ export default function Dashboard() {
                   <div className="text-center space-y-2">
                     <Map size={32} className="mx-auto opacity-30" />
                     <p>Map will populate when simulation starts.</p>
-                    <p className="text-xs">Press ▶ Start on the Dashboard tab first.</p>
+                    <p className="text-xs">Press â–¶ Start on the Dashboard tab first.</p>
                   </div>
                 </div>
               ) : (
@@ -569,7 +569,7 @@ export default function Dashboard() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               <StatBadge label="Cyclone Cat." value={`CAT ${state.cyclone_category}`} color="text-red-400" />
               <StatBadge label="Wind Speed" value={`${state.cyclone_wind} km/h`} color="text-orange-400" />
-              <StatBadge label="Impact Radius" value={mapData.cyclone ? `~${mapData.cyclone.impact_radius_km} km` : "—"} color="text-purple-400" />
+              <StatBadge label="Impact Radius" value={mapData.cyclone ? `~${mapData.cyclone.impact_radius_km} km` : "â€”"} color="text-purple-400" />
               <StatBadge label="Shelters Mapped" value={`${mapData.shelters.length}`} color="text-blue-400" />
             </div>
           </div>
@@ -580,7 +580,7 @@ export default function Dashboard() {
   );
 }
 
-// ─── Alert suggestion banner ──────────────────────────────────────────────────
+// â”€â”€â”€ Alert suggestion banner â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function AlertSuggestionBanner({ suggestion, busy, success, onSend, onDismiss }: {
   suggestion: SuggestedAlert; busy: boolean; success: boolean;
@@ -597,10 +597,10 @@ function AlertSuggestionBanner({ suggestion, busy, success, onSend, onDismiss }:
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-2 mb-1">
           <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${cfg.badge}`}>{cfg.label}</span>
-          <span className="text-xs text-neutral-400">Risk Agent · Cat {suggestion.cyclone_category} · Tick {suggestion.tick}</span>
+          <span className="text-xs text-neutral-400">Risk Agent Â· Cat {suggestion.cyclone_category} Â· Tick {suggestion.tick}</span>
         </div>
         <p className={`text-sm font-medium ${cfg.text}`}>{suggestion.message}</p>
-        <p className="text-xs text-neutral-500 mt-1">Zones: {suggestion.affected_zones.join(", ")} · Channel: {suggestion.channel}</p>
+        <p className="text-xs text-neutral-500 mt-1">Zones: {suggestion.affected_zones.join(", ")} Â· Channel: {suggestion.channel}</p>
       </div>
       <div className="flex gap-2 flex-shrink-0">
         {success ? (
@@ -613,7 +613,7 @@ function AlertSuggestionBanner({ suggestion, busy, success, onSend, onDismiss }:
               suggestion.severity === "CRITICAL"
                 ? "bg-red-600 hover:bg-red-500 text-white shadow-[0_0_18px_rgba(220,38,38,0.4)]"
                 : "bg-amber-600 hover:bg-amber-500 text-white"}`}>
-            <Radio size={14} /> {busy ? "Sending…" : "Broadcast Alert"}
+            <Radio size={14} /> {busy ? "Sendingâ€¦" : "Broadcast Alert"}
           </button>
         )}
         <button id="btn-dismiss-alert" onClick={onDismiss}
@@ -625,7 +625,7 @@ function AlertSuggestionBanner({ suggestion, busy, success, onSend, onDismiss }:
   );
 }
 
-// ─── Alerts feed panel ────────────────────────────────────────────────────────
+// â”€â”€â”€ Alerts feed panel â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function AlertsPanel({ alerts, onManualBroadcast, busy }: {
   alerts: CommunityAlert[]; onManualBroadcast: () => void; busy: boolean;
@@ -657,13 +657,13 @@ function AlertsPanel({ alerts, onManualBroadcast, busy }: {
                   <span className={`inline-flex items-center gap-1 text-xs font-semibold px-2 py-0.5 rounded-full ${cfg.badge}`}>
                     {cfg.icon} {cfg.label}
                   </span>
-                  {a.status === "SENT" ? <span className="text-xs text-emerald-400">✓ Sent</span> : <span className="text-xs text-neutral-500">Dismissed</span>}
+                  {a.status === "SENT" ? <span className="text-xs text-emerald-400">âœ“ Sent</span> : <span className="text-xs text-neutral-500">Dismissed</span>}
                 </div>
                 <span className="text-xs text-neutral-500 font-mono">T:{a.tick}</span>
               </div>
               <p className="text-xs text-neutral-300 leading-relaxed line-clamp-3">{a.message}</p>
               <div className="flex gap-2 mt-1.5 text-xs text-neutral-500">
-                <span>📡 {a.channel}</span><span>·</span><span>{a.affected_zones.join(", ")}</span>
+                <span>ðŸ“¡ {a.channel}</span><span>Â·</span><span>{a.affected_zones.join(", ")}</span>
               </div>
             </div>
           );
@@ -673,7 +673,7 @@ function AlertsPanel({ alerts, onManualBroadcast, busy }: {
   );
 }
 
-// ─── Shared sub-components ────────────────────────────────────────────────────
+// â”€â”€â”€ Shared sub-components â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function KpiCard({ icon, label, color, children }: { icon: React.ReactNode; label: string; color: string; children: React.ReactNode }) {
   return (
@@ -701,7 +701,7 @@ function ChartCard({ title, children }: { title: string; children: React.ReactNo
   return (
     <div className="bg-white/5 border border-white/10 p-5 rounded-2xl h-64">
       <h3 className="text-neutral-300 font-medium text-sm mb-3">{title}</h3>
-      <ResponsiveContainer width="100%" height="88%">
+      <ResponsiveContainer width="100%" height="88%" minWidth={0} minHeight={150}>
         {children as React.ReactElement}
       </ResponsiveContainer>
     </div>
