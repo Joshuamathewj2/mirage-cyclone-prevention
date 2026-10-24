@@ -17,7 +17,7 @@ from data.scenarios import (
 
 def run_sim(scenario, seed):
     print(f"Running {scenario['id']} with Seed {seed}...")
-    blackboard = Blackboard("redis://localhost:6379", "postgresql://user:pass@localhost:5432")
+    blackboard = Blackboard()
     
     # SEED BLACKBOARD
     blackboard.update_shelters(INITIAL_SHELTERS)

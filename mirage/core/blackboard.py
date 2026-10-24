@@ -1,30 +1,40 @@
 import json
 from datetime import datetime
 from typing import Any, Dict, List, Optional
-import redis
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+try:
+    import redis
+except ImportError:  # optional infrastructure extra
+    redis = None
+try:
+    from sqlalchemy import create_engine
+    from sqlalchemy.orm import sessionmaker
+except ImportError:  # optional infrastructure extra
+    create_engine = sessionmaker = None
 from mirage.models.entities import Cyclone, Shelter, Resource, Route, Task, Decision, Approval
 
 class Blackboard:
-    def __init__(self, redis_url: str, db_url: str):
-        try:
-            self.redis = redis.from_url(redis_url, decode_responses=True)
-            self.redis.ping()
-            self.use_redis = True
-        except Exception:
-            print("Redis unavailable, falling back to memory store.")
-            self.redis_mem = {}
-            self.use_redis = False
-            
-        try:
-            self.engine = create_engine(db_url)
-            self.Session = sessionmaker(bind=self.engine)
-            self.use_db = True
-        except Exception:
-            print("Database unavailable, persistent features disabled.")
-            self.use_db = False
-        
+    def __init__(self, redis_url: Optional[str] = None, db_url: Optional[str] = None):
+        self.redis_mem = {}
+        self.redis = None
+        self.use_redis = False
+        if redis_url and redis:
+            try:
+                candidate = redis.from_url(redis_url, decode_responses=True)
+                candidate.ping()
+                self.redis = candidate
+                self.use_redis = True
+            except Exception:
+                print("Redis unavailable; using in-memory blackboard.")
+        self.engine = None
+        self.Session = None
+        self.use_db = False
+        if db_url and create_engine:
+            try:
+                self.engine = create_engine(db_url)
+                self.Session = sessionmaker(bind=self.engine)
+                self.use_db = True
+            except Exception:
+                print("Database unavailable; persistence disabled.")
         self.sim_id = "sim_default"
 
     def set_simulation_id(self, sim_id: str):

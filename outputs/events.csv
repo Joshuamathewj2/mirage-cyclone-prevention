@@ -1,4 +1,0 @@
-event_id,run_id,tick_index,event_type,payload
-5026b94b-7d81-4f11-980f-3e59125c7694,391a8ddd-046b-419f-912e-61e995840e95,13,INFRA_FAILURE,"{'id': 'rt-01', 'status': 'BLOCKED', 'reason': 'Extreme weather (Wind/Rain)'}"
-d2b0d880-ea7c-4e05-86f3-297fd292a3f7,610a45fa-edfc-43ae-a701-330b39b5ee41,13,INFRA_FAILURE,"{'id': 'rt-01', 'status': 'BLOCKED', 'reason': 'Extreme weather (Wind/Rain)'}"
-f11db963-67ad-46d5-93a3-31268b7cdcda,8f8e8953-9dca-4d16-9438-6224624dbae5,13,INFRA_FAILURE,"{'id': 'rt-01', 'status': 'BLOCKED', 'reason': 'Extreme weather (Wind/Rain)'}"

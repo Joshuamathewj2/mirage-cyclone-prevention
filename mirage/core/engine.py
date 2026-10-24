@@ -8,7 +8,7 @@ from mirage.core.pipeline import AgentPipeline
 from mirage.models.entities import ResourceRequest, ResourceType
 
 class SimulationClock:
-    def __init__(self, blackboard: Blackboard, dt_engine: List[DigitalTwin], recorder: Any, baseline: str = "MIRAGE"):
+    def __init__(self, blackboard: Blackboard, dt_engine: List[DigitalTwin], recorder: Any, baseline: str = "MIRAGE", auto_approve: bool = True):
         self.blackboard = blackboard
         self.dt_engine = dt_engine
         self.recorder = recorder
@@ -18,6 +18,7 @@ class SimulationClock:
         self.current_tick = 0
         self.is_running = False
         self.baseline = baseline
+        self.auto_approve = auto_approve
         
         # Configure baseline behavior
         if self.baseline == "Manual":
@@ -37,7 +38,7 @@ class SimulationClock:
             self.gov_latency_ticks = 2
             self.use_agents = False
         else: # MIRAGE / Rule-Based
-            self.strategy = "AI"
+            self.strategy = "WEIGHTED"
             self.gov_latency_ticks = 0
             self.use_agents = True
 
@@ -119,6 +120,7 @@ class SimulationClock:
                         occupancy_ratio=0.5, 
                         stock_days_remaining=2.0,
                         accessibility_score=1.0,
+                        request_id=f"{tick}:{rec.agent_name}:{payload.get('shelter_id')}:{payload.get('resource_type')}",
                         agent_name=rec.agent_name
                     )
                     agent_requests.append(req)
@@ -136,6 +138,7 @@ class SimulationClock:
                         occupancy_ratio=s.get("current_occupancy", 0)/s.get("capacity", 1),
                         stock_days_remaining=s.get("water_days", 2.0),
                         accessibility_score=1.0,
+                        request_id=f"{tick}:manual:{s['id']}:WATER",
                         agent_name="Manual Dispatch"
                     )
                     agent_requests.append(req)
@@ -155,6 +158,11 @@ class SimulationClock:
         # Step 10: Recorder Snap
         if self.recorder:
             self.recorder.snapshot(tick, self.blackboard)
+        shelters = self.blackboard.get_shelters()
+        occupancy = sum(s.get("current_occupancy", 0) for s in shelters)
+        capacity = sum(s.get("capacity", 0) for s in shelters)
+        stockouts = sum(1 for s in shelters if s.get("food_days", 1) <= 0 or s.get("water_days", 1) <= 0)
+        print(f"Tick {tick:02d} summary | occupancy {occupancy}/{capacity} | stock-out shelters {stockouts}")
 
     def run_conflict_resolution(self, tick: int, requests: List[ResourceRequest]):
         if not requests:
@@ -193,17 +201,14 @@ class SimulationClock:
             ready_to_process = [p for p in self.pending_plans if p["ready_at"] <= tick]
             for p_dict in ready_to_process:
                 approval_reqs = self.governance.process_allocation_plan(p_dict["plan"])
-                # Auto-approve for simulation baseline tracking
-                from mirage.models.entities import ApprovalDecision, ApprovalStatus
-                for req in approval_reqs:
-                    for level in range(1, req.required_level + 1):
-                        decision = ApprovalDecision(
-                            request_id=req.id,
-                            approver_id="SIM_GOV_BOT",
-                            level=level,
-                            decision=ApprovalStatus(f"APPROVED_L{level}")
-                        )
-                        self.governance.handle_decision(decision)
+                # Research runs may simulate the approval chain; the API waits for a human.
+                if self.auto_approve:
+                    from mirage.models.entities import ApprovalDecision, ApprovalStatus
+                    for req in approval_reqs:
+                        for level in range(1, req.required_level + 1):
+                            self.governance.handle_decision(ApprovalDecision(
+                                request_id=req.id, approver_id="SIM_GOV_BOT", level=level,
+                                decision=ApprovalStatus(f"APPROVED_L{level}")))
             
             # Keep remaining
             self.pending_plans = [p for p in self.pending_plans if p["ready_at"] > tick]

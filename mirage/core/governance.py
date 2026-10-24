@@ -59,10 +59,14 @@ class GovernanceService:
         if not req:
             return
 
+        if req.status != ApprovalStatus.PENDING:
+            raise ValueError("Approval request is no longer pending")
         if decision.decision == ApprovalStatus.REJECTED:
             req.status = ApprovalStatus.REJECTED
         elif "APPROVED" in decision.decision:
-            # Task 1: Approval state machine
+            expected_level = req.current_level + 1
+            if decision.level != expected_level or decision.decision != ApprovalStatus(f"APPROVED_L{expected_level}"):
+                raise ValueError(f"Expected approval at level {expected_level}")
             req.current_level += 1
             if req.current_level >= req.required_level:
                 # Fully approved

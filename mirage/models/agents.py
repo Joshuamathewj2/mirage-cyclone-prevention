@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict, field_serializer
 from typing import List, Optional, Dict, Any
 from datetime import datetime
 from enum import Enum
@@ -26,10 +26,11 @@ class Recommendation(BaseModel):
     accepted: bool = False
     implementation_status: str = "PENDING"
 
-    class Config:
-        json_encoders = {
-            datetime: lambda v: v.isoformat()
-        }
+    model_config = ConfigDict()
+
+    @field_serializer("timestamp")
+    def serialize_timestamp(self, value: datetime) -> str:
+        return value.isoformat()
 
 class BaseAgent(ABC):
     """Abstract Base Class for all MIRAGE agents."""

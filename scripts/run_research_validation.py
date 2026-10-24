@@ -1,6 +1,5 @@
-import os
-import shutil
-import time
+﻿import os
+from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 from typing import List, Dict, Any
@@ -24,10 +23,8 @@ TICKS = 48
 
 def run_evaluation():
     print("=== MIRAGE RESEARCH VALIDATION PHASE INITIALIZED ===")
-    experiment_root = "outputs/evaluation"
-    if os.path.exists(experiment_root):
-        shutil.rmtree(experiment_root)
-    os.makedirs(experiment_root)
+    experiment_root = os.path.join("outputs", "evaluation", datetime.now().strftime("run_%Y%m%d_%H%M%S"))
+    os.makedirs(experiment_root, exist_ok=False)
     
     engine_val = ResearchValidationEngine(experiment_root)
     run_count = 0
@@ -46,8 +43,7 @@ def run_evaluation():
                 # Setup
                 recorder = ExperimentRecorder(run_dir, run_id, scenario["id"], seed)
                 # Use fresh DB for each run to avoid data pollution in metrics
-                db_url = f"sqlite:///{run_dir}/mirage.db"
-                blackboard = Blackboard("redis://localhost:6379", db_url=db_url)
+                blackboard = Blackboard()
                 blackboard.set_simulation_id(run_id)
                 
                 dt_engine = [

@@ -1,10 +1,11 @@
+import copy
 from typing import Dict, Any, List
 from mirage.dt.base import DigitalTwin
 
 class ShelterDT(DigitalTwin):
     def __init__(self, shelters_data: List[Dict[str, Any]], seed: int):
         super().__init__("ShelterDT")
-        self.shelters = shelters_data  # List of dicts representing initial state
+        self.shelters = copy.deepcopy(shelters_data)  # List of dicts representing initial state
 
     def initialize(self, blackboard: Any) -> None:
         """Seed initial shelter state into Blackboard before tick 1."""
@@ -26,7 +27,7 @@ class ShelterDT(DigitalTwin):
         for shelter in self.shelters:
             if shelter.get("status") == "OPERATIONAL":
                 new_occ = shelter.get("current_occupancy", 0) + arrivals_per_shelter
-                max_cap = shelter["capacity"] * 1.2  # 20% overflow buffer per DSS spec
+                max_cap = shelter["capacity"]  # occupancy invariant: never exceed capacity
                 shelter["current_occupancy"] = min(int(max_cap), new_occ)
 
                 if shelter["current_occupancy"] >= shelter["capacity"]:

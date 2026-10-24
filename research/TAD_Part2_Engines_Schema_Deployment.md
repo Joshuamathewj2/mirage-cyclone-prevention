@@ -672,7 +672,7 @@ services:
     image: postgis/postgis:16-3.4
     environment:
       POSTGRES_DB: mirage
-      POSTGRES_PASSWORD: mirage_dev
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     ports: ["5432:5432"]
     volumes: ["pgdata:/var/lib/postgresql/data"]
 
@@ -685,7 +685,7 @@ services:
     build: ./backend
     command: uvicorn main:app --reload --host 0.0.0.0 --port 8000
     environment:
-      DATABASE_URL: postgresql://postgres:mirage_dev@postgres:5432/mirage
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
       REDIS_URL: redis://redis:6379
       GEMINI_API_KEY: ${GEMINI_API_KEY}
     ports: ["8000:8000"]
@@ -703,7 +703,7 @@ services:
     command: python engine.py --scenario scenario_A --speed 10
     environment:
       REDIS_URL: redis://redis:6379
-      DATABASE_URL: postgresql://postgres:mirage_dev@postgres:5432/mirage
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
     depends_on: [redis, postgres]
 ```
 

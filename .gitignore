@@ -43,3 +43,28 @@ Thumbs.db
 
 # Redis dump
 dump.rdb
+
+# Generated run reports
+outputs/*.html
+!docs/example-run-report.html
+
+# Archives
+*.zip
+
+!.env.example
+
+# Dependencies in any frontend package
+node_modules/
+
+# Local simulation outputs
+outputs/*.csv
+outputs/tests/
+
+# Local npm cache used for offline/repeatable installs
+mirage/frontend/.npm-cache/
+outputs/evaluation/run_*/
+
+# Per-run logs appended by every simulation/test run (research evidence lives in outputs/evaluation/)
+outputs/*.csv
+outputs/tests/
+outputs/run_report.html
